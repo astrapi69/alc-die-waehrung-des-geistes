@@ -170,5 +170,21 @@
         ]
       }
     }
+  ],
+  "resources": [
+    {
+      "type": "book",
+      "title": "Die Währung des Geistes (E-Book)",
+      "url": "https://www.amazon.de/dp/B0FF5FGWRQ",
+      "author": "Asterios Raptis",
+      "free": false
+    },
+    {
+      "type": "book",
+      "title": "Die Währung des Geistes (Taschenbuch)",
+      "url": "https://www.amazon.de/dp/B0FFH2HDPH",
+      "author": "Asterios Raptis",
+      "free": false
+    }
   ]
 }

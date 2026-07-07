@@ -12,7 +12,7 @@ sets:
     level: reflexion
     path: sets/de/waehrung-des-geistes
     version: "1.0.0"
-    lesson_count: 7
+    lesson_count: 11
     tags: [philosophie, aufmerksamkeit, achtsamkeit]
 metadata:
   author: Asterios Raptis
@@ -25,3 +25,7 @@ metadata:
     - 05-empathie.json
     - 06-praesenz.json
     - 07-ideen.json
+    - 08-frieden-stille.json
+    - 09-klarheit-grenzen.json
+    - 10-wirkung-verbindung.json
+    - 11-integration.json
