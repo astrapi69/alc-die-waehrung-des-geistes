@@ -1,7 +1,7 @@
 schema_version: "1.5"
 name: Die Waehrung des Geistes
 description: >-
-  Faktische Aufgaben zu den Kernbegriffen und der Argumentation des Buchs.
+  Faktische Aufgaben zu den sechs Waehrungen des Geistes, eine Lektion je Thema.
 sets:
   - id: waehrung-des-geistes
     title: Die Waehrung des Geistes
@@ -12,12 +12,16 @@ sets:
     level: reflexion
     path: sets/de/waehrung-des-geistes
     version: "1.0.0"
-    lesson_count: 3
+    lesson_count: 7
     tags: [philosophie, aufmerksamkeit, achtsamkeit]
 metadata:
   author: Asterios Raptis
   license: CC-BY-SA-4.0
   lessons:
-    - 01-kernbegriffe.json
-    - 02-vertrauen.json
-    - 03-empathie-ideen.json
+    - 01-ueberblick.json
+    - 02-aufmerksamkeit.json
+    - 03-zeit.json
+    - 04-vertrauen.json
+    - 05-empathie.json
+    - 06-praesenz.json
+    - 07-ideen.json
