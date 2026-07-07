@@ -1,0 +1,192 @@
+{
+  "id": "01-kernbegriffe",
+  "title": "Kernbegriffe: Die Waehrungen des Geistes",
+  "description": "Faktische Aufgaben zu Kapitel 1 bis 3: die sechs Waehrungen des Geistes und die zentralen Aussagen zu Aufmerksamkeit und Zeit.",
+  "target_language": "de",
+  "source_language": "de",
+  "domain": "philosophy",
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "id": "aufmerksamkeit",
+      "front": "Aufmerksamkeit",
+      "back": "Das Gold der Seele; sie ist Wahl, nicht blosse Konzentration, und entscheidet, was man in sein mentales Zuhause laesst.",
+      "tags": [
+        "waehrung"
+      ]
+    },
+    {
+      "id": "zeit",
+      "front": "Zeit",
+      "back": "Die nicht erstattungsfaehige Muenze; sie gehoert dir nicht, du kannst nur entscheiden, wie du in ihr lebst.",
+      "tags": [
+        "waehrung"
+      ]
+    },
+    {
+      "id": "vertrauen",
+      "front": "Vertrauen",
+      "back": "Die Oekonomie des Glaubens; die Urwaehrung sozialer Beziehungen.",
+      "tags": [
+        "waehrung"
+      ]
+    },
+    {
+      "id": "empathie",
+      "front": "Empathie",
+      "back": "Die gemeinsame Geldboerse; der stille Schatz des Mitfuehlens.",
+      "tags": [
+        "waehrung"
+      ]
+    },
+    {
+      "id": "praesenz",
+      "front": "Praesenz",
+      "back": "Eine Praxis, keine Eigenschaft; das bewusste Dasein im Moment.",
+      "tags": [
+        "waehrung"
+      ]
+    },
+    {
+      "id": "ideen",
+      "front": "Ideen",
+      "back": "Die Waehrung, die sich beim Teilen vermehrt.",
+      "tags": [
+        "waehrung"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Die sechs Waehrungen des Geistes",
+      "body": "# Die Waehrungen des Geistes\n\nDas Buch beschreibt eine innere Oekonomie, die nicht von Geld gespeist wird, sondern von sechs **Waehrungen des Geistes**:\n\n- **Aufmerksamkeit** - das Gold der Seele\n- **Zeit** - die nicht erstattungsfaehige Muenze\n- **Vertrauen** - die Oekonomie des Glaubens\n- **Empathie** - die gemeinsame Geldboerse\n- **Praesenz** - eine Praxis, keine Eigenschaft\n- **Ideen** - die Waehrung, die sich beim Teilen vermehrt\n\nMan kann sie investieren, verschwenden oder stehlen. Drei von ihnen (Aufmerksamkeit, bewusste Entscheidungen, bewusste Zeit) sind laut Buch **nicht teilbar und nicht uebertragbar** - sie gehoeren nur dir."
+    },
+    {
+      "id": "ex-drei-faktoren",
+      "type": "exercise",
+      "title": "Die drei nicht uebertragbaren Werte",
+      "exercise": {
+        "id": "ex-drei-faktoren",
+        "type": "cloze",
+        "cloze_mode": "multiselect",
+        "prompt": "Welche Werte nennt das Buch als nicht teilbar und nicht uebertragbar (nur dir gehoerend)?",
+        "sentence": "Waehle alle zu, die das Buch als ausschliesslich dein Eigentum beschreibt.",
+        "accept": [
+          "Deine Aufmerksamkeit",
+          "Deine Entscheidungen",
+          "Deine bewusste Zeit"
+        ],
+        "distractors": [
+          "Dein Einkommen",
+          "Dein sozialer Status"
+        ]
+      }
+    },
+    {
+      "id": "ex-aufmerksamkeit-titel",
+      "type": "exercise",
+      "title": "Das Bild fuer Aufmerksamkeit",
+      "exercise": {
+        "id": "ex-aufmerksamkeit-titel",
+        "type": "cloze",
+        "cloze_mode": "select",
+        "prompt": "Mit welchem Bild beschreibt das Buch die Aufmerksamkeit?",
+        "sentence": "Kapitel 2 nennt die Aufmerksamkeit das ___ der Seele.",
+        "blanks": [
+          {
+            "accept": [
+              "Gold"
+            ]
+          }
+        ],
+        "distractors": [
+          "Silber",
+          "Wasser"
+        ],
+        "card_ids": [
+          "aufmerksamkeit"
+        ]
+      }
+    },
+    {
+      "id": "ex-zeit-kontrolle",
+      "type": "exercise",
+      "title": "Die Aussage ueber Zeit",
+      "exercise": {
+        "id": "ex-zeit-kontrolle",
+        "type": "cloze",
+        "cloze_mode": "type",
+        "prompt": "Vervollstaendige die zentrale Aussage aus Kapitel 3.",
+        "sentence": "Laut Buch gehoert dir die Zeit nicht; du kannst nur entscheiden, wie du in ihr ___.",
+        "blanks": [
+          {
+            "accept": [
+              "lebst"
+            ]
+          }
+        ],
+        "card_ids": [
+          "zeit"
+        ]
+      }
+    },
+    {
+      "id": "ex-match-waehrungen",
+      "type": "exercise",
+      "title": "Waehrung und Beschreibung zuordnen",
+      "exercise": {
+        "id": "ex-match-waehrungen",
+        "type": "matching",
+        "prompt": "Ordne jede Waehrung dem Bild zu, das das Buch ihr gibt.",
+        "pairs": [
+          {
+            "left": "Aufmerksamkeit",
+            "right": "Das Gold der Seele"
+          },
+          {
+            "left": "Zeit",
+            "right": "Die nicht erstattungsfaehige Muenze"
+          },
+          {
+            "left": "Vertrauen",
+            "right": "Die Oekonomie des Glaubens"
+          },
+          {
+            "left": "Empathie",
+            "right": "Die gemeinsame Geldboerse"
+          }
+        ],
+        "card_ids": [
+          "aufmerksamkeit",
+          "zeit",
+          "vertrauen",
+          "empathie"
+        ]
+      }
+    },
+    {
+      "id": "ex-ideen-frei",
+      "type": "exercise",
+      "title": "Die Besonderheit der Ideen",
+      "exercise": {
+        "id": "ex-ideen-frei",
+        "type": "free_text",
+        "prompt": "Wodurch vermehrt sich laut Buch die Waehrung der Ideen? (ein Wort)",
+        "accept": [
+          "Teilen",
+          "teilen",
+          "das Teilen"
+        ],
+        "card_ids": [
+          "ideen"
+        ],
+        "distractors": [
+          "Sparen",
+          "Horten"
+        ]
+      }
+    }
+  ]
+}

@@ -1,3 +1,16 @@
+##################
+# intellij files #
+##################
+*.iws
+*.iml
+*.ipr
+!.idea/runConfigurations
+.idea/inspectionProfiles
+.idea/libraries
+.idea/codeStyles
+.idea/shelf
+.idea/*.*
+
 # Python bytecode caches (validate_content.py / generate_search_index.py)
 __pycache__/
 *.pyc

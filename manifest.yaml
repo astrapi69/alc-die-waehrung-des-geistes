@@ -1,30 +1,23 @@
-# Root manifest — lists the sets your repository offers.
-#
-# This template ships ONE example set (sets/en/es-a1). Replace it
-# with your own:
-#   - point `path` at your set directory (convention: sets/<source-lang>/<set-id>)
-#   - keep `lesson_count` honest (it must match the lessons you ship)
-#   - a set needs at least: id, title, target_language, level, version, lesson_count
-#
-# `schema_version` is optional and not strict.
-# Validate everything with:  python3 scripts/validate_content.py
+# Root manifest - lists the sets your repository offers.
+# Wissensset (source == target == de): Buchinhalt auf Deutsch fuer Deutschsprecher.
+# Pfadstruktur fuer Wissenssets: sets/<lang>/<topic-slug>
 schema_version: '1.5'
-name: My Adaptive Learner content
+name: Die Waehrung des Geistes
 description: >-
-  A content repository created from adaptive-learner-content-template.
-  Replace this example set with your own lessons.
+  Aufgaben zum Buch "Die Waehrung des Geistes: Wie Aufmerksamkeit,
+  Zeit und Vertrauen den wahren Reichtum des Seins formen".
 sets:
-  - id: example-set
-    title: Spanish A1 (example)
-    title_native: Español A1 (ejemplo)
-    target_language: es
-    source_language: en
-    domain: language
-    level: A1
-    path: sets/en/es-a1
+  - id: waehrung-des-geistes
+    title: Die Waehrung des Geistes
+    title_native: Die Waehrung des Geistes
+    target_language: de
+    source_language: de
+    domain: philosophy
+    level: reflexion
+    path: sets/de/waehrung-des-geistes
     version: '1.0.0'
     lesson_count: 1
     tags:
-      - example
-      - spanish
-      - a1
+      - philosophie
+      - aufmerksamkeit
+      - achtsamkeit
