@@ -1,7 +1,7 @@
 {
   "id": "01-ueberblick",
-  "title": "Ueberblick: Die sechs Waehrungen des Geistes",
-  "description": "Die sechs Waehrungen des Geistes und die zentrale These des Buchs (Kapitel 1).",
+  "title": "Überblick: Die sechs Währungen des Geistes",
+  "description": "Die sechs Währungen des Geistes und die zentrale These des Buchs (Kapitel 1).",
   "target_language": "de",
   "source_language": "de",
   "domain": "philosophy",
@@ -12,47 +12,47 @@
       "front": "Aufmerksamkeit",
       "back": "Das Gold der Seele.",
       "tags": [
-        "waehrung"
+        "währung"
       ]
     },
     {
       "id": "zeit",
       "front": "Zeit",
-      "back": "Die nicht erstattungsfaehige Muenze.",
+      "back": "Die nicht erstattungsfähige Münze.",
       "tags": [
-        "waehrung"
+        "währung"
       ]
     },
     {
       "id": "vertrauen",
       "front": "Vertrauen",
-      "back": "Die Oekonomie des Glaubens.",
+      "back": "Die Ökonomie des Glaubens.",
       "tags": [
-        "waehrung"
+        "währung"
       ]
     },
     {
       "id": "empathie",
       "front": "Empathie",
-      "back": "Die gemeinsame Geldboerse.",
+      "back": "Die gemeinsame Geldbörse.",
       "tags": [
-        "waehrung"
+        "währung"
       ]
     },
     {
-      "id": "praesenz",
-      "front": "Praesenz",
+      "id": "präsenz",
+      "front": "Präsenz",
       "back": "Das Gold des Augenblicks, eine Praxis.",
       "tags": [
-        "waehrung"
+        "währung"
       ]
     },
     {
       "id": "ideen",
       "front": "Ideen",
-      "back": "Die Waehrung, die sich beim Teilen vermehrt.",
+      "back": "Die Währung, die sich beim Teilen vermehrt.",
       "tags": [
-        "waehrung"
+        "währung"
       ]
     }
   ],
@@ -60,8 +60,8 @@
     {
       "id": "intro",
       "type": "theory",
-      "title": "Die sechs Waehrungen",
-      "body": "# Die Waehrungen des Geistes\n\nDas Buch beschreibt eine innere Oekonomie, gespeist nicht von Geld, sondern von sechs **Waehrungen des Geistes**: Aufmerksamkeit, Zeit, Vertrauen, Empathie, Praesenz und Ideen. Man kann sie investieren, verschwenden oder stehlen. Drei davon (Aufmerksamkeit, bewusste Entscheidungen, bewusste Zeit) sind laut Buch nicht teilbar und nicht uebertragbar."
+      "title": "Die sechs Währungen",
+      "body": "# Die Währungen des Geistes\n\nDas Buch beschreibt eine innere Ökonomie, gespeist nicht von Geld, sondern von sechs **Währungen des Geistes**: Aufmerksamkeit, Zeit, Vertrauen, Empathie, Präsenz und Ideen. Man kann sie investieren, verschwenden oder stehlen. Drei davon (Aufmerksamkeit, bewusste Entscheidungen, bewusste Zeit) sind laut Buch nicht teilbar und nicht übertragbar."
     },
     {
       "id": "s-drei-faktoren",
@@ -70,8 +70,8 @@
         "id": "e-drei-faktoren",
         "type": "cloze",
         "cloze_mode": "multiselect",
-        "prompt": "Welche Werte nennt das Buch als nicht teilbar und nicht uebertragbar?",
-        "sentence": "Waehle alle zu, die das Buch als ausschliesslich dein Eigentum beschreibt.",
+        "prompt": "Welche Werte nennt das Buch als nicht teilbar und nicht übertragbar?",
+        "sentence": "Wähle alle zu, die das Buch als ausschliesslich dein Eigentum beschreibt.",
         "accept": [
           "Deine Aufmerksamkeit",
           "Deine Entscheidungen",
@@ -90,12 +90,12 @@
         "id": "e-nicht-geld",
         "type": "cloze",
         "cloze_mode": "select",
-        "prompt": "Wodurch wird die innere Oekonomie laut Buch gespeist?",
-        "sentence": "Die innere Oekonomie wird nicht von Geld, sondern von den ___ des Geistes gespeist.",
+        "prompt": "Wodurch wird die innere Ökonomie laut Buch gespeist?",
+        "sentence": "Die innere Ökonomie wird nicht von Geld, sondern von den ___ des Geistes gespeist.",
         "blanks": [
           {
             "accept": [
-              "Waehrungen"
+              "Währungen"
             ]
           }
         ],
@@ -115,7 +115,7 @@
         "id": "e-gold",
         "type": "cloze",
         "cloze_mode": "type",
-        "prompt": "Vervollstaendige das Bild fuer Aufmerksamkeit.",
+        "prompt": "Vervollständige das Bild für Aufmerksamkeit.",
         "sentence": "Das Buch nennt die Aufmerksamkeit das ___ der Seele.",
         "blanks": [
           {
@@ -135,7 +135,7 @@
       "exercise": {
         "id": "e-teilen",
         "type": "free_text",
-        "prompt": "Wodurch vermehrt sich laut Buch die Waehrung der Ideen? (ein Wort)",
+        "prompt": "Wodurch vermehrt sich laut Buch die Währung der Ideen? (ein Wort)",
         "accept": [
           "Teilen",
           "teilen",
@@ -156,7 +156,7 @@
       "exercise": {
         "id": "e-bilder",
         "type": "matching",
-        "prompt": "Ordne jede Waehrung dem Bild des Buchs zu.",
+        "prompt": "Ordne jede Währung dem Bild des Buchs zu.",
         "pairs": [
           {
             "left": "Aufmerksamkeit",
@@ -164,15 +164,15 @@
           },
           {
             "left": "Zeit",
-            "right": "Die nicht erstattungsfaehige Muenze"
+            "right": "Die nicht erstattungsfähige Münze"
           },
           {
             "left": "Vertrauen",
-            "right": "Die Oekonomie des Glaubens"
+            "right": "Die Ökonomie des Glaubens"
           },
           {
             "left": "Empathie",
-            "right": "Die gemeinsame Geldboerse"
+            "right": "Die gemeinsame Geldbörse"
           }
         ],
         "card_ids": [

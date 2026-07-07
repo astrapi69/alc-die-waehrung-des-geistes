@@ -1,12 +1,12 @@
 schema_version: "1.5"
-name: Die Waehrung des Geistes
+name: Die Währung des Geistes
 description: >-
-  Aufgaben zum Buch "Die Waehrung des Geistes: Wie Aufmerksamkeit,
+  Aufgaben zum Buch "Die Währung des Geistes: Wie Aufmerksamkeit,
   Zeit und Vertrauen den wahren Reichtum des Seins formen".
 sets:
   - id: waehrung-des-geistes
-    title: Die Waehrung des Geistes
-    title_native: Die Waehrung des Geistes
+    title: Die Währung des Geistes
+    title_native: Die Währung des Geistes
     target_language: de
     source_language: de
     domain: philosophy

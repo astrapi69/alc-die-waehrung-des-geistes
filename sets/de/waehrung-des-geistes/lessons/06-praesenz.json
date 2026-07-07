@@ -1,7 +1,7 @@
 {
   "id": "06-praesenz",
-  "title": "Praesenz: Das Gold des Augenblicks",
-  "description": "Faktische Aufgaben zu Kapitel 10: Praesenz als seltenste Waehrung, Abgrenzung zur Aufmerksamkeit.",
+  "title": "Präsenz: Das Gold des Augenblicks",
+  "description": "Faktische Aufgaben zu Kapitel 10: Präsenz als seltenste Währung, Abgrenzung zur Aufmerksamkeit.",
   "target_language": "de",
   "source_language": "de",
   "domain": "philosophy",
@@ -9,42 +9,42 @@
   "cards": [
     {
       "id": "seltenste",
-      "front": "Seltenste Waehrung",
-      "back": "Praesenz ist die seltenste Waehrung; man kann sie nicht horten oder aufschieben.",
+      "front": "Seltenste Währung",
+      "back": "Präsenz ist die seltenste Währung; man kann sie nicht horten oder aufschieben.",
       "tags": [
-        "praesenz"
+        "präsenz"
       ]
     },
     {
       "id": "abgrenzung",
-      "front": "Aufmerksamkeit vs. Praesenz",
-      "back": "Aufmerksamkeit ist worauf du schaust; Praesenz ist ob du wirklich da bist.",
+      "front": "Aufmerksamkeit vs. Präsenz",
+      "back": "Aufmerksamkeit ist worauf du schaust; Präsenz ist ob du wirklich da bist.",
       "tags": [
-        "praesenz"
+        "präsenz"
       ]
     },
     {
       "id": "abwesenheit",
-      "front": "Gegenteil von Praesenz",
-      "back": "Das Gegenteil von Praesenz ist nicht Ablenkung, sondern die Abwesenheit von dir selbst.",
+      "front": "Gegenteil von Präsenz",
+      "back": "Das Gegenteil von Präsenz ist nicht Ablenkung, sondern die Abwesenheit von dir selbst.",
       "tags": [
-        "praesenz"
+        "präsenz"
       ]
     },
     {
       "id": "ehrung",
       "front": "Ehrung der Zeit",
-      "back": "Praesenz ist keine Zeitverschwendung, sondern eine Ehrung der Zeit.",
+      "back": "Präsenz ist keine Zeitverschwendung, sondern eine Ehrung der Zeit.",
       "tags": [
-        "praesenz"
+        "präsenz"
       ]
     },
     {
       "id": "spiegel",
-      "front": "Spiegel der Praesenz",
-      "back": "Praesent sein heisst zum Spiegel werden: reflektieren ohne Verzerrung, Raum halten ohne Urteil.",
+      "front": "Spiegel der Präsenz",
+      "back": "Präsent sein heisst zum Spiegel werden: reflektieren ohne Verzerrung, Raum halten ohne Urteil.",
       "tags": [
-        "praesenz"
+        "präsenz"
       ]
     }
   ],
@@ -53,7 +53,7 @@
       "id": "intro",
       "type": "theory",
       "title": "Die Tyrannei des Anderswo",
-      "body": "# Praesenz\n\nDas Buch nennt Praesenz die **seltenste Waehrung**: man kann sie nicht horten, nicht aufschieben, nicht zurueckfordern. Entscheidend ist die Abgrenzung: **Aufmerksamkeit ist worauf du schaust, Praesenz ist ob du wirklich da bist**. Das Gegenteil von Praesenz ist nicht Ablenkung, sondern die **Abwesenheit von dir selbst**. Praesenz ist keine Zeitverschwendung, sondern eine **Ehrung der Zeit**."
+      "body": "# Präsenz\n\nDas Buch nennt Präsenz die **seltenste Währung**: man kann sie nicht horten, nicht aufschieben, nicht zurückfordern. Entscheidend ist die Abgrenzung: **Aufmerksamkeit ist worauf du schaust, Präsenz ist ob du wirklich da bist**. Das Gegenteil von Präsenz ist nicht Ablenkung, sondern die **Abwesenheit von dir selbst**. Präsenz ist keine Zeitverschwendung, sondern eine **Ehrung der Zeit**."
     },
     {
       "id": "s-seltenste",
@@ -62,8 +62,8 @@
         "id": "e-seltenste",
         "type": "cloze",
         "cloze_mode": "select",
-        "prompt": "Wie bezeichnet das Buch Praesenz unter den Waehrungen?",
-        "sentence": "Praesenz ist die ___ Waehrung im modernen Leben.",
+        "prompt": "Wie bezeichnet das Buch Präsenz unter den Währungen?",
+        "sentence": "Präsenz ist die ___ Währung im modernen Leben.",
         "blanks": [
           {
             "accept": [
@@ -72,7 +72,7 @@
           }
         ],
         "distractors": [
-          "haeufigste",
+          "häufigste",
           "teuerste"
         ],
         "card_ids": [
@@ -87,8 +87,8 @@
         "id": "e-abwesenheit",
         "type": "cloze",
         "cloze_mode": "type",
-        "prompt": "Vervollstaendige die Aussage zum Gegenteil von Praesenz.",
-        "sentence": "Das Gegenteil von Praesenz ist nicht Ablenkung, sondern die Abwesenheit von dir ___.",
+        "prompt": "Vervollständige die Aussage zum Gegenteil von Präsenz.",
+        "sentence": "Das Gegenteil von Präsenz ist nicht Ablenkung, sondern die Abwesenheit von dir ___.",
         "blanks": [
           {
             "accept": [
@@ -107,7 +107,7 @@
       "exercise": {
         "id": "e-ehrung",
         "type": "free_text",
-        "prompt": "Als was bezeichnet das Buch Praesenz statt als Zeitverschwendung? (ein Wort)",
+        "prompt": "Als was bezeichnet das Buch Präsenz statt als Zeitverschwendung? (ein Wort)",
         "accept": [
           "Ehrung",
           "ehrung",
@@ -129,16 +129,16 @@
         "id": "e-abgrenzung",
         "type": "cloze",
         "cloze_mode": "multiselect",
-        "prompt": "Welche Aussagen zur Abgrenzung von Aufmerksamkeit und Praesenz macht das Buch?",
-        "sentence": "Waehle die zutreffenden Aussagen aus dem Buch.",
+        "prompt": "Welche Aussagen zur Abgrenzung von Aufmerksamkeit und Präsenz macht das Buch?",
+        "sentence": "Wähle die zutreffenden Aussagen aus dem Buch.",
         "accept": [
           "Aufmerksamkeit ist worauf du schaust",
-          "Praesenz ist ob du da bist",
-          "Praesenz wird eher gefuehlt als gemessen"
+          "Präsenz ist ob du da bist",
+          "Präsenz wird eher gefühlt als gemessen"
         ],
         "distractors": [
-          "Praesenz ist dasselbe wie Fokus",
-          "Aufmerksamkeit ersetzt Praesenz"
+          "Präsenz ist dasselbe wie Fokus",
+          "Aufmerksamkeit ersetzt Präsenz"
         ]
       }
     },
@@ -151,15 +151,15 @@
         "prompt": "Ordne jede Aussage dem Begriff zu.",
         "pairs": [
           {
-            "left": "Praesenz",
-            "right": "seltenste Waehrung"
+            "left": "Präsenz",
+            "right": "seltenste Währung"
           },
           {
             "left": "Aufmerksamkeit",
             "right": "worauf du schaust"
           },
           {
-            "left": "Praesenz",
+            "left": "Präsenz",
             "right": "Ehrung der Zeit"
           }
         ],

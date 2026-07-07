@@ -1,7 +1,7 @@
 {
   "id": "07-ideen",
-  "title": "Ideen: Die Waehrung, die sich beim Teilen vermehrt",
-  "description": "Faktische Aufgaben zu Kapitel 6: Ideen als Samen und Einladungen, intellektuelle Grosszuegigkeit.",
+  "title": "Ideen: Die Währung, die sich beim Teilen vermehrt",
+  "description": "Faktische Aufgaben zu Kapitel 6: Ideen als Samen und Einladungen, intellektuelle Großzügigkeit.",
   "target_language": "de",
   "source_language": "de",
   "domain": "philosophy",
@@ -18,7 +18,7 @@
     {
       "id": "einladungen",
       "front": "Ideen sind Einladungen",
-      "back": "Ideen sind keine Schaetze, sondern Einladungen; keine Idee ist je 'fertig'.",
+      "back": "Ideen sind keine Schätze, sondern Einladungen; keine Idee ist je 'fertig'.",
       "tags": [
         "ideen"
       ]
@@ -26,15 +26,15 @@
     {
       "id": "horten",
       "front": "Warum wir Ideen horten",
-      "back": "Wir horten aus Furcht vor Spott, Irrtum und zu frueher Sichtbarkeit; wir warten auf Perfektion.",
+      "back": "Wir horten aus Furcht vor Spott, Irrtum und zu früher Sichtbarkeit; wir warten auf Perfektion.",
       "tags": [
         "ideen"
       ]
     },
     {
-      "id": "grosszuegigkeit",
-      "front": "Intellektuelle Grosszuegigkeit",
-      "back": "Eine Idee teilen heisst, den unfertigen Gedanken anzuvertrauen; nicht prahlen, sondern sich oeffnen.",
+      "id": "großzügigkeit",
+      "front": "Intellektuelle Großzügigkeit",
+      "back": "Eine Idee teilen heisst, den unfertigen Gedanken anzuvertrauen; nicht prahlen, sondern sich öffnen.",
       "tags": [
         "ideen"
       ]
@@ -42,7 +42,7 @@
     {
       "id": "wachsen",
       "front": "Reichtum der Ideen",
-      "back": "Ideen sind der einzige Reichtum, der waechst, sobald man ihn loslaesst.",
+      "back": "Ideen sind der einzige Reichtum, der wächst, sobald man ihn loslässt.",
       "tags": [
         "ideen"
       ]
@@ -53,7 +53,7 @@
       "id": "intro",
       "type": "theory",
       "title": "Ideen sind Samen, keine Statuen",
-      "body": "# Ideen\n\nDas Buch beschreibt Ideen als **Samen, keine Statuen**: je mehr man sie versteckt, desto mehr verkuemmern sie, je mehr man sie teilt, desto mehr wachsen sie. Ideen sind keine Schaetze, sondern **Einladungen**. Eine Idee zu teilen ist **intellektuelle Grosszuegigkeit**: nicht prahlen, sondern sich oeffnen. Ideen sind der einzige Reichtum, der waechst, sobald man ihn loslaesst."
+      "body": "# Ideen\n\nDas Buch beschreibt Ideen als **Samen, keine Statuen**: je mehr man sie versteckt, desto mehr verkümmern sie, je mehr man sie teilt, desto mehr wachsen sie. Ideen sind keine Schätze, sondern **Einladungen**. Eine Idee zu teilen ist **intellektuelle Großzügigkeit**: nicht prahlen, sondern sich öffnen. Ideen sind der einzige Reichtum, der wächst, sobald man ihn loslässt."
     },
     {
       "id": "s-samen-statue",
@@ -73,7 +73,7 @@
         ],
         "distractors": [
           "Steine",
-          "Schaetze"
+          "Schätze"
         ],
         "card_ids": [
           "samen"
@@ -87,12 +87,12 @@
         "id": "e-wachsen",
         "type": "cloze",
         "cloze_mode": "type",
-        "prompt": "Vervollstaendige den Kernsatz ueber Ideen.",
-        "sentence": "Ideen sind der einzige Reichtum, der waechst, sobald man ihn ___.",
+        "prompt": "Vervollständige den Kernsatz über Ideen.",
+        "sentence": "Ideen sind der einzige Reichtum, der wächst, sobald man ihn ___.",
         "blanks": [
           {
             "accept": [
-              "loslaesst"
+              "loslässt"
             ]
           }
         ],
@@ -107,7 +107,7 @@
       "exercise": {
         "id": "e-einladungen",
         "type": "free_text",
-        "prompt": "Als was bezeichnet das Buch Ideen statt als Schaetze? (ein Wort)",
+        "prompt": "Als was bezeichnet das Buch Ideen statt als Schätze? (ein Wort)",
         "accept": [
           "Einladungen",
           "einladungen",
@@ -129,12 +129,12 @@
         "id": "e-horten",
         "type": "cloze",
         "cloze_mode": "multiselect",
-        "prompt": "Aus welchen Gruenden horten wir laut Buch Ideen?",
-        "sentence": "Waehle die im Buch genannten Gruende.",
+        "prompt": "Aus welchen Gründen horten wir laut Buch Ideen?",
+        "sentence": "Wähle die im Buch genannten Gründe.",
         "accept": [
-          "Furcht, belaechelt zu werden",
+          "Furcht, belächelt zu werden",
           "Furcht, falsch zu liegen",
-          "Furcht, zu frueh sichtbar zu werden"
+          "Furcht, zu früh sichtbar zu werden"
         ],
         "distractors": [
           "Mangel an Ideen",
@@ -156,17 +156,17 @@
           },
           {
             "left": "Ideen sind Einladungen",
-            "right": "keine Schaetze"
+            "right": "keine Schätze"
           },
           {
             "left": "Ideen teilen",
-            "right": "intellektuelle Grosszuegigkeit"
+            "right": "intellektuelle Großzügigkeit"
           }
         ],
         "card_ids": [
           "samen",
           "einladungen",
-          "grosszuegigkeit"
+          "großzügigkeit"
         ]
       }
     }

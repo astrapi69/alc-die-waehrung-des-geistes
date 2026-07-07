@@ -1,7 +1,7 @@
 {
   "id": "03-zeit",
-  "title": "Zeit: Die nicht erstattungsfaehige Muenze",
-  "description": "Faktische Aufgaben zu Kapitel 3: Zeit als nicht besitzbare Muenze, Sinnkrise statt Zeitkrise, Qualitaet statt Quantitaet.",
+  "title": "Zeit: Die nicht erstattungsfähige Münze",
+  "description": "Faktische Aufgaben zu Kapitel 3: Zeit als nicht besitzbare Münze, Sinnkrise statt Zeitkrise, Qualität statt Quantität.",
   "target_language": "de",
   "source_language": "de",
   "domain": "philosophy",
@@ -9,7 +9,7 @@
   "cards": [
     {
       "id": "kontrolle",
-      "front": "Zeit gehoert dir nicht",
+      "front": "Zeit gehört dir nicht",
       "back": "Die Zeit steht nicht unter deiner Kontrolle; du kannst nur entscheiden, wie du in ihr lebst.",
       "tags": [
         "zeit"
@@ -24,9 +24,9 @@
       ]
     },
     {
-      "id": "qualitaet",
+      "id": "qualität",
       "front": "Zinseszins der Momente",
-      "back": "Zeit vermehrt sich nicht in Quantitaet, sondern in Qualitaet.",
+      "back": "Zeit vermehrt sich nicht in Quantität, sondern in Qualität.",
       "tags": [
         "zeit"
       ]
@@ -42,7 +42,7 @@
     {
       "id": "lebendigkeit",
       "front": "Uhr der Lebendigkeit",
-      "back": "Zeit nach Lebendigkeit messen, nicht nach Produktivitaet.",
+      "back": "Zeit nach Lebendigkeit messen, nicht nach Produktivität.",
       "tags": [
         "zeit"
       ]
@@ -53,7 +53,7 @@
       "id": "intro",
       "type": "theory",
       "title": "Die Illusion, Zeit zu haben",
-      "body": "# Zeit\n\nDas Buch nennt Zeit die **nicht erstattungsfaehige Muenze**. Sie gehoert dir nicht, du kannst nur entscheiden, wie du in ihr lebst. Die moderne Zeitarmut ist keine Zeitkrise, sondern eine **Sinnkrise**: Zeit ohne Sinn fuehlt sich wie Verschwendung an. Zeit vermehrt sich in **Qualitaet**, nicht in Quantitaet. Das Ziel ist nicht, Zeit zu maximieren, sondern sie zu **ehren**."
+      "body": "# Zeit\n\nDas Buch nennt Zeit die **nicht erstattungsfähige Münze**. Sie gehört dir nicht, du kannst nur entscheiden, wie du in ihr lebst. Die moderne Zeitarmut ist keine Zeitkrise, sondern eine **Sinnkrise**: Zeit ohne Sinn fühlt sich wie Verschwendung an. Zeit vermehrt sich in **Qualität**, nicht in Quantität. Das Ziel ist nicht, Zeit zu maximieren, sondern sie zu **ehren**."
     },
     {
       "id": "s-kontrolle",
@@ -62,8 +62,8 @@
         "id": "e-kontrolle",
         "type": "cloze",
         "cloze_mode": "type",
-        "prompt": "Vervollstaendige die zentrale Aussage ueber Zeit.",
-        "sentence": "Laut Buch gehoert dir die Zeit nicht; du kannst nur entscheiden, wie du in ihr ___.",
+        "prompt": "Vervollständige die zentrale Aussage über Zeit.",
+        "sentence": "Laut Buch gehört dir die Zeit nicht; du kannst nur entscheiden, wie du in ihr ___.",
         "blanks": [
           {
             "accept": [
@@ -115,7 +115,7 @@
         ],
         "distractors": [
           "sparen",
-          "fuellen"
+          "füllen"
         ],
         "card_ids": [
           "ehren"
@@ -123,21 +123,21 @@
       }
     },
     {
-      "id": "s-qualitaet",
+      "id": "s-qualität",
       "type": "exercise",
       "exercise": {
-        "id": "e-qualitaet",
+        "id": "e-qualität",
         "type": "cloze",
         "cloze_mode": "multiselect",
-        "prompt": "Welche Beispiele nennt das Buch fuer den Zinseszinseffekt der Zeit (Qualitaet)?",
-        "sentence": "Waehle die im Buch genannten Beispiele.",
+        "prompt": "Welche Beispiele nennt das Buch für den Zinseszinseffekt der Zeit (Qualität)?",
+        "sentence": "Wähle die im Buch genannten Beispiele.",
         "accept": [
           "Eine achtsame Stunde mit einem Freund",
           "Zehn konzentrierte Minuten Schreiben",
           "Eine Pause vor dem Reagieren"
         ],
         "distractors": [
-          "Zehn Stunden Ueberstunden",
+          "Zehn Stunden Überstunden",
           "Ein voller Terminkalender"
         ]
       }
@@ -152,7 +152,7 @@
         "pairs": [
           {
             "left": "Zeit",
-            "right": "gehoert dir nicht"
+            "right": "gehört dir nicht"
           },
           {
             "left": "Zeitarmut",
@@ -160,13 +160,13 @@
           },
           {
             "left": "Zinseszins der Zeit",
-            "right": "Qualitaet, nicht Quantitaet"
+            "right": "Qualität, nicht Quantität"
           }
         ],
         "card_ids": [
           "kontrolle",
           "sinnkrise",
-          "qualitaet"
+          "qualität"
         ]
       }
     }

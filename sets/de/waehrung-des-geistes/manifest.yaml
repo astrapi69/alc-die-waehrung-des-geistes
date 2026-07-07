@@ -1,11 +1,11 @@
 schema_version: "1.5"
-name: Die Waehrung des Geistes
+name: Die Währung des Geistes
 description: >-
-  Faktische Aufgaben zu den sechs Waehrungen des Geistes, eine Lektion je Thema.
+  Faktische Aufgaben zu den sechs Währungen des Geistes, eine Lektion je Thema.
 sets:
   - id: waehrung-des-geistes
-    title: Die Waehrung des Geistes
-    title_native: Die Waehrung des Geistes
+    title: Die Währung des Geistes
+    title_native: Die Währung des Geistes
     target_language: de
     source_language: de
     domain: philosophy

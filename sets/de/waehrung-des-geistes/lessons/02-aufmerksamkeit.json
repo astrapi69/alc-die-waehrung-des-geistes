@@ -10,7 +10,7 @@
     {
       "id": "wahl",
       "front": "Aufmerksamkeit ist Wahl",
-      "back": "Aufmerksamkeit ist mehr als Konzentration; sie ist Wahl und entscheidet, was man ins mentale Zuhause laesst.",
+      "back": "Aufmerksamkeit ist mehr als Konzentration; sie ist Wahl und entscheidet, was man ins mentale Zuhause lässt.",
       "tags": [
         "aufmerksamkeit"
       ]
@@ -26,14 +26,14 @@
     {
       "id": "hypervigilanz",
       "front": "Hypervigilanz",
-      "back": "Die Unfaehigkeit loszulassen; aus Wachheit wird Erschoepfung.",
+      "back": "Die Unfähigkeit loszulassen; aus Wachheit wird Erschöpfung.",
       "tags": [
         "aufmerksamkeit"
       ]
     },
     {
       "id": "produkt",
-      "front": "Aufmerksamkeitsoekonomie",
+      "front": "Aufmerksamkeitsökonomie",
       "back": "Du bist nicht nur Investor deiner Aufmerksamkeit, sondern auch Produkt.",
       "tags": [
         "aufmerksamkeit"
@@ -42,7 +42,7 @@
     {
       "id": "schwert",
       "front": "Aufmerksamkeit als Schwert",
-      "back": "Aufmerksamkeit kann schnitzen oder schneiden, je nach Fuehrung.",
+      "back": "Aufmerksamkeit kann schnitzen oder schneiden, je nach Führung.",
       "tags": [
         "aufmerksamkeit"
       ]
@@ -53,7 +53,7 @@
       "id": "intro",
       "type": "theory",
       "title": "Aufmerksamkeit als Investition",
-      "body": "# Aufmerksamkeit\n\nDas Buch nennt Aufmerksamkeit das **Gold der Seele**. Sie ist mehr als Konzentration: sie ist **Wahl** und entscheidet, was man ins mentale Zuhause laesst. Bewusst gegebene Aufmerksamkeit wird zur Wachstumskraft. Ihre Schattenseiten: Hypervigilanz, Obsession, Selbstueberwachung, und die Aufmerksamkeitsoekonomie, in der man selbst zum Produkt wird."
+      "body": "# Aufmerksamkeit\n\nDas Buch nennt Aufmerksamkeit das **Gold der Seele**. Sie ist mehr als Konzentration: sie ist **Wahl** und entscheidet, was man ins mentale Zuhause lässt. Bewusst gegebene Aufmerksamkeit wird zur Wachstumskraft. Ihre Schattenseiten: Hypervigilanz, Obsession, Selbstüberwachung, und die Aufmerksamkeitsökonomie, in der man selbst zum Produkt wird."
     },
     {
       "id": "s-wahl",
@@ -62,7 +62,7 @@
         "id": "e-wahl",
         "type": "cloze",
         "cloze_mode": "select",
-        "prompt": "Als was beschreibt das Buch Aufmerksamkeit ueber die Konzentration hinaus?",
+        "prompt": "Als was beschreibt das Buch Aufmerksamkeit über die Konzentration hinaus?",
         "sentence": "Aufmerksamkeit ist mehr als Konzentration, sie ist ___.",
         "blanks": [
           {
@@ -87,7 +87,7 @@
         "id": "e-mythos",
         "type": "cloze",
         "cloze_mode": "type",
-        "prompt": "Vervollstaendige die Aussage zur geteilten Konzentration.",
+        "prompt": "Vervollständige die Aussage zur geteilten Konzentration.",
         "sentence": "Geteilte Aufmerksamkeit verliert an ___, sobald sie zerstreut wird.",
         "blanks": [
           {
@@ -130,11 +130,11 @@
         "type": "cloze",
         "cloze_mode": "multiselect",
         "prompt": "Welche Schattenseiten der Aufmerksamkeit nennt das Buch?",
-        "sentence": "Waehle die im Buch genannten Schattenseiten der Aufmerksamkeit.",
+        "sentence": "Wähle die im Buch genannten Schattenseiten der Aufmerksamkeit.",
         "accept": [
           "Hypervigilanz",
           "Obsession",
-          "Selbstueberwachung"
+          "Selbstüberwachung"
         ],
         "distractors": [
           "Aufmerksamkeitsneid",
@@ -156,10 +156,10 @@
           },
           {
             "left": "Hypervigilanz",
-            "right": "Unfaehigkeit loszulassen"
+            "right": "Unfähigkeit loszulassen"
           },
           {
-            "left": "In der Aufmerksamkeitsoekonomie",
+            "left": "In der Aufmerksamkeitsökonomie",
             "right": "bist du auch Produkt"
           }
         ],

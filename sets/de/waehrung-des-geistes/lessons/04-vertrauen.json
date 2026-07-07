@@ -1,16 +1,16 @@
 {
   "id": "04-vertrauen",
-  "title": "Vertrauen: Die Oekonomie des Glaubens",
-  "description": "Faktische Aufgaben zu Kapitel 4: Vertrauen als Urwaehrung, freiwillige Verletzlichkeit, Mikrotransaktionen.",
+  "title": "Vertrauen: Die Ökonomie des Glaubens",
+  "description": "Faktische Aufgaben zu Kapitel 4: Vertrauen als Urwährung, freiwillige Verletzlichkeit, Mikrotransaktionen.",
   "target_language": "de",
   "source_language": "de",
   "domain": "philosophy",
   "estimated_minutes": 10,
   "cards": [
     {
-      "id": "urwaehrung",
-      "front": "Vertrauen als Urwaehrung",
-      "back": "Vor dem Geld gab es Vertrauen; es haelt jede Gemeinschaft zusammen.",
+      "id": "urwährung",
+      "front": "Vertrauen als Urwährung",
+      "back": "Vor dem Geld gab es Vertrauen; es hält jede Gemeinschaft zusammen.",
       "tags": [
         "vertrauen"
       ]
@@ -26,7 +26,7 @@
     {
       "id": "verletzlichkeit",
       "front": "Freiwillige Verletzlichkeit",
-      "back": "Vertrauen ist keine Kontrolle, sondern bewusstes Glauben trotz moeglicher Enttaeuschung.",
+      "back": "Vertrauen ist keine Kontrolle, sondern bewusstes Glauben trotz möglicher Enttäuschung.",
       "tags": [
         "vertrauen"
       ]
@@ -34,7 +34,7 @@
     {
       "id": "misstrauen",
       "front": "Last des Misstrauens",
-      "back": "Misstrauen frisst Energie und isoliert im Uebermass.",
+      "back": "Misstrauen frisst Energie und isoliert im Übermaß.",
       "tags": [
         "vertrauen"
       ]
@@ -42,7 +42,7 @@
     {
       "id": "mikro",
       "front": "Mikrotransaktionen",
-      "back": "Vertrauen waechst in kleinen, wiederholten Momenten der Wahrheit, nicht in Systemen.",
+      "back": "Vertrauen wächst in kleinen, wiederholten Momenten der Wahrheit, nicht in Systemen.",
       "tags": [
         "vertrauen"
       ]
@@ -52,17 +52,17 @@
     {
       "id": "intro",
       "type": "theory",
-      "title": "Vertrauen ist die Urwaehrung",
-      "body": "# Vertrauen\n\nDas Buch beschreibt Vertrauen als **Urwaehrung**: lange vor Geld handelten Menschen mit Glauben. Vertrauen ist die **Schwerkraft menschlicher Verbindung**. Es ist **freiwillige Verletzlichkeit**, nicht Kontrolle, und **Risiko, nicht Naivitaet**. Vertrauen waechst in kleinen, wiederholten Momenten der Wahrheit, nicht in Systemen wie Bewertungen oder Haekchen."
+      "title": "Vertrauen ist die Urwährung",
+      "body": "# Vertrauen\n\nDas Buch beschreibt Vertrauen als **Urwährung**: lange vor Geld handelten Menschen mit Glauben. Vertrauen ist die **Schwerkraft menschlicher Verbindung**. Es ist **freiwillige Verletzlichkeit**, nicht Kontrolle, und **Risiko, nicht Naivität**. Vertrauen wächst in kleinen, wiederholten Momenten der Wahrheit, nicht in Systemen wie Bewertungen oder Häkchen."
     },
     {
-      "id": "s-urwaehrung",
+      "id": "s-urwährung",
       "type": "exercise",
       "exercise": {
-        "id": "e-urwaehrung",
+        "id": "e-urwährung",
         "type": "cloze",
         "cloze_mode": "select",
-        "prompt": "Wie beschreibt das Buch Vertrauen im Verhaeltnis zum Geld?",
+        "prompt": "Wie beschreibt das Buch Vertrauen im Verhältnis zum Geld?",
         "sentence": "Laut Buch gab es Vertrauen schon ___ dem Geld.",
         "blanks": [
           {
@@ -76,7 +76,7 @@
           "statt"
         ],
         "card_ids": [
-          "urwaehrung"
+          "urwährung"
         ]
       }
     },
@@ -87,7 +87,7 @@
         "id": "e-schwerkraft",
         "type": "cloze",
         "cloze_mode": "type",
-        "prompt": "Vervollstaendige das zentrale Bild fuer Vertrauen.",
+        "prompt": "Vervollständige das zentrale Bild für Vertrauen.",
         "sentence": "Das Buch nennt Vertrauen die ___ menschlicher Verbindung.",
         "blanks": [
           {
@@ -128,15 +128,15 @@
         "id": "e-mikro",
         "type": "cloze",
         "cloze_mode": "multiselect",
-        "prompt": "Welche nennt das Buch als Momente, in denen Vertrauen waechst?",
-        "sentence": "Waehle die Mikrotransaktionen des Vertrauens aus dem Buch.",
+        "prompt": "Welche nennt das Buch als Momente, in denen Vertrauen wächst?",
+        "sentence": "Wähle die Mikrotransaktionen des Vertrauens aus dem Buch.",
         "accept": [
           "Da sein, wenn es unbequem ist",
-          "Die Wahrheit sagen, wenn es schwerfaellt",
+          "Die Wahrheit sagen, wenn es schwerfällt",
           "Fehler eingestehen ohne Rechtfertigung"
         ],
         "distractors": [
-          "Vertraege aufsetzen",
+          "Verträge aufsetzen",
           "Bewertungen sammeln"
         ]
       }
@@ -158,7 +158,7 @@
             "right": "Frisst Energie und isoliert"
           },
           {
-            "left": "Vertrauen waechst",
+            "left": "Vertrauen wächst",
             "right": "in Momenten der Wahrheit"
           }
         ],
