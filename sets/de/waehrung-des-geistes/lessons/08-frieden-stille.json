@@ -1,0 +1,188 @@
+{
+  "id": "08-frieden-stille",
+  "title": "Innerer Frieden und Stille",
+  "description": "Faktische Aufgaben zu Kapitel 12 und 13: innerer Frieden als stabile Münze, Stille als Klarheit ohne Lärm.",
+  "target_language": "de",
+  "source_language": "de",
+  "domain": "philosophy",
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "id": "stabile-muenze",
+      "front": "Stabile Münze der Seele",
+      "back": "Innerer Frieden bricht unter Druck nicht zusammen und behält seinen Wert.",
+      "tags": [
+        "frieden"
+      ]
+    },
+    {
+      "id": "trotzdem",
+      "front": "Frieden ist Wahl",
+      "back": "Frieden wartet nicht am Ende der Aufgabenliste, sondern ist das, was man trotzdem wählt.",
+      "tags": [
+        "frieden"
+      ]
+    },
+    {
+      "id": "stille-klarheit",
+      "front": "Stille ist Klarheit",
+      "back": "Stille ist keine Leere, sondern Klarheit, unerschüttert vom Lärm.",
+      "tags": [
+        "stille"
+      ]
+    },
+    {
+      "id": "stille-konfrontiert",
+      "front": "Warum wir Stille fürchten",
+      "back": "Stille konfrontiert uns mit dem Verdrängten und mit Fragen ohne Antwort.",
+      "tags": [
+        "stille"
+      ]
+    },
+    {
+      "id": "bewegung-bedeutung",
+      "front": "Bewegung vs. Bedeutung",
+      "back": "In der Stille verwechseln wir oft Bewegung mit Bedeutung.",
+      "tags": [
+        "stille"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Frieden und Stille",
+      "body": "# Innerer Frieden und Stille\n\nDas Buch nennt inneren Frieden die **stabile Münze der Seele**: er bricht unter Druck nicht zusammen. Frieden ist nicht, was am Ende der Aufgabenliste wartet, sondern das, was man **trotzdem** wählt.\n\n**Stille** ist keine Leere, sondern **Klarheit, unerschüttert vom Lärm**. Wir fürchten sie, weil sie uns mit dem Verdrängten konfrontiert, und füllen sie mit Tabs und Listen, weil wir Bewegung mit Bedeutung verwechseln."
+    },
+    {
+      "id": "s-stabile",
+      "type": "exercise",
+      "exercise": {
+        "id": "e-stabile",
+        "type": "cloze",
+        "cloze_mode": "select",
+        "prompt": "Als was bezeichnet das Buch inneren Frieden?",
+        "sentence": "Innerer Frieden ist die ___ Münze der Seele.",
+        "blanks": [
+          {
+            "accept": [
+              "stabile"
+            ]
+          }
+        ],
+        "distractors": [
+          "teuerste",
+          "seltenste"
+        ],
+        "card_ids": [
+          "stabile-muenze"
+        ]
+      }
+    },
+    {
+      "id": "s-trotzdem",
+      "type": "exercise",
+      "exercise": {
+        "id": "e-trotzdem",
+        "type": "cloze",
+        "cloze_mode": "type",
+        "prompt": "Vervollständige die Kernaussage zum Frieden.",
+        "sentence": "Frieden ist nicht das Ende der Aufgabenliste, sondern das, was du ___ wählst.",
+        "blanks": [
+          {
+            "accept": [
+              "trotzdem"
+            ]
+          }
+        ],
+        "card_ids": [
+          "trotzdem"
+        ]
+      }
+    },
+    {
+      "id": "s-stille",
+      "type": "exercise",
+      "exercise": {
+        "id": "e-stille",
+        "type": "free_text",
+        "prompt": "Als was bezeichnet das Buch Stille (nicht als Leere)? (ein Wort)",
+        "accept": [
+          "Klarheit",
+          "klarheit"
+        ],
+        "distractors": [
+          "Langeweile",
+          "Stillstand"
+        ],
+        "card_ids": [
+          "stille-klarheit"
+        ]
+      }
+    },
+    {
+      "id": "s-stille-fuerchten",
+      "type": "exercise",
+      "exercise": {
+        "id": "e-stille-fuerchten",
+        "type": "cloze",
+        "cloze_mode": "multiselect",
+        "prompt": "Womit konfrontiert uns Stille laut Buch?",
+        "sentence": "Wähle die im Buch genannten Aspekte.",
+        "accept": [
+          "Mit dem, was du verdrängst",
+          "Mit Fragen ohne Antworten"
+        ],
+        "distractors": [
+          "Mit deinen Erfolgen",
+          "Mit deinem Reichtum"
+        ]
+      }
+    },
+    {
+      "id": "s-bilder",
+      "type": "exercise",
+      "exercise": {
+        "id": "e-bilder",
+        "type": "matching",
+        "prompt": "Ordne jede Aussage dem Begriff zu.",
+        "pairs": [
+          {
+            "left": "Innerer Frieden",
+            "right": "stabile Münze der Seele"
+          },
+          {
+            "left": "Stille",
+            "right": "Klarheit ohne Lärm"
+          },
+          {
+            "left": "Wir füllen Stille",
+            "right": "und verwechseln Bewegung mit Bedeutung"
+          }
+        ],
+        "card_ids": [
+          "stabile-muenze",
+          "stille-klarheit",
+          "bewegung-bedeutung"
+        ]
+      }
+    }
+  ],
+  "resources": [
+    {
+      "type": "book",
+      "title": "Die Währung des Geistes (E-Book)",
+      "url": "https://www.amazon.de/dp/B0FF5FGWRQ",
+      "author": "Asterios Raptis",
+      "free": false
+    },
+    {
+      "type": "book",
+      "title": "Die Währung des Geistes (Taschenbuch)",
+      "url": "https://www.amazon.de/dp/B0FFH2HDPH",
+      "author": "Asterios Raptis",
+      "free": false
+    }
+  ]
+}

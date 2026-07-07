@@ -1,0 +1,189 @@
+{
+  "id": "09-klarheit-grenzen",
+  "title": "Klarheit, Grenzen und Produktivität",
+  "description": "Faktische Aufgaben zu Kapitel 14 bis 16: Klarheit als Kompass, Grenzen als Tore, Produktivität als gerichtete Bewegung.",
+  "target_language": "de",
+  "source_language": "de",
+  "domain": "philosophy",
+  "estimated_minutes": 12,
+  "cards": [
+    {
+      "id": "klar-sehen",
+      "front": "Klarheit ist klar sehen",
+      "back": "Klarheit ist nicht Intelligenz oder mehr Wissen, sondern klar sehen ohne Nebel und Filter.",
+      "tags": [
+        "klarheit"
+      ]
+    },
+    {
+      "id": "nebel",
+      "front": "Nebel des Geistes",
+      "back": "Geistiger Nebel: zu viele Tabs, Überdenken, Vergessen, satt aber zerstreut.",
+      "tags": [
+        "klarheit"
+      ]
+    },
+    {
+      "id": "tore",
+      "front": "Grenzen sind Tore",
+      "back": "Grenzen sind keine Mauern, sondern Tore: was in die innere Wirtschaft ein- und ausgeht.",
+      "tags": [
+        "grenzen"
+      ]
+    },
+    {
+      "id": "verfuegbarkeit",
+      "front": "Kosten der Verfügbarkeit",
+      "back": "Ohne Grenzen sagt man ja, obwohl man nein meint, und absorbiert fremden Stress.",
+      "tags": [
+        "grenzen"
+      ]
+    },
+    {
+      "id": "gerichtet",
+      "front": "Gerichtete Bewegung",
+      "back": "Wahre Produktivität ist keine Bewegung, sondern gerichtete Bewegung.",
+      "tags": [
+        "produktivitaet"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Klarheit, Grenzen, Produktivität",
+      "body": "# Klarheit, Grenzen und Produktivität\n\n**Klarheit** ist laut Buch nicht Intelligenz oder mehr Wissen, sondern **klar sehen** ohne Nebel, Filter oder fremde Gedanken. Der Nebel des Geistes entsteht durch zu viele Tabs und Überdenken.\n\n**Grenzen** sind keine Mauern, sondern **Tore**: Entscheidungen darüber, was in die innere Wirtschaft ein- und ausgeht. Ohne sie werden selbst wertvolle Währungen vergeudet.\n\n**Produktivität** ist keine Bewegung, sondern **gerichtete Bewegung**. Betriebsamkeit ohne Klarheit ist ein Hamsterrad, getarnt als Fortschritt."
+    },
+    {
+      "id": "s-klar",
+      "type": "exercise",
+      "exercise": {
+        "id": "e-klar",
+        "type": "cloze",
+        "cloze_mode": "select",
+        "prompt": "Womit ist Klarheit laut Buch NICHT gleichbedeutend?",
+        "sentence": "Klarheit ist nicht gleichbedeutend mit ___; es geht nicht darum, mehr zu wissen.",
+        "blanks": [
+          {
+            "accept": [
+              "Intelligenz"
+            ]
+          }
+        ],
+        "distractors": [
+          "Erfahrung",
+          "Bildung"
+        ],
+        "card_ids": [
+          "klar-sehen"
+        ]
+      }
+    },
+    {
+      "id": "s-tore",
+      "type": "exercise",
+      "exercise": {
+        "id": "e-tore",
+        "type": "cloze",
+        "cloze_mode": "type",
+        "prompt": "Vervollständige das Bild für Grenzen.",
+        "sentence": "Gesunde Grenzen sind keine Mauern, sondern ___.",
+        "blanks": [
+          {
+            "accept": [
+              "Tore"
+            ]
+          }
+        ],
+        "card_ids": [
+          "tore"
+        ]
+      }
+    },
+    {
+      "id": "s-produktiv",
+      "type": "exercise",
+      "exercise": {
+        "id": "e-produktiv",
+        "type": "free_text",
+        "prompt": "Was ist wahre Produktivität laut Buch (keine Bewegung, sondern)? (zwei Worte)",
+        "accept": [
+          "gerichtete Bewegung",
+          "Gerichtete Bewegung"
+        ],
+        "distractors": [
+          "schnelle Bewegung",
+          "viel Bewegung"
+        ],
+        "card_ids": [
+          "gerichtet"
+        ]
+      }
+    },
+    {
+      "id": "s-nebel",
+      "type": "exercise",
+      "exercise": {
+        "id": "e-nebel",
+        "type": "cloze",
+        "cloze_mode": "multiselect",
+        "prompt": "Welche Anzeichen von geistigem Nebel nennt das Buch?",
+        "sentence": "Wähle die im Buch genannten Anzeichen.",
+        "accept": [
+          "Zu viele Tabs",
+          "Überdenken einfacher Entscheidungen",
+          "Vergessen, warum man einen Raum betreten hat"
+        ],
+        "distractors": [
+          "Zu viel Schlaf",
+          "Zu wenig Arbeit"
+        ]
+      }
+    },
+    {
+      "id": "s-bilder",
+      "type": "exercise",
+      "exercise": {
+        "id": "e-bilder",
+        "type": "matching",
+        "prompt": "Ordne jede Aussage dem Begriff zu.",
+        "pairs": [
+          {
+            "left": "Klarheit",
+            "right": "klar sehen ohne Nebel"
+          },
+          {
+            "left": "Grenzen",
+            "right": "Tore der inneren Wirtschaft"
+          },
+          {
+            "left": "Produktivität",
+            "right": "gerichtete Bewegung"
+          }
+        ],
+        "card_ids": [
+          "klar-sehen",
+          "tore",
+          "gerichtet"
+        ]
+      }
+    }
+  ],
+  "resources": [
+    {
+      "type": "book",
+      "title": "Die Währung des Geistes (E-Book)",
+      "url": "https://www.amazon.de/dp/B0FF5FGWRQ",
+      "author": "Asterios Raptis",
+      "free": false
+    },
+    {
+      "type": "book",
+      "title": "Die Währung des Geistes (Taschenbuch)",
+      "url": "https://www.amazon.de/dp/B0FFH2HDPH",
+      "author": "Asterios Raptis",
+      "free": false
+    }
+  ]
+}

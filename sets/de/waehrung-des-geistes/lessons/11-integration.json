@@ -1,0 +1,190 @@
+{
+  "id": "11-integration",
+  "title": "Integration: Die innere Ökonomie ins Gleichgewicht bringen",
+  "description": "Faktische Aufgaben zu Kapitel 21: die Währungen im Zusammenspiel, Ausgewogenheit statt Maximierung, Integration als Rhythmus.",
+  "target_language": "de",
+  "source_language": "de",
+  "domain": "philosophy",
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "id": "zusammenspiel",
+      "front": "Wirkung im Zusammenspiel",
+      "back": "Die wahre Wirkung der Währungen entfaltet sich nicht isoliert, sondern im Zusammenspiel.",
+      "tags": [
+        "integration"
+      ]
+    },
+    {
+      "id": "ausgewogenheit",
+      "front": "Ausgewogenheit statt Maximierung",
+      "back": "Ziel ist nicht Maximierung, sondern Ausgewogenheit im Dienste eines bewussten Lebens.",
+      "tags": [
+        "integration"
+      ]
+    },
+    {
+      "id": "rhythmus",
+      "front": "Integration als Rhythmus",
+      "back": "Integration ist kein statischer Zustand, sondern ein Rhythmus, Fluss statt Fixierung.",
+      "tags": [
+        "integration"
+      ]
+    },
+    {
+      "id": "marktplatz",
+      "front": "Geist als Marktplatz",
+      "back": "Kooperieren die inneren Kräfte, entsteht Sinn; arbeiten sie gegeneinander, entsteht Reibung.",
+      "tags": [
+        "integration"
+      ]
+    },
+    {
+      "id": "kreditlinie",
+      "front": "Vertrauen als Kreditlinie",
+      "back": "Im Marktplatz des Geistes ist Vertrauen die unsichtbare Kreditlinie.",
+      "tags": [
+        "integration"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Der unsichtbare Reichtum der Balance",
+      "body": "# Integration\n\nDas Buch fasst zusammen: Jede geistige Währung ist für sich kraftvoll, doch ihre wahre Wirkung entfaltet sich im **Zusammenspiel**. Nicht isoliertes Verstehen führt zur Fülle, sondern die **Integration** aller Anteile.\n\nKooperieren die inneren Kräfte, entsteht Sinn; arbeiten sie gegeneinander, entsteht Reibung. Ziel ist nicht Maximierung, sondern **Ausgewogenheit im Dienste eines bewussten Lebens**. Integration ist kein statischer Zustand, sondern ein **Rhythmus**: Fluss, nicht Fixierung."
+    },
+    {
+      "id": "s-zusammenspiel",
+      "type": "exercise",
+      "exercise": {
+        "id": "e-zusammenspiel",
+        "type": "cloze",
+        "cloze_mode": "select",
+        "prompt": "Wodurch entfaltet sich laut Buch die wahre Wirkung der Währungen?",
+        "sentence": "Die wahre Wirkung entfaltet sich nicht isoliert, sondern im ___.",
+        "blanks": [
+          {
+            "accept": [
+              "Zusammenspiel"
+            ]
+          }
+        ],
+        "distractors": [
+          "Wettbewerb",
+          "Verzicht"
+        ],
+        "card_ids": [
+          "zusammenspiel"
+        ]
+      }
+    },
+    {
+      "id": "s-ausgewogenheit",
+      "type": "exercise",
+      "exercise": {
+        "id": "e-ausgewogenheit",
+        "type": "cloze",
+        "cloze_mode": "type",
+        "prompt": "Vervollständige das Ziel der Integration.",
+        "sentence": "Ziel ist nicht Maximierung, sondern ___ im Dienste eines bewussten Lebens.",
+        "blanks": [
+          {
+            "accept": [
+              "Ausgewogenheit"
+            ]
+          }
+        ],
+        "card_ids": [
+          "ausgewogenheit"
+        ]
+      }
+    },
+    {
+      "id": "s-rhythmus",
+      "type": "exercise",
+      "exercise": {
+        "id": "e-rhythmus",
+        "type": "free_text",
+        "prompt": "Als was beschreibt das Buch Integration (kein statischer Zustand, sondern)? (ein Wort)",
+        "accept": [
+          "Rhythmus",
+          "rhythmus",
+          "ein Rhythmus"
+        ],
+        "distractors": [
+          "Ziel",
+          "Zustand"
+        ],
+        "card_ids": [
+          "rhythmus"
+        ]
+      }
+    },
+    {
+      "id": "s-marktplatz",
+      "type": "exercise",
+      "exercise": {
+        "id": "e-marktplatz",
+        "type": "cloze",
+        "cloze_mode": "multiselect",
+        "prompt": "Welche Zuordnungen macht das Buch im Marktplatz des Geistes?",
+        "sentence": "Wähle die im Buch genannten Zuordnungen.",
+        "accept": [
+          "Aufmerksamkeit ist das Gold",
+          "Vertrauen ist die Kreditlinie",
+          "Empathie ist die gemeinsame Brieftasche"
+        ],
+        "distractors": [
+          "Zeit ist wertlos",
+          "Klarheit ist Ballast"
+        ]
+      }
+    },
+    {
+      "id": "s-bilder",
+      "type": "exercise",
+      "exercise": {
+        "id": "e-bilder",
+        "type": "matching",
+        "prompt": "Ordne jede Aussage dem Begriff zu.",
+        "pairs": [
+          {
+            "left": "Integration",
+            "right": "Wirkung im Zusammenspiel"
+          },
+          {
+            "left": "Ziel",
+            "right": "Ausgewogenheit, nicht Maximierung"
+          },
+          {
+            "left": "Integration",
+            "right": "Rhythmus, nicht Fixierung"
+          }
+        ],
+        "card_ids": [
+          "zusammenspiel",
+          "ausgewogenheit",
+          "rhythmus"
+        ]
+      }
+    }
+  ],
+  "resources": [
+    {
+      "type": "book",
+      "title": "Die Währung des Geistes (E-Book)",
+      "url": "https://www.amazon.de/dp/B0FF5FGWRQ",
+      "author": "Asterios Raptis",
+      "free": false
+    },
+    {
+      "type": "book",
+      "title": "Die Währung des Geistes (Taschenbuch)",
+      "url": "https://www.amazon.de/dp/B0FFH2HDPH",
+      "author": "Asterios Raptis",
+      "free": false
+    }
+  ]
+}

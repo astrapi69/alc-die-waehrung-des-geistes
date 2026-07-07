@@ -1,0 +1,190 @@
+{
+  "id": "10-wirkung-verbindung",
+  "title": "Wirkung, Sinn und Verbindung",
+  "description": "Faktische Aufgaben zu Kapitel 17 bis 20: Verbindung als Brücke, Einfluss als das, was bleibt, Großzügigkeit als Zirkulation, Zweck als Kompass.",
+  "target_language": "de",
+  "source_language": "de",
+  "domain": "philosophy",
+  "estimated_minutes": 13,
+  "cards": [
+    {
+      "id": "bruecke",
+      "front": "Verbindung als Brücke",
+      "back": "Verbindung ist eine Brücke aus Momenten, ehrlichen Worten und stillem Verstehen; sie ist zur Währung geworden.",
+      "tags": [
+        "verbindung"
+      ]
+    },
+    {
+      "id": "bleibt",
+      "front": "Einfluss ist was bleibt",
+      "back": "Einfluss ist nicht was du sagst, sondern was bleibt, wenn du den Raum verlässt.",
+      "tags": [
+        "einfluss"
+      ]
+    },
+    {
+      "id": "zirkuliert",
+      "front": "Großzügigkeit zirkuliert",
+      "back": "Großzügigkeit rechnet nicht, sie fließt; sie erschafft Kreisläufe, keine Endpunkte.",
+      "tags": [
+        "grosszuegigkeit"
+      ]
+    },
+    {
+      "id": "was-geben",
+      "front": "Frage der Großzügigkeit",
+      "back": "Die Gesellschaft fragt 'Was bekomme ich?', Großzügigkeit fragt 'Was darf ich geben?'.",
+      "tags": [
+        "grosszuegigkeit"
+      ]
+    },
+    {
+      "id": "kompass",
+      "front": "Zweck ist Kompass",
+      "back": "Der Zweck ist der Kompass, der allen anderen Währungen die Richtung gibt; er verwandelt Bewegung in Bedeutung.",
+      "tags": [
+        "zweck"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Wirkung, Sinn und Verbindung",
+      "body": "# Wirkung, Sinn und Verbindung\n\n**Verbindung** ist eine **Brücke** aus Momenten und ehrlichen Worten; sie ist zur Währung geworden, handelbar und verwässerbar.\n\n**Einfluss** ist nicht, was du sagst, sondern **was bleibt, wenn du den Raum verlässt**. Wahrer Einfluss ist leise.\n\n**Großzügigkeit** rechnet nicht, sie **fließt** und erschafft Kreisläufe. Sie fragt nicht 'Was bekomme ich?', sondern 'Was darf ich geben?'.\n\n**Zweck** ist der **Kompass**, der allen Währungen Richtung gibt und Bewegung in Bedeutung verwandelt."
+    },
+    {
+      "id": "s-bruecke",
+      "type": "exercise",
+      "exercise": {
+        "id": "e-bruecke",
+        "type": "cloze",
+        "cloze_mode": "select",
+        "prompt": "Als was beschreibt das Buch Verbindung?",
+        "sentence": "Verbindung ist eine ___ aus Momenten und ehrlichen Worten.",
+        "blanks": [
+          {
+            "accept": [
+              "Brücke"
+            ]
+          }
+        ],
+        "distractors": [
+          "Mauer",
+          "Insel"
+        ],
+        "card_ids": [
+          "bruecke"
+        ]
+      }
+    },
+    {
+      "id": "s-bleibt",
+      "type": "exercise",
+      "exercise": {
+        "id": "e-bleibt",
+        "type": "cloze",
+        "cloze_mode": "type",
+        "prompt": "Vervollständige die Kernaussage zum Einfluss.",
+        "sentence": "Einfluss ist nicht was du sagst, sondern was ___, wenn du den Raum verlässt.",
+        "blanks": [
+          {
+            "accept": [
+              "bleibt"
+            ]
+          }
+        ],
+        "card_ids": [
+          "bleibt"
+        ]
+      }
+    },
+    {
+      "id": "s-kompass",
+      "type": "exercise",
+      "exercise": {
+        "id": "e-kompass",
+        "type": "free_text",
+        "prompt": "Als was bezeichnet das Buch den Zweck in der Ökonomie des Geistes? (ein Wort)",
+        "accept": [
+          "Kompass",
+          "kompass",
+          "der Kompass"
+        ],
+        "distractors": [
+          "Motor",
+          "Ziel"
+        ],
+        "card_ids": [
+          "kompass"
+        ]
+      }
+    },
+    {
+      "id": "s-grosszuegigkeit",
+      "type": "exercise",
+      "exercise": {
+        "id": "e-grosszuegigkeit",
+        "type": "cloze",
+        "cloze_mode": "multiselect",
+        "prompt": "Welche Aussagen macht das Buch über Großzügigkeit?",
+        "sentence": "Wähle die zutreffenden Aussagen.",
+        "accept": [
+          "Sie rechnet nicht, sie fließt",
+          "Sie erschafft Kreisläufe",
+          "Sie fragt: Was darf ich geben?"
+        ],
+        "distractors": [
+          "Sie erwartet Gegenleistung",
+          "Sie ist ein Almosen"
+        ]
+      }
+    },
+    {
+      "id": "s-bilder",
+      "type": "exercise",
+      "exercise": {
+        "id": "e-bilder",
+        "type": "matching",
+        "prompt": "Ordne jede Aussage dem Begriff zu.",
+        "pairs": [
+          {
+            "left": "Verbindung",
+            "right": "Brücke zwischen Welten"
+          },
+          {
+            "left": "Einfluss",
+            "right": "was bleibt, wenn du gehst"
+          },
+          {
+            "left": "Großzügigkeit",
+            "right": "zirkuliert, statt zu rechnen"
+          }
+        ],
+        "card_ids": [
+          "bruecke",
+          "bleibt",
+          "zirkuliert"
+        ]
+      }
+    }
+  ],
+  "resources": [
+    {
+      "type": "book",
+      "title": "Die Währung des Geistes (E-Book)",
+      "url": "https://www.amazon.de/dp/B0FF5FGWRQ",
+      "author": "Asterios Raptis",
+      "free": false
+    },
+    {
+      "type": "book",
+      "title": "Die Währung des Geistes (Taschenbuch)",
+      "url": "https://www.amazon.de/dp/B0FFH2HDPH",
+      "author": "Asterios Raptis",
+      "free": false
+    }
+  ]
+}
