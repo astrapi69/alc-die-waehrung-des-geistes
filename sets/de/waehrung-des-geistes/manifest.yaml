@@ -1,6 +1,4 @@
-# Per-set manifest - the content loader reads the lesson file list
-# from metadata.lessons (one entry per lesson JSON in lessons/).
-schema_version: '1.5'
+schema_version: "1.5"
 name: Die Waehrung des Geistes
 description: >-
   Faktische Aufgaben zu den Kernbegriffen und der Argumentation des Buchs.
@@ -13,14 +11,13 @@ sets:
     domain: philosophy
     level: reflexion
     path: sets/de/waehrung-des-geistes
-    version: '1.0.0'
-    lesson_count: 1
-    tags:
-      - philosophie
-      - aufmerksamkeit
-      - achtsamkeit
+    version: "1.0.0"
+    lesson_count: 3
+    tags: [philosophie, aufmerksamkeit, achtsamkeit]
 metadata:
   author: Asterios Raptis
   license: CC-BY-SA-4.0
   lessons:
     - 01-kernbegriffe.json
+    - 02-vertrauen.json
+    - 03-empathie-ideen.json

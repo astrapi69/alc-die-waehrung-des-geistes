@@ -1,7 +1,4 @@
-# Root manifest - lists the sets your repository offers.
-# Wissensset (source == target == de): Buchinhalt auf Deutsch fuer Deutschsprecher.
-# Pfadstruktur fuer Wissenssets: sets/<lang>/<topic-slug>
-schema_version: '1.5'
+schema_version: "1.5"
 name: Die Waehrung des Geistes
 description: >-
   Aufgaben zum Buch "Die Waehrung des Geistes: Wie Aufmerksamkeit,
@@ -15,9 +12,6 @@ sets:
     domain: philosophy
     level: reflexion
     path: sets/de/waehrung-des-geistes
-    version: '1.0.0'
-    lesson_count: 1
-    tags:
-      - philosophie
-      - aufmerksamkeit
-      - achtsamkeit
+    version: "1.0.0"
+    lesson_count: 3
+    tags: [philosophie, aufmerksamkeit, achtsamkeit]
