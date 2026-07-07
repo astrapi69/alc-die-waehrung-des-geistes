@@ -1,0 +1,173 @@
+{
+  "id": "04-vertrauen",
+  "title": "Vertrauen: Die Oekonomie des Glaubens",
+  "description": "Faktische Aufgaben zu Kapitel 4: Vertrauen als Urwaehrung, freiwillige Verletzlichkeit, Mikrotransaktionen.",
+  "target_language": "de",
+  "source_language": "de",
+  "domain": "philosophy",
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "id": "urwaehrung",
+      "front": "Vertrauen als Urwaehrung",
+      "back": "Vor dem Geld gab es Vertrauen; es haelt jede Gemeinschaft zusammen.",
+      "tags": [
+        "vertrauen"
+      ]
+    },
+    {
+      "id": "schwerkraft",
+      "front": "Schwerkraft der Verbindung",
+      "back": "Das Buch nennt Vertrauen die Schwerkraft menschlicher Verbindung.",
+      "tags": [
+        "vertrauen"
+      ]
+    },
+    {
+      "id": "verletzlichkeit",
+      "front": "Freiwillige Verletzlichkeit",
+      "back": "Vertrauen ist keine Kontrolle, sondern bewusstes Glauben trotz moeglicher Enttaeuschung.",
+      "tags": [
+        "vertrauen"
+      ]
+    },
+    {
+      "id": "misstrauen",
+      "front": "Last des Misstrauens",
+      "back": "Misstrauen frisst Energie und isoliert im Uebermass.",
+      "tags": [
+        "vertrauen"
+      ]
+    },
+    {
+      "id": "mikro",
+      "front": "Mikrotransaktionen",
+      "back": "Vertrauen waechst in kleinen, wiederholten Momenten der Wahrheit, nicht in Systemen.",
+      "tags": [
+        "vertrauen"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Vertrauen ist die Urwaehrung",
+      "body": "# Vertrauen\n\nDas Buch beschreibt Vertrauen als **Urwaehrung**: lange vor Geld handelten Menschen mit Glauben. Vertrauen ist die **Schwerkraft menschlicher Verbindung**. Es ist **freiwillige Verletzlichkeit**, nicht Kontrolle, und **Risiko, nicht Naivitaet**. Vertrauen waechst in kleinen, wiederholten Momenten der Wahrheit, nicht in Systemen wie Bewertungen oder Haekchen."
+    },
+    {
+      "id": "s-urwaehrung",
+      "type": "exercise",
+      "exercise": {
+        "id": "e-urwaehrung",
+        "type": "cloze",
+        "cloze_mode": "select",
+        "prompt": "Wie beschreibt das Buch Vertrauen im Verhaeltnis zum Geld?",
+        "sentence": "Laut Buch gab es Vertrauen schon ___ dem Geld.",
+        "blanks": [
+          {
+            "accept": [
+              "vor"
+            ]
+          }
+        ],
+        "distractors": [
+          "nach",
+          "statt"
+        ],
+        "card_ids": [
+          "urwaehrung"
+        ]
+      }
+    },
+    {
+      "id": "s-schwerkraft",
+      "type": "exercise",
+      "exercise": {
+        "id": "e-schwerkraft",
+        "type": "cloze",
+        "cloze_mode": "type",
+        "prompt": "Vervollstaendige das zentrale Bild fuer Vertrauen.",
+        "sentence": "Das Buch nennt Vertrauen die ___ menschlicher Verbindung.",
+        "blanks": [
+          {
+            "accept": [
+              "Schwerkraft"
+            ]
+          }
+        ],
+        "card_ids": [
+          "schwerkraft"
+        ]
+      }
+    },
+    {
+      "id": "s-verletzlichkeit",
+      "type": "exercise",
+      "exercise": {
+        "id": "e-verletzlichkeit",
+        "type": "free_text",
+        "prompt": "Vertrauen ist laut Buch keine Kontrolle, sondern freiwillige ___? (ein Wort)",
+        "accept": [
+          "Verletzlichkeit",
+          "verletzlichkeit"
+        ],
+        "distractors": [
+          "Sicherheit",
+          "Gewissheit"
+        ],
+        "card_ids": [
+          "verletzlichkeit"
+        ]
+      }
+    },
+    {
+      "id": "s-mikro",
+      "type": "exercise",
+      "exercise": {
+        "id": "e-mikro",
+        "type": "cloze",
+        "cloze_mode": "multiselect",
+        "prompt": "Welche nennt das Buch als Momente, in denen Vertrauen waechst?",
+        "sentence": "Waehle die Mikrotransaktionen des Vertrauens aus dem Buch.",
+        "accept": [
+          "Da sein, wenn es unbequem ist",
+          "Die Wahrheit sagen, wenn es schwerfaellt",
+          "Fehler eingestehen ohne Rechtfertigung"
+        ],
+        "distractors": [
+          "Vertraege aufsetzen",
+          "Bewertungen sammeln"
+        ]
+      }
+    },
+    {
+      "id": "s-bilder",
+      "type": "exercise",
+      "exercise": {
+        "id": "e-bilder",
+        "type": "matching",
+        "prompt": "Ordne jedem Begriff die Aussage des Buchs zu.",
+        "pairs": [
+          {
+            "left": "Vertrauen",
+            "right": "Freiwillige Verletzlichkeit"
+          },
+          {
+            "left": "Misstrauen",
+            "right": "Frisst Energie und isoliert"
+          },
+          {
+            "left": "Vertrauen waechst",
+            "right": "in Momenten der Wahrheit"
+          }
+        ],
+        "card_ids": [
+          "verletzlichkeit",
+          "misstrauen",
+          "mikro"
+        ]
+      }
+    }
+  ]
+}

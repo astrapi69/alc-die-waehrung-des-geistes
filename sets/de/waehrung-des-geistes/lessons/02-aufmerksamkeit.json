@@ -1,0 +1,174 @@
+{
+  "id": "02-aufmerksamkeit",
+  "title": "Aufmerksamkeit: Das Gold der Seele",
+  "description": "Faktische Aufgaben zu Kapitel 2: Aufmerksamkeit als Wahl und Investition, ihre Schattenseiten.",
+  "target_language": "de",
+  "source_language": "de",
+  "domain": "philosophy",
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "id": "wahl",
+      "front": "Aufmerksamkeit ist Wahl",
+      "back": "Aufmerksamkeit ist mehr als Konzentration; sie ist Wahl und entscheidet, was man ins mentale Zuhause laesst.",
+      "tags": [
+        "aufmerksamkeit"
+      ]
+    },
+    {
+      "id": "mythos",
+      "front": "Mythos geteilter Konzentration",
+      "back": "Geteilte Aufmerksamkeit verliert Tiefe; jede Unterbrechung bricht den Fluss des Denkens.",
+      "tags": [
+        "aufmerksamkeit"
+      ]
+    },
+    {
+      "id": "hypervigilanz",
+      "front": "Hypervigilanz",
+      "back": "Die Unfaehigkeit loszulassen; aus Wachheit wird Erschoepfung.",
+      "tags": [
+        "aufmerksamkeit"
+      ]
+    },
+    {
+      "id": "produkt",
+      "front": "Aufmerksamkeitsoekonomie",
+      "back": "Du bist nicht nur Investor deiner Aufmerksamkeit, sondern auch Produkt.",
+      "tags": [
+        "aufmerksamkeit"
+      ]
+    },
+    {
+      "id": "schwert",
+      "front": "Aufmerksamkeit als Schwert",
+      "back": "Aufmerksamkeit kann schnitzen oder schneiden, je nach Fuehrung.",
+      "tags": [
+        "aufmerksamkeit"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Aufmerksamkeit als Investition",
+      "body": "# Aufmerksamkeit\n\nDas Buch nennt Aufmerksamkeit das **Gold der Seele**. Sie ist mehr als Konzentration: sie ist **Wahl** und entscheidet, was man ins mentale Zuhause laesst. Bewusst gegebene Aufmerksamkeit wird zur Wachstumskraft. Ihre Schattenseiten: Hypervigilanz, Obsession, Selbstueberwachung, und die Aufmerksamkeitsoekonomie, in der man selbst zum Produkt wird."
+    },
+    {
+      "id": "s-wahl",
+      "type": "exercise",
+      "exercise": {
+        "id": "e-wahl",
+        "type": "cloze",
+        "cloze_mode": "select",
+        "prompt": "Als was beschreibt das Buch Aufmerksamkeit ueber die Konzentration hinaus?",
+        "sentence": "Aufmerksamkeit ist mehr als Konzentration, sie ist ___.",
+        "blanks": [
+          {
+            "accept": [
+              "Wahl"
+            ]
+          }
+        ],
+        "distractors": [
+          "Pflicht",
+          "Gewohnheit"
+        ],
+        "card_ids": [
+          "wahl"
+        ]
+      }
+    },
+    {
+      "id": "s-mythos",
+      "type": "exercise",
+      "exercise": {
+        "id": "e-mythos",
+        "type": "cloze",
+        "cloze_mode": "type",
+        "prompt": "Vervollstaendige die Aussage zur geteilten Konzentration.",
+        "sentence": "Geteilte Aufmerksamkeit verliert an ___, sobald sie zerstreut wird.",
+        "blanks": [
+          {
+            "accept": [
+              "Tiefe"
+            ]
+          }
+        ],
+        "card_ids": [
+          "mythos"
+        ]
+      }
+    },
+    {
+      "id": "s-schwert",
+      "type": "exercise",
+      "exercise": {
+        "id": "e-schwert",
+        "type": "free_text",
+        "prompt": "Womit vergleicht das Buch die Aufmerksamkeit (sie kann schnitzen oder schneiden)? (ein Wort)",
+        "accept": [
+          "Schwert",
+          "schwert",
+          "einem Schwert"
+        ],
+        "distractors": [
+          "Schild",
+          "Werkzeug"
+        ],
+        "card_ids": [
+          "schwert"
+        ]
+      }
+    },
+    {
+      "id": "s-schatten",
+      "type": "exercise",
+      "exercise": {
+        "id": "e-schatten",
+        "type": "cloze",
+        "cloze_mode": "multiselect",
+        "prompt": "Welche Schattenseiten der Aufmerksamkeit nennt das Buch?",
+        "sentence": "Waehle die im Buch genannten Schattenseiten der Aufmerksamkeit.",
+        "accept": [
+          "Hypervigilanz",
+          "Obsession",
+          "Selbstueberwachung"
+        ],
+        "distractors": [
+          "Aufmerksamkeitsneid",
+          "Fokusarmut"
+        ]
+      }
+    },
+    {
+      "id": "s-bilder",
+      "type": "exercise",
+      "exercise": {
+        "id": "e-bilder",
+        "type": "matching",
+        "prompt": "Ordne jeder Aussage den passenden Begriff zu.",
+        "pairs": [
+          {
+            "left": "Aufmerksamkeit",
+            "right": "Wahl, nicht nur Konzentration"
+          },
+          {
+            "left": "Hypervigilanz",
+            "right": "Unfaehigkeit loszulassen"
+          },
+          {
+            "left": "In der Aufmerksamkeitsoekonomie",
+            "right": "bist du auch Produkt"
+          }
+        ],
+        "card_ids": [
+          "wahl",
+          "hypervigilanz",
+          "produkt"
+        ]
+      }
+    }
+  ]
+}

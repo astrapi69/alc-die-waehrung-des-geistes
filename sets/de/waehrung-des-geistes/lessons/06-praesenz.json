@@ -1,0 +1,174 @@
+{
+  "id": "06-praesenz",
+  "title": "Praesenz: Das Gold des Augenblicks",
+  "description": "Faktische Aufgaben zu Kapitel 10: Praesenz als seltenste Waehrung, Abgrenzung zur Aufmerksamkeit.",
+  "target_language": "de",
+  "source_language": "de",
+  "domain": "philosophy",
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "id": "seltenste",
+      "front": "Seltenste Waehrung",
+      "back": "Praesenz ist die seltenste Waehrung; man kann sie nicht horten oder aufschieben.",
+      "tags": [
+        "praesenz"
+      ]
+    },
+    {
+      "id": "abgrenzung",
+      "front": "Aufmerksamkeit vs. Praesenz",
+      "back": "Aufmerksamkeit ist worauf du schaust; Praesenz ist ob du wirklich da bist.",
+      "tags": [
+        "praesenz"
+      ]
+    },
+    {
+      "id": "abwesenheit",
+      "front": "Gegenteil von Praesenz",
+      "back": "Das Gegenteil von Praesenz ist nicht Ablenkung, sondern die Abwesenheit von dir selbst.",
+      "tags": [
+        "praesenz"
+      ]
+    },
+    {
+      "id": "ehrung",
+      "front": "Ehrung der Zeit",
+      "back": "Praesenz ist keine Zeitverschwendung, sondern eine Ehrung der Zeit.",
+      "tags": [
+        "praesenz"
+      ]
+    },
+    {
+      "id": "spiegel",
+      "front": "Spiegel der Praesenz",
+      "back": "Praesent sein heisst zum Spiegel werden: reflektieren ohne Verzerrung, Raum halten ohne Urteil.",
+      "tags": [
+        "praesenz"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Die Tyrannei des Anderswo",
+      "body": "# Praesenz\n\nDas Buch nennt Praesenz die **seltenste Waehrung**: man kann sie nicht horten, nicht aufschieben, nicht zurueckfordern. Entscheidend ist die Abgrenzung: **Aufmerksamkeit ist worauf du schaust, Praesenz ist ob du wirklich da bist**. Das Gegenteil von Praesenz ist nicht Ablenkung, sondern die **Abwesenheit von dir selbst**. Praesenz ist keine Zeitverschwendung, sondern eine **Ehrung der Zeit**."
+    },
+    {
+      "id": "s-seltenste",
+      "type": "exercise",
+      "exercise": {
+        "id": "e-seltenste",
+        "type": "cloze",
+        "cloze_mode": "select",
+        "prompt": "Wie bezeichnet das Buch Praesenz unter den Waehrungen?",
+        "sentence": "Praesenz ist die ___ Waehrung im modernen Leben.",
+        "blanks": [
+          {
+            "accept": [
+              "seltenste"
+            ]
+          }
+        ],
+        "distractors": [
+          "haeufigste",
+          "teuerste"
+        ],
+        "card_ids": [
+          "seltenste"
+        ]
+      }
+    },
+    {
+      "id": "s-abwesenheit",
+      "type": "exercise",
+      "exercise": {
+        "id": "e-abwesenheit",
+        "type": "cloze",
+        "cloze_mode": "type",
+        "prompt": "Vervollstaendige die Aussage zum Gegenteil von Praesenz.",
+        "sentence": "Das Gegenteil von Praesenz ist nicht Ablenkung, sondern die Abwesenheit von dir ___.",
+        "blanks": [
+          {
+            "accept": [
+              "selbst"
+            ]
+          }
+        ],
+        "card_ids": [
+          "abwesenheit"
+        ]
+      }
+    },
+    {
+      "id": "s-ehrung",
+      "type": "exercise",
+      "exercise": {
+        "id": "e-ehrung",
+        "type": "free_text",
+        "prompt": "Als was bezeichnet das Buch Praesenz statt als Zeitverschwendung? (ein Wort)",
+        "accept": [
+          "Ehrung",
+          "ehrung",
+          "Ehrung der Zeit"
+        ],
+        "distractors": [
+          "Pflicht",
+          "Luxus"
+        ],
+        "card_ids": [
+          "ehrung"
+        ]
+      }
+    },
+    {
+      "id": "s-abgrenzung",
+      "type": "exercise",
+      "exercise": {
+        "id": "e-abgrenzung",
+        "type": "cloze",
+        "cloze_mode": "multiselect",
+        "prompt": "Welche Aussagen zur Abgrenzung von Aufmerksamkeit und Praesenz macht das Buch?",
+        "sentence": "Waehle die zutreffenden Aussagen aus dem Buch.",
+        "accept": [
+          "Aufmerksamkeit ist worauf du schaust",
+          "Praesenz ist ob du da bist",
+          "Praesenz wird eher gefuehlt als gemessen"
+        ],
+        "distractors": [
+          "Praesenz ist dasselbe wie Fokus",
+          "Aufmerksamkeit ersetzt Praesenz"
+        ]
+      }
+    },
+    {
+      "id": "s-bilder",
+      "type": "exercise",
+      "exercise": {
+        "id": "e-bilder",
+        "type": "matching",
+        "prompt": "Ordne jede Aussage dem Begriff zu.",
+        "pairs": [
+          {
+            "left": "Praesenz",
+            "right": "seltenste Waehrung"
+          },
+          {
+            "left": "Aufmerksamkeit",
+            "right": "worauf du schaust"
+          },
+          {
+            "left": "Praesenz",
+            "right": "Ehrung der Zeit"
+          }
+        ],
+        "card_ids": [
+          "seltenste",
+          "abgrenzung",
+          "ehrung"
+        ]
+      }
+    }
+  ]
+}

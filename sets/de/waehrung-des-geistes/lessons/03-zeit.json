@@ -1,0 +1,174 @@
+{
+  "id": "03-zeit",
+  "title": "Zeit: Die nicht erstattungsfaehige Muenze",
+  "description": "Faktische Aufgaben zu Kapitel 3: Zeit als nicht besitzbare Muenze, Sinnkrise statt Zeitkrise, Qualitaet statt Quantitaet.",
+  "target_language": "de",
+  "source_language": "de",
+  "domain": "philosophy",
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "id": "kontrolle",
+      "front": "Zeit gehoert dir nicht",
+      "back": "Die Zeit steht nicht unter deiner Kontrolle; du kannst nur entscheiden, wie du in ihr lebst.",
+      "tags": [
+        "zeit"
+      ]
+    },
+    {
+      "id": "sinnkrise",
+      "front": "Sinnkrise",
+      "back": "Die moderne Zeitarmut ist keine Zeitkrise, sondern eine Sinnkrise.",
+      "tags": [
+        "zeit"
+      ]
+    },
+    {
+      "id": "qualitaet",
+      "front": "Zinseszins der Momente",
+      "back": "Zeit vermehrt sich nicht in Quantitaet, sondern in Qualitaet.",
+      "tags": [
+        "zeit"
+      ]
+    },
+    {
+      "id": "ehren",
+      "front": "Zeit ehren",
+      "back": "Das Ziel ist nicht, Zeit zu maximieren, sondern sie zu ehren.",
+      "tags": [
+        "zeit"
+      ]
+    },
+    {
+      "id": "lebendigkeit",
+      "front": "Uhr der Lebendigkeit",
+      "back": "Zeit nach Lebendigkeit messen, nicht nach Produktivitaet.",
+      "tags": [
+        "zeit"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Die Illusion, Zeit zu haben",
+      "body": "# Zeit\n\nDas Buch nennt Zeit die **nicht erstattungsfaehige Muenze**. Sie gehoert dir nicht, du kannst nur entscheiden, wie du in ihr lebst. Die moderne Zeitarmut ist keine Zeitkrise, sondern eine **Sinnkrise**: Zeit ohne Sinn fuehlt sich wie Verschwendung an. Zeit vermehrt sich in **Qualitaet**, nicht in Quantitaet. Das Ziel ist nicht, Zeit zu maximieren, sondern sie zu **ehren**."
+    },
+    {
+      "id": "s-kontrolle",
+      "type": "exercise",
+      "exercise": {
+        "id": "e-kontrolle",
+        "type": "cloze",
+        "cloze_mode": "type",
+        "prompt": "Vervollstaendige die zentrale Aussage ueber Zeit.",
+        "sentence": "Laut Buch gehoert dir die Zeit nicht; du kannst nur entscheiden, wie du in ihr ___.",
+        "blanks": [
+          {
+            "accept": [
+              "lebst"
+            ]
+          }
+        ],
+        "card_ids": [
+          "kontrolle"
+        ]
+      }
+    },
+    {
+      "id": "s-sinnkrise",
+      "type": "exercise",
+      "exercise": {
+        "id": "e-sinnkrise",
+        "type": "cloze",
+        "cloze_mode": "select",
+        "prompt": "Als was bezeichnet das Buch die moderne Zeitarmut?",
+        "sentence": "Die moderne Zeitarmut ist keine Zeitkrise, sondern eine ___.",
+        "blanks": [
+          {
+            "accept": [
+              "Sinnkrise"
+            ]
+          }
+        ],
+        "distractors": [
+          "Geldkrise",
+          "Energiekrise"
+        ],
+        "card_ids": [
+          "sinnkrise"
+        ]
+      }
+    },
+    {
+      "id": "s-ehren",
+      "type": "exercise",
+      "exercise": {
+        "id": "e-ehren",
+        "type": "free_text",
+        "prompt": "Was ist laut Buch das Ziel im Umgang mit Zeit (nicht maximieren, sondern)? (ein Wort)",
+        "accept": [
+          "ehren",
+          "Ehren",
+          "sie ehren"
+        ],
+        "distractors": [
+          "sparen",
+          "fuellen"
+        ],
+        "card_ids": [
+          "ehren"
+        ]
+      }
+    },
+    {
+      "id": "s-qualitaet",
+      "type": "exercise",
+      "exercise": {
+        "id": "e-qualitaet",
+        "type": "cloze",
+        "cloze_mode": "multiselect",
+        "prompt": "Welche Beispiele nennt das Buch fuer den Zinseszinseffekt der Zeit (Qualitaet)?",
+        "sentence": "Waehle die im Buch genannten Beispiele.",
+        "accept": [
+          "Eine achtsame Stunde mit einem Freund",
+          "Zehn konzentrierte Minuten Schreiben",
+          "Eine Pause vor dem Reagieren"
+        ],
+        "distractors": [
+          "Zehn Stunden Ueberstunden",
+          "Ein voller Terminkalender"
+        ]
+      }
+    },
+    {
+      "id": "s-bilder",
+      "type": "exercise",
+      "exercise": {
+        "id": "e-bilder",
+        "type": "matching",
+        "prompt": "Ordne jede Aussage dem Begriff zu.",
+        "pairs": [
+          {
+            "left": "Zeit",
+            "right": "gehoert dir nicht"
+          },
+          {
+            "left": "Zeitarmut",
+            "right": "ist eine Sinnkrise"
+          },
+          {
+            "left": "Zinseszins der Zeit",
+            "right": "Qualitaet, nicht Quantitaet"
+          }
+        ],
+        "card_ids": [
+          "kontrolle",
+          "sinnkrise",
+          "qualitaet"
+        ]
+      }
+    }
+  ]
+}

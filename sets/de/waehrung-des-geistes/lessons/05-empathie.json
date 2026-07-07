@@ -1,0 +1,174 @@
+{
+  "id": "05-empathie",
+  "title": "Empathie: Die gemeinsame Geldboerse",
+  "description": "Faktische Aufgaben zu Kapitel 5: Empathie als dosierte Grosszuegigkeit und ihre Schattenseiten.",
+  "target_language": "de",
+  "source_language": "de",
+  "domain": "philosophy",
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "id": "mitleid",
+      "front": "Empathie vs. Mitleid",
+      "back": "Empathie ist nicht Mitleid ('Du tust mir leid'), sondern 'Ich fuehle mit dir'.",
+      "tags": [
+        "empathie"
+      ]
+    },
+    {
+      "id": "dosiert",
+      "front": "Dosierte Grosszuegigkeit",
+      "back": "Empathie ist kein Maertyrertum, sondern dosierte Grosszuegigkeit; Grenzen setzen ist Weisheit.",
+      "tags": [
+        "empathie"
+      ]
+    },
+    {
+      "id": "verstrickung",
+      "front": "Empathische Verstrickung",
+      "back": "Wenn man nicht mehr weiss, wessen Gefuehle man fuehlt.",
+      "tags": [
+        "empathie"
+      ]
+    },
+    {
+      "id": "dispo",
+      "front": "Emotionaler Dispo",
+      "back": "Ohne Grenzen wird Empathie zum Burnout; man leert die emotionale Geldboerse.",
+      "tags": [
+        "empathie"
+      ]
+    },
+    {
+      "id": "resonanz",
+      "front": "Neurologie der Resonanz",
+      "back": "Empathie ist ein geteiltes emotionales Signal; das Gehirn spiegelt den Zustand des anderen.",
+      "tags": [
+        "empathie"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Der Preis des Mitfuehlens",
+      "body": "# Empathie\n\nEmpathie ist laut Buch nicht Mitleid, sondern **Mitfuehlen**. Sie ist eine Transaktion mit beiderseitigem Gewinn, solange das Konto nicht ueberzogen wird - **dosierte Grosszuegigkeit**, kein Maertyrertum. Grenzen setzen ist keine Schwaeche, sondern Weisheit. Das Buch nennt vier Schattenseiten: empathische Verstrickung, Empathie als Vermeidung, selektive Empathie, Empathie-Muedigkeit."
+    },
+    {
+      "id": "s-mitleid",
+      "type": "exercise",
+      "exercise": {
+        "id": "e-mitleid",
+        "type": "cloze",
+        "cloze_mode": "select",
+        "prompt": "Wie grenzt das Buch Empathie vom Mitleid ab?",
+        "sentence": "Empathie ist nicht 'Du tust mir leid', sondern 'Ich ___ mit dir'.",
+        "blanks": [
+          {
+            "accept": [
+              "fuehle"
+            ]
+          }
+        ],
+        "distractors": [
+          "leide",
+          "denke"
+        ],
+        "card_ids": [
+          "mitleid"
+        ]
+      }
+    },
+    {
+      "id": "s-dosiert",
+      "type": "exercise",
+      "exercise": {
+        "id": "e-dosiert",
+        "type": "cloze",
+        "cloze_mode": "type",
+        "prompt": "Vervollstaendige die Kernaussage zur Empathie.",
+        "sentence": "Empathie ist kein Maertyrertum, sondern dosierte ___.",
+        "blanks": [
+          {
+            "accept": [
+              "Grosszuegigkeit"
+            ]
+          }
+        ],
+        "card_ids": [
+          "dosiert"
+        ]
+      }
+    },
+    {
+      "id": "s-resonanz",
+      "type": "exercise",
+      "exercise": {
+        "id": "e-resonanz",
+        "type": "free_text",
+        "prompt": "Was spiegelt laut Buch bei Empathie den Zustand des anderen? (ein Wort)",
+        "accept": [
+          "Gehirn",
+          "das Gehirn",
+          "Hirn"
+        ],
+        "distractors": [
+          "Herz",
+          "Koerper"
+        ],
+        "card_ids": [
+          "resonanz"
+        ]
+      }
+    },
+    {
+      "id": "s-schatten",
+      "type": "exercise",
+      "exercise": {
+        "id": "e-schatten",
+        "type": "cloze",
+        "cloze_mode": "multiselect",
+        "prompt": "Welche Schattenseiten der Empathie nennt das Buch?",
+        "sentence": "Waehle die im Buch genannten Schattenseiten der Empathie.",
+        "accept": [
+          "Empathische Verstrickung",
+          "Selektive Empathie",
+          "Empathie-Muedigkeit"
+        ],
+        "distractors": [
+          "Empathische Ueberlegenheit",
+          "Empathischer Neid"
+        ]
+      }
+    },
+    {
+      "id": "s-bilder",
+      "type": "exercise",
+      "exercise": {
+        "id": "e-bilder",
+        "type": "matching",
+        "prompt": "Ordne jeder Aussage den Begriff zu.",
+        "pairs": [
+          {
+            "left": "Empathie",
+            "right": "dosierte Grosszuegigkeit"
+          },
+          {
+            "left": "Ohne Grenzen",
+            "right": "emotionaler Dispo/Burnout"
+          },
+          {
+            "left": "Empathie",
+            "right": "geteiltes emotionales Signal"
+          }
+        ],
+        "card_ids": [
+          "dosiert",
+          "dispo",
+          "resonanz"
+        ]
+      }
+    }
+  ]
+}
