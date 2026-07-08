@@ -1,7 +1,7 @@
 {
   "id": "02-aufmerksamkeit",
   "title": "Aufmerksamkeit: Das Gold der Seele",
-  "description": "Faktische Aufgaben zu Kapitel 2: Aufmerksamkeit als Wahl und Investition, ihre Schattenseiten.",
+  "description": "Aufmerksamkeit als Wahl und Investition, und ihre Schattenseiten.",
   "target_language": "de",
   "source_language": "de",
   "domain": "philosophy",
@@ -53,7 +53,7 @@
       "id": "intro",
       "type": "theory",
       "title": "Aufmerksamkeit als Investition",
-      "body": "# Aufmerksamkeit\n\nDas Buch nennt Aufmerksamkeit das **Gold der Seele**. Sie ist mehr als Konzentration: sie ist **Wahl** und entscheidet, was man ins mentale Zuhause lässt. Bewusst gegebene Aufmerksamkeit wird zur Wachstumskraft. Ihre Schattenseiten: Hypervigilanz, Obsession, Selbstüberwachung, und die Aufmerksamkeitsökonomie, in der man selbst zum Produkt wird."
+      "body": "# Aufmerksamkeit\n\nAufmerksamkeit ist das **Gold der Seele**. Sie ist mehr als Konzentration: sie ist **Wahl** und entscheidet, was man ins mentale Zuhause lässt. Bewusst gegebene Aufmerksamkeit wird zur Wachstumskraft. Ihre Schattenseiten: Hypervigilanz, Obsession, Selbstüberwachung, und die Aufmerksamkeitsökonomie, in der man selbst zum Produkt wird."
     },
     {
       "id": "s-wahl",
@@ -62,7 +62,7 @@
         "id": "e-wahl",
         "type": "cloze",
         "cloze_mode": "select",
-        "prompt": "Als was beschreibt das Buch Aufmerksamkeit über die Konzentration hinaus?",
+        "prompt": "Als was gilt Aufmerksamkeit über die Konzentration hinaus?",
         "sentence": "Aufmerksamkeit ist mehr als Konzentration, sie ist ___.",
         "blanks": [
           {
@@ -107,7 +107,7 @@
       "exercise": {
         "id": "e-schwert",
         "type": "free_text",
-        "prompt": "Womit vergleicht das Buch die Aufmerksamkeit (sie kann schnitzen oder schneiden)? (ein Wort)",
+        "prompt": "Womit lässt sich Aufmerksamkeit vergleichen (sie kann schnitzen oder schneiden)? (ein Wort)",
         "accept": [
           "Schwert",
           "schwert",
@@ -129,8 +129,8 @@
         "id": "e-schatten",
         "type": "cloze",
         "cloze_mode": "multiselect",
-        "prompt": "Welche Schattenseiten der Aufmerksamkeit nennt das Buch?",
-        "sentence": "Wähle die im Buch genannten Schattenseiten der Aufmerksamkeit.",
+        "prompt": "Welche Schattenseiten hat Aufmerksamkeit?",
+        "sentence": "Wähle die zutreffenden Schattenseiten der Aufmerksamkeit.",
         "accept": [
           "Hypervigilanz",
           "Obsession",

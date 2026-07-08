@@ -1,7 +1,7 @@
 {
   "id": "09-klarheit-grenzen",
   "title": "Klarheit, Grenzen und Produktivität",
-  "description": "Faktische Aufgaben zu Kapitel 14 bis 16: Klarheit als Kompass, Grenzen als Tore, Produktivität als gerichtete Bewegung.",
+  "description": "Klarheit als Kompass, Grenzen als Tore, Produktivität als gerichtete Bewegung.",
   "target_language": "de",
   "source_language": "de",
   "domain": "philosophy",
@@ -53,7 +53,7 @@
       "id": "intro",
       "type": "theory",
       "title": "Klarheit, Grenzen, Produktivität",
-      "body": "# Klarheit, Grenzen und Produktivität\n\n**Klarheit** ist laut Buch nicht Intelligenz oder mehr Wissen, sondern **klar sehen** ohne Nebel, Filter oder fremde Gedanken. Der Nebel des Geistes entsteht durch zu viele Tabs und Überdenken.\n\n**Grenzen** sind keine Mauern, sondern **Tore**: Entscheidungen darüber, was in die innere Wirtschaft ein- und ausgeht. Ohne sie werden selbst wertvolle Währungen vergeudet.\n\n**Produktivität** ist keine Bewegung, sondern **gerichtete Bewegung**. Betriebsamkeit ohne Klarheit ist ein Hamsterrad, getarnt als Fortschritt."
+      "body": "# Klarheit, Grenzen und Produktivität\n\n**Klarheit** ist nicht Intelligenz oder mehr Wissen, sondern **klar sehen** ohne Nebel, Filter oder fremde Gedanken. Der Nebel des Geistes entsteht durch zu viele Tabs und Überdenken.\n\n**Grenzen** sind keine Mauern, sondern **Tore**: Entscheidungen darüber, was in die innere Wirtschaft ein- und ausgeht. Ohne sie werden selbst wertvolle Währungen vergeudet.\n\n**Produktivität** ist keine Bewegung, sondern **gerichtete Bewegung**. Betriebsamkeit ohne Klarheit ist ein Hamsterrad, getarnt als Fortschritt."
     },
     {
       "id": "s-klar",
@@ -62,7 +62,7 @@
         "id": "e-klar",
         "type": "cloze",
         "cloze_mode": "select",
-        "prompt": "Womit ist Klarheit laut Buch NICHT gleichbedeutend?",
+        "prompt": "Womit ist Klarheit NICHT gleichbedeutend?",
         "sentence": "Klarheit ist nicht gleichbedeutend mit ___; es geht nicht darum, mehr zu wissen.",
         "blanks": [
           {
@@ -107,7 +107,7 @@
       "exercise": {
         "id": "e-produktiv",
         "type": "free_text",
-        "prompt": "Was ist wahre Produktivität laut Buch (keine Bewegung, sondern)? (zwei Worte)",
+        "prompt": "Was ist wahre Produktivität (keine Bewegung, sondern)? (zwei Worte)",
         "accept": [
           "gerichtete Bewegung",
           "Gerichtete Bewegung"
@@ -128,8 +128,8 @@
         "id": "e-nebel",
         "type": "cloze",
         "cloze_mode": "multiselect",
-        "prompt": "Welche Anzeichen von geistigem Nebel nennt das Buch?",
-        "sentence": "Wähle die im Buch genannten Anzeichen.",
+        "prompt": "Welche Anzeichen hat geistiger Nebel?",
+        "sentence": "Wähle die zutreffenden Anzeichen.",
         "accept": [
           "Zu viele Tabs",
           "Überdenken einfacher Entscheidungen",

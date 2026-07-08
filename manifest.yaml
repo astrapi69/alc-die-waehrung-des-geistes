@@ -1,8 +1,8 @@
 schema_version: "1.5"
 name: Die Währung des Geistes
 description: >-
-  Aufgaben zum Buch "Die Währung des Geistes: Wie Aufmerksamkeit,
-  Zeit und Vertrauen den wahren Reichtum des Seins formen".
+  Die sechs Währungen des Geistes: Aufmerksamkeit, Zeit, Vertrauen,
+  Empathie, Präsenz und Ideen.
 sets:
   - id: waehrung-des-geistes
     title: Die Währung des Geistes

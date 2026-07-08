@@ -1,7 +1,7 @@
 {
   "id": "10-wirkung-verbindung",
   "title": "Wirkung, Sinn und Verbindung",
-  "description": "Faktische Aufgaben zu Kapitel 17 bis 20: Verbindung als Brücke, Einfluss als das, was bleibt, Großzügigkeit als Zirkulation, Zweck als Kompass.",
+  "description": "Verbindung als Brücke, Einfluss als das, was bleibt, Großzügigkeit als Zirkulation, Zweck als Kompass.",
   "target_language": "de",
   "source_language": "de",
   "domain": "philosophy",
@@ -62,7 +62,7 @@
         "id": "e-bruecke",
         "type": "cloze",
         "cloze_mode": "select",
-        "prompt": "Als was beschreibt das Buch Verbindung?",
+        "prompt": "Als was gilt Verbindung?",
         "sentence": "Verbindung ist eine ___ aus Momenten und ehrlichen Worten.",
         "blanks": [
           {
@@ -107,7 +107,7 @@
       "exercise": {
         "id": "e-kompass",
         "type": "free_text",
-        "prompt": "Als was bezeichnet das Buch den Zweck in der Ökonomie des Geistes? (ein Wort)",
+        "prompt": "Als was gilt der Zweck in der Ökonomie des Geistes? (ein Wort)",
         "accept": [
           "Kompass",
           "kompass",
@@ -129,7 +129,7 @@
         "id": "e-grosszuegigkeit",
         "type": "cloze",
         "cloze_mode": "multiselect",
-        "prompt": "Welche Aussagen macht das Buch über Großzügigkeit?",
+        "prompt": "Welche Aussagen treffen auf Großzügigkeit?",
         "sentence": "Wähle die zutreffenden Aussagen.",
         "accept": [
           "Sie rechnet nicht, sie fließt",

@@ -1,7 +1,7 @@
 {
   "id": "06-praesenz",
   "title": "Präsenz: Das Gold des Augenblicks",
-  "description": "Faktische Aufgaben zu Kapitel 10: Präsenz als seltenste Währung, Abgrenzung zur Aufmerksamkeit.",
+  "description": "Präsenz als seltenste Währung, und ihre Abgrenzung zur Aufmerksamkeit.",
   "target_language": "de",
   "source_language": "de",
   "domain": "philosophy",
@@ -42,7 +42,7 @@
     {
       "id": "spiegel",
       "front": "Spiegel der Präsenz",
-      "back": "Präsent sein heisst zum Spiegel werden: reflektieren ohne Verzerrung, Raum halten ohne Urteil.",
+      "back": "Präsent sein heißt zum Spiegel werden: reflektieren ohne Verzerrung, Raum halten ohne Urteil.",
       "tags": [
         "präsenz"
       ]
@@ -53,7 +53,7 @@
       "id": "intro",
       "type": "theory",
       "title": "Die Tyrannei des Anderswo",
-      "body": "# Präsenz\n\nDas Buch nennt Präsenz die **seltenste Währung**: man kann sie nicht horten, nicht aufschieben, nicht zurückfordern. Entscheidend ist die Abgrenzung: **Aufmerksamkeit ist worauf du schaust, Präsenz ist ob du wirklich da bist**. Das Gegenteil von Präsenz ist nicht Ablenkung, sondern die **Abwesenheit von dir selbst**. Präsenz ist keine Zeitverschwendung, sondern eine **Ehrung der Zeit**."
+      "body": "# Präsenz\n\nPräsenz ist die **seltenste Währung**: man kann sie nicht horten, nicht aufschieben, nicht zurückfordern. Entscheidend ist die Abgrenzung: **Aufmerksamkeit ist worauf du schaust, Präsenz ist ob du wirklich da bist**. Das Gegenteil von Präsenz ist nicht Ablenkung, sondern die **Abwesenheit von dir selbst**. Präsenz ist keine Zeitverschwendung, sondern eine **Ehrung der Zeit**."
     },
     {
       "id": "s-seltenste",
@@ -62,7 +62,7 @@
         "id": "e-seltenste",
         "type": "cloze",
         "cloze_mode": "select",
-        "prompt": "Wie bezeichnet das Buch Präsenz unter den Währungen?",
+        "prompt": "Als was gilt Präsenz unter den Währungen?",
         "sentence": "Präsenz ist die ___ Währung im modernen Leben.",
         "blanks": [
           {
@@ -107,7 +107,7 @@
       "exercise": {
         "id": "e-ehrung",
         "type": "free_text",
-        "prompt": "Als was bezeichnet das Buch Präsenz statt als Zeitverschwendung? (ein Wort)",
+        "prompt": "Als was gilt Präsenz statt als Zeitverschwendung? (ein Wort)",
         "accept": [
           "Ehrung",
           "ehrung",
@@ -129,8 +129,8 @@
         "id": "e-abgrenzung",
         "type": "cloze",
         "cloze_mode": "multiselect",
-        "prompt": "Welche Aussagen zur Abgrenzung von Aufmerksamkeit und Präsenz macht das Buch?",
-        "sentence": "Wähle die zutreffenden Aussagen aus dem Buch.",
+        "prompt": "Welche Aussagen zur Abgrenzung von Aufmerksamkeit und Präsenz treffen zu?",
+        "sentence": "Wähle die zutreffenden Aussagen.",
         "accept": [
           "Aufmerksamkeit ist worauf du schaust",
           "Präsenz ist ob du da bist",

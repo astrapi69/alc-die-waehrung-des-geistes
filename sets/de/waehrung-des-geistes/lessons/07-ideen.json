@@ -1,7 +1,7 @@
 {
   "id": "07-ideen",
   "title": "Ideen: Die Währung, die sich beim Teilen vermehrt",
-  "description": "Faktische Aufgaben zu Kapitel 6: Ideen als Samen und Einladungen, intellektuelle Großzügigkeit.",
+  "description": "Ideen als Samen und Einladungen, und intellektuelle Großzügigkeit.",
   "target_language": "de",
   "source_language": "de",
   "domain": "philosophy",
@@ -34,7 +34,7 @@
     {
       "id": "großzügigkeit",
       "front": "Intellektuelle Großzügigkeit",
-      "back": "Eine Idee teilen heisst, den unfertigen Gedanken anzuvertrauen; nicht prahlen, sondern sich öffnen.",
+      "back": "Eine Idee teilen heißt, den unfertigen Gedanken anzuvertrauen; nicht prahlen, sondern sich öffnen.",
       "tags": [
         "ideen"
       ]
@@ -53,7 +53,7 @@
       "id": "intro",
       "type": "theory",
       "title": "Ideen sind Samen, keine Statuen",
-      "body": "# Ideen\n\nDas Buch beschreibt Ideen als **Samen, keine Statuen**: je mehr man sie versteckt, desto mehr verkümmern sie, je mehr man sie teilt, desto mehr wachsen sie. Ideen sind keine Schätze, sondern **Einladungen**. Eine Idee zu teilen ist **intellektuelle Großzügigkeit**: nicht prahlen, sondern sich öffnen. Ideen sind der einzige Reichtum, der wächst, sobald man ihn loslässt."
+      "body": "# Ideen\n\nIdeen sind **Samen, keine Statuen**: je mehr man sie versteckt, desto mehr verkümmern sie, je mehr man sie teilt, desto mehr wachsen sie. Ideen sind keine Schätze, sondern **Einladungen**. Eine Idee zu teilen ist **intellektuelle Großzügigkeit**: nicht prahlen, sondern sich öffnen. Ideen sind der einzige Reichtum, der wächst, sobald man ihn loslässt."
     },
     {
       "id": "s-samen-statue",
@@ -62,7 +62,7 @@
         "id": "e-samen-statue",
         "type": "cloze",
         "cloze_mode": "select",
-        "prompt": "Womit vergleicht das Buch Ideen im Gegensatz zu Statuen?",
+        "prompt": "Womit lassen sich Ideen im Gegensatz zu Statuen vergleichen?",
         "sentence": "Ideen sind ___, keine Statuen: Statuen wachsen nicht, diese schon.",
         "blanks": [
           {
@@ -107,7 +107,7 @@
       "exercise": {
         "id": "e-einladungen",
         "type": "free_text",
-        "prompt": "Als was bezeichnet das Buch Ideen statt als Schätze? (ein Wort)",
+        "prompt": "Als was gelten Ideen statt als Schätze? (ein Wort)",
         "accept": [
           "Einladungen",
           "einladungen",
@@ -129,8 +129,8 @@
         "id": "e-horten",
         "type": "cloze",
         "cloze_mode": "multiselect",
-        "prompt": "Aus welchen Gründen horten wir laut Buch Ideen?",
-        "sentence": "Wähle die im Buch genannten Gründe.",
+        "prompt": "Aus welchen Gründen horten wir Ideen?",
+        "sentence": "Wähle die zutreffenden Gründe.",
         "accept": [
           "Furcht, belächelt zu werden",
           "Furcht, falsch zu liegen",

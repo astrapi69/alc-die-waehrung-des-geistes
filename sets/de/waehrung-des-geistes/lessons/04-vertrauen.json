@@ -1,7 +1,7 @@
 {
   "id": "04-vertrauen",
   "title": "Vertrauen: Die Ökonomie des Glaubens",
-  "description": "Faktische Aufgaben zu Kapitel 4: Vertrauen als Urwährung, freiwillige Verletzlichkeit, Mikrotransaktionen.",
+  "description": "Vertrauen als Urwährung, freiwillige Verletzlichkeit und die Mikrotransaktionen des Vertrauens.",
   "target_language": "de",
   "source_language": "de",
   "domain": "philosophy",
@@ -18,7 +18,7 @@
     {
       "id": "schwerkraft",
       "front": "Schwerkraft der Verbindung",
-      "back": "Das Buch nennt Vertrauen die Schwerkraft menschlicher Verbindung.",
+      "back": "Vertrauen ist die Schwerkraft menschlicher Verbindung.",
       "tags": [
         "vertrauen"
       ]
@@ -53,7 +53,7 @@
       "id": "intro",
       "type": "theory",
       "title": "Vertrauen ist die Urwährung",
-      "body": "# Vertrauen\n\nDas Buch beschreibt Vertrauen als **Urwährung**: lange vor Geld handelten Menschen mit Glauben. Vertrauen ist die **Schwerkraft menschlicher Verbindung**. Es ist **freiwillige Verletzlichkeit**, nicht Kontrolle, und **Risiko, nicht Naivität**. Vertrauen wächst in kleinen, wiederholten Momenten der Wahrheit, nicht in Systemen wie Bewertungen oder Häkchen."
+      "body": "# Vertrauen\n\nVertrauen ist eine **Urwährung**: lange vor Geld handelten Menschen mit Glauben. Vertrauen ist die **Schwerkraft menschlicher Verbindung**. Es ist **freiwillige Verletzlichkeit**, nicht Kontrolle, und **Risiko, nicht Naivität**. Vertrauen wächst in kleinen, wiederholten Momenten der Wahrheit, nicht in Systemen wie Bewertungen oder Häkchen."
     },
     {
       "id": "s-urwährung",
@@ -62,8 +62,8 @@
         "id": "e-urwährung",
         "type": "cloze",
         "cloze_mode": "select",
-        "prompt": "Wie beschreibt das Buch Vertrauen im Verhältnis zum Geld?",
-        "sentence": "Laut Buch gab es Vertrauen schon ___ dem Geld.",
+        "prompt": "Wie steht Vertrauen im Verhältnis zum Geld?",
+        "sentence": "Vertrauen gab es schon ___ dem Geld.",
         "blanks": [
           {
             "accept": [
@@ -88,7 +88,7 @@
         "type": "cloze",
         "cloze_mode": "type",
         "prompt": "Vervollständige das zentrale Bild für Vertrauen.",
-        "sentence": "Das Buch nennt Vertrauen die ___ menschlicher Verbindung.",
+        "sentence": "Vertrauen gilt als die ___ menschlicher Verbindung.",
         "blanks": [
           {
             "accept": [
@@ -107,7 +107,7 @@
       "exercise": {
         "id": "e-verletzlichkeit",
         "type": "free_text",
-        "prompt": "Vertrauen ist laut Buch keine Kontrolle, sondern freiwillige ___? (ein Wort)",
+        "prompt": "Vertrauen ist keine Kontrolle, sondern freiwillige ___? (ein Wort)",
         "accept": [
           "Verletzlichkeit",
           "verletzlichkeit"
@@ -128,8 +128,8 @@
         "id": "e-mikro",
         "type": "cloze",
         "cloze_mode": "multiselect",
-        "prompt": "Welche nennt das Buch als Momente, in denen Vertrauen wächst?",
-        "sentence": "Wähle die Mikrotransaktionen des Vertrauens aus dem Buch.",
+        "prompt": "Welche Momente lassen Vertrauen wachsen?",
+        "sentence": "Wähle die Mikrotransaktionen des Vertrauens.",
         "accept": [
           "Da sein, wenn es unbequem ist",
           "Die Wahrheit sagen, wenn es schwerfällt",
@@ -147,7 +147,7 @@
       "exercise": {
         "id": "e-bilder",
         "type": "matching",
-        "prompt": "Ordne jedem Begriff die Aussage des Buchs zu.",
+        "prompt": "Ordne jedem Begriff die passende Aussage zu.",
         "pairs": [
           {
             "left": "Vertrauen",
