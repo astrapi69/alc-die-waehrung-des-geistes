@@ -1,7 +1,7 @@
 {
   "id": "11-integration",
   "title": "Integration: Die innere Ökonomie ins Gleichgewicht bringen",
-  "description": "Faktische Aufgaben zu Kapitel 21: die Währungen im Zusammenspiel, Ausgewogenheit statt Maximierung, Integration als Rhythmus.",
+  "description": "Die Währungen im Zusammenspiel, Ausgewogenheit statt Maximierung, Integration als Rhythmus.",
   "target_language": "de",
   "source_language": "de",
   "domain": "philosophy",
@@ -53,7 +53,7 @@
       "id": "intro",
       "type": "theory",
       "title": "Der unsichtbare Reichtum der Balance",
-      "body": "# Integration\n\nDas Buch fasst zusammen: Jede geistige Währung ist für sich kraftvoll, doch ihre wahre Wirkung entfaltet sich im **Zusammenspiel**. Nicht isoliertes Verstehen führt zur Fülle, sondern die **Integration** aller Anteile.\n\nKooperieren die inneren Kräfte, entsteht Sinn; arbeiten sie gegeneinander, entsteht Reibung. Ziel ist nicht Maximierung, sondern **Ausgewogenheit im Dienste eines bewussten Lebens**. Integration ist kein statischer Zustand, sondern ein **Rhythmus**: Fluss, nicht Fixierung."
+      "body": "# Integration\n\nJede geistige Währung ist für sich kraftvoll, doch ihre wahre Wirkung entfaltet sich im **Zusammenspiel**. Nicht isoliertes Verstehen führt zur Fülle, sondern die **Integration** aller Anteile.\n\nKooperieren die inneren Kräfte, entsteht Sinn; arbeiten sie gegeneinander, entsteht Reibung. Ziel ist nicht Maximierung, sondern **Ausgewogenheit im Dienste eines bewussten Lebens**. Integration ist kein statischer Zustand, sondern ein **Rhythmus**: Fluss, nicht Fixierung."
     },
     {
       "id": "s-zusammenspiel",
@@ -62,7 +62,7 @@
         "id": "e-zusammenspiel",
         "type": "cloze",
         "cloze_mode": "select",
-        "prompt": "Wodurch entfaltet sich laut Buch die wahre Wirkung der Währungen?",
+        "prompt": "Wodurch entfaltet sich die wahre Wirkung der Währungen?",
         "sentence": "Die wahre Wirkung entfaltet sich nicht isoliert, sondern im ___.",
         "blanks": [
           {
@@ -107,7 +107,7 @@
       "exercise": {
         "id": "e-rhythmus",
         "type": "free_text",
-        "prompt": "Als was beschreibt das Buch Integration (kein statischer Zustand, sondern)? (ein Wort)",
+        "prompt": "Als was gilt Integration (kein statischer Zustand, sondern)? (ein Wort)",
         "accept": [
           "Rhythmus",
           "rhythmus",
@@ -129,8 +129,8 @@
         "id": "e-marktplatz",
         "type": "cloze",
         "cloze_mode": "multiselect",
-        "prompt": "Welche Zuordnungen macht das Buch im Marktplatz des Geistes?",
-        "sentence": "Wähle die im Buch genannten Zuordnungen.",
+        "prompt": "Welche Zuordnungen gelten im Marktplatz des Geistes?",
+        "sentence": "Wähle die zutreffenden Zuordnungen.",
         "accept": [
           "Aufmerksamkeit ist das Gold",
           "Vertrauen ist die Kreditlinie",

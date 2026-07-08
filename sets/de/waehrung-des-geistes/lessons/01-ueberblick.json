@@ -1,7 +1,7 @@
 {
   "id": "01-ueberblick",
   "title": "Überblick: Die sechs Währungen des Geistes",
-  "description": "Die sechs Währungen des Geistes und die zentrale These des Buchs (Kapitel 1).",
+  "description": "Die sechs Währungen des Geistes und die zentrale These.",
   "target_language": "de",
   "source_language": "de",
   "domain": "philosophy",
@@ -61,7 +61,7 @@
       "id": "intro",
       "type": "theory",
       "title": "Die sechs Währungen",
-      "body": "# Die Währungen des Geistes\n\nDas Buch beschreibt eine innere Ökonomie, gespeist nicht von Geld, sondern von sechs **Währungen des Geistes**: Aufmerksamkeit, Zeit, Vertrauen, Empathie, Präsenz und Ideen. Man kann sie investieren, verschwenden oder stehlen. Drei davon (Aufmerksamkeit, bewusste Entscheidungen, bewusste Zeit) sind laut Buch nicht teilbar und nicht übertragbar."
+      "body": "# Die Währungen des Geistes\n\nEs gibt eine innere Ökonomie, gespeist nicht von Geld, sondern von sechs **Währungen des Geistes**: Aufmerksamkeit, Zeit, Vertrauen, Empathie, Präsenz und Ideen. Man kann sie investieren, verschwenden oder stehlen. Drei davon (Aufmerksamkeit, bewusste Entscheidungen, bewusste Zeit) sind nicht teilbar und nicht übertragbar."
     },
     {
       "id": "s-drei-faktoren",
@@ -70,8 +70,8 @@
         "id": "e-drei-faktoren",
         "type": "cloze",
         "cloze_mode": "multiselect",
-        "prompt": "Welche Werte nennt das Buch als nicht teilbar und nicht übertragbar?",
-        "sentence": "Wähle alle zu, die das Buch als ausschliesslich dein Eigentum beschreibt.",
+        "prompt": "Welche Werte gelten als nicht teilbar und nicht übertragbar?",
+        "sentence": "Wähle alle zu, die ausschließlich dein Eigentum sind.",
         "accept": [
           "Deine Aufmerksamkeit",
           "Deine Entscheidungen",
@@ -90,7 +90,7 @@
         "id": "e-nicht-geld",
         "type": "cloze",
         "cloze_mode": "select",
-        "prompt": "Wodurch wird die innere Ökonomie laut Buch gespeist?",
+        "prompt": "Wodurch wird die innere Ökonomie gespeist?",
         "sentence": "Die innere Ökonomie wird nicht von Geld, sondern von den ___ des Geistes gespeist.",
         "blanks": [
           {
@@ -116,7 +116,7 @@
         "type": "cloze",
         "cloze_mode": "type",
         "prompt": "Vervollständige das Bild für Aufmerksamkeit.",
-        "sentence": "Das Buch nennt die Aufmerksamkeit das ___ der Seele.",
+        "sentence": "Aufmerksamkeit gilt als das ___ der Seele.",
         "blanks": [
           {
             "accept": [
@@ -135,7 +135,7 @@
       "exercise": {
         "id": "e-teilen",
         "type": "free_text",
-        "prompt": "Wodurch vermehrt sich laut Buch die Währung der Ideen? (ein Wort)",
+        "prompt": "Wodurch vermehrt sich die Währung der Ideen? (ein Wort)",
         "accept": [
           "Teilen",
           "teilen",
@@ -156,7 +156,7 @@
       "exercise": {
         "id": "e-bilder",
         "type": "matching",
-        "prompt": "Ordne jede Währung dem Bild des Buchs zu.",
+        "prompt": "Ordne jede Währung ihrem Bild zu.",
         "pairs": [
           {
             "left": "Aufmerksamkeit",

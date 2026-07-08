@@ -1,7 +1,7 @@
 {
   "id": "08-frieden-stille",
   "title": "Innerer Frieden und Stille",
-  "description": "Faktische Aufgaben zu Kapitel 12 und 13: innerer Frieden als stabile Münze, Stille als Klarheit ohne Lärm.",
+  "description": "Innerer Frieden als stabile Münze, Stille als Klarheit ohne Lärm.",
   "target_language": "de",
   "source_language": "de",
   "domain": "philosophy",
@@ -53,7 +53,7 @@
       "id": "intro",
       "type": "theory",
       "title": "Frieden und Stille",
-      "body": "# Innerer Frieden und Stille\n\nDas Buch nennt inneren Frieden die **stabile Münze der Seele**: er bricht unter Druck nicht zusammen. Frieden ist nicht, was am Ende der Aufgabenliste wartet, sondern das, was man **trotzdem** wählt.\n\n**Stille** ist keine Leere, sondern **Klarheit, unerschüttert vom Lärm**. Wir fürchten sie, weil sie uns mit dem Verdrängten konfrontiert, und füllen sie mit Tabs und Listen, weil wir Bewegung mit Bedeutung verwechseln."
+      "body": "# Innerer Frieden und Stille\n\nInnerer Frieden ist die **stabile Münze der Seele**: er bricht unter Druck nicht zusammen. Frieden ist nicht, was am Ende der Aufgabenliste wartet, sondern das, was man **trotzdem** wählt.\n\n**Stille** ist keine Leere, sondern **Klarheit, unerschüttert vom Lärm**. Wir fürchten sie, weil sie uns mit dem Verdrängten konfrontiert, und füllen sie mit Tabs und Listen, weil wir Bewegung mit Bedeutung verwechseln."
     },
     {
       "id": "s-stabile",
@@ -62,7 +62,7 @@
         "id": "e-stabile",
         "type": "cloze",
         "cloze_mode": "select",
-        "prompt": "Als was bezeichnet das Buch inneren Frieden?",
+        "prompt": "Als was gilt innerer Frieden?",
         "sentence": "Innerer Frieden ist die ___ Münze der Seele.",
         "blanks": [
           {
@@ -107,7 +107,7 @@
       "exercise": {
         "id": "e-stille",
         "type": "free_text",
-        "prompt": "Als was bezeichnet das Buch Stille (nicht als Leere)? (ein Wort)",
+        "prompt": "Als was gilt Stille (nicht als Leere)? (ein Wort)",
         "accept": [
           "Klarheit",
           "klarheit"
@@ -128,8 +128,8 @@
         "id": "e-stille-fuerchten",
         "type": "cloze",
         "cloze_mode": "multiselect",
-        "prompt": "Womit konfrontiert uns Stille laut Buch?",
-        "sentence": "Wähle die im Buch genannten Aspekte.",
+        "prompt": "Womit konfrontiert uns Stille?",
+        "sentence": "Wähle die zutreffenden Aspekte.",
         "accept": [
           "Mit dem, was du verdrängst",
           "Mit Fragen ohne Antworten"

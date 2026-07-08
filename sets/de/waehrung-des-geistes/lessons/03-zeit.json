@@ -1,7 +1,7 @@
 {
   "id": "03-zeit",
   "title": "Zeit: Die nicht erstattungsfähige Münze",
-  "description": "Faktische Aufgaben zu Kapitel 3: Zeit als nicht besitzbare Münze, Sinnkrise statt Zeitkrise, Qualität statt Quantität.",
+  "description": "Zeit als nicht besitzbare Münze, Sinnkrise statt Zeitkrise, Qualität statt Quantität.",
   "target_language": "de",
   "source_language": "de",
   "domain": "philosophy",
@@ -53,7 +53,7 @@
       "id": "intro",
       "type": "theory",
       "title": "Die Illusion, Zeit zu haben",
-      "body": "# Zeit\n\nDas Buch nennt Zeit die **nicht erstattungsfähige Münze**. Sie gehört dir nicht, du kannst nur entscheiden, wie du in ihr lebst. Die moderne Zeitarmut ist keine Zeitkrise, sondern eine **Sinnkrise**: Zeit ohne Sinn fühlt sich wie Verschwendung an. Zeit vermehrt sich in **Qualität**, nicht in Quantität. Das Ziel ist nicht, Zeit zu maximieren, sondern sie zu **ehren**."
+      "body": "# Zeit\n\nZeit ist die **nicht erstattungsfähige Münze**. Sie gehört dir nicht, du kannst nur entscheiden, wie du in ihr lebst. Die moderne Zeitarmut ist keine Zeitkrise, sondern eine **Sinnkrise**: Zeit ohne Sinn fühlt sich wie Verschwendung an. Zeit vermehrt sich in **Qualität**, nicht in Quantität. Das Ziel ist nicht, Zeit zu maximieren, sondern sie zu **ehren**."
     },
     {
       "id": "s-kontrolle",
@@ -63,7 +63,7 @@
         "type": "cloze",
         "cloze_mode": "type",
         "prompt": "Vervollständige die zentrale Aussage über Zeit.",
-        "sentence": "Laut Buch gehört dir die Zeit nicht; du kannst nur entscheiden, wie du in ihr ___.",
+        "sentence": "Die Zeit gehört dir nicht; du kannst nur entscheiden, wie du in ihr ___.",
         "blanks": [
           {
             "accept": [
@@ -83,7 +83,7 @@
         "id": "e-sinnkrise",
         "type": "cloze",
         "cloze_mode": "select",
-        "prompt": "Als was bezeichnet das Buch die moderne Zeitarmut?",
+        "prompt": "Als was gilt die moderne Zeitarmut?",
         "sentence": "Die moderne Zeitarmut ist keine Zeitkrise, sondern eine ___.",
         "blanks": [
           {
@@ -107,7 +107,7 @@
       "exercise": {
         "id": "e-ehren",
         "type": "free_text",
-        "prompt": "Was ist laut Buch das Ziel im Umgang mit Zeit (nicht maximieren, sondern)? (ein Wort)",
+        "prompt": "Was ist das Ziel im Umgang mit Zeit (nicht maximieren, sondern)? (ein Wort)",
         "accept": [
           "ehren",
           "Ehren",
@@ -129,8 +129,8 @@
         "id": "e-qualität",
         "type": "cloze",
         "cloze_mode": "multiselect",
-        "prompt": "Welche Beispiele nennt das Buch für den Zinseszinseffekt der Zeit (Qualität)?",
-        "sentence": "Wähle die im Buch genannten Beispiele.",
+        "prompt": "Welche Beispiele gibt es für den Zinseszinseffekt der Zeit (Qualität)?",
+        "sentence": "Wähle die zutreffenden Beispiele.",
         "accept": [
           "Eine achtsame Stunde mit einem Freund",
           "Zehn konzentrierte Minuten Schreiben",

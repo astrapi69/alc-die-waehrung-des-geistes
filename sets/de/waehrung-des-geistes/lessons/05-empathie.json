@@ -1,7 +1,7 @@
 {
   "id": "05-empathie",
   "title": "Empathie: Die gemeinsame Geldbörse",
-  "description": "Faktische Aufgaben zu Kapitel 5: Empathie als dosierte Großzügigkeit und ihre Schattenseiten.",
+  "description": "Empathie als dosierte Großzügigkeit, und ihre Schattenseiten.",
   "target_language": "de",
   "source_language": "de",
   "domain": "philosophy",
@@ -26,7 +26,7 @@
     {
       "id": "verstrickung",
       "front": "Empathische Verstrickung",
-      "back": "Wenn man nicht mehr weiss, wessen Gefühle man fühlt.",
+      "back": "Wenn man nicht mehr weiß, wessen Gefühle man fühlt.",
       "tags": [
         "empathie"
       ]
@@ -53,7 +53,7 @@
       "id": "intro",
       "type": "theory",
       "title": "Der Preis des Mitfühlens",
-      "body": "# Empathie\n\nEmpathie ist laut Buch nicht Mitleid, sondern **Mitfühlen**. Sie ist eine Transaktion mit beiderseitigem Gewinn, solange das Konto nicht überzogen wird - **dosierte Großzügigkeit**, kein Märtyrertum. Grenzen setzen ist keine Schwäche, sondern Weisheit. Das Buch nennt vier Schattenseiten: empathische Verstrickung, Empathie als Vermeidung, selektive Empathie, Empathie-Müdigkeit."
+      "body": "# Empathie\n\nEmpathie ist nicht Mitleid, sondern **Mitfühlen**. Sie ist eine Transaktion mit beiderseitigem Gewinn, solange das Konto nicht überzogen wird - **dosierte Großzügigkeit**, kein Märtyrertum. Grenzen setzen ist keine Schwäche, sondern Weisheit. Es gibt vier Schattenseiten: empathische Verstrickung, Empathie als Vermeidung, selektive Empathie, Empathie-Müdigkeit."
     },
     {
       "id": "s-mitleid",
@@ -62,7 +62,7 @@
         "id": "e-mitleid",
         "type": "cloze",
         "cloze_mode": "select",
-        "prompt": "Wie grenzt das Buch Empathie vom Mitleid ab?",
+        "prompt": "Wie grenzt sich Empathie vom Mitleid ab?",
         "sentence": "Empathie ist nicht 'Du tust mir leid', sondern 'Ich ___ mit dir'.",
         "blanks": [
           {
@@ -107,7 +107,7 @@
       "exercise": {
         "id": "e-resonanz",
         "type": "free_text",
-        "prompt": "Was spiegelt laut Buch bei Empathie den Zustand des anderen? (ein Wort)",
+        "prompt": "Was spiegelt bei Empathie den Zustand des anderen? (ein Wort)",
         "accept": [
           "Gehirn",
           "das Gehirn",
@@ -129,8 +129,8 @@
         "id": "e-schatten",
         "type": "cloze",
         "cloze_mode": "multiselect",
-        "prompt": "Welche Schattenseiten der Empathie nennt das Buch?",
-        "sentence": "Wähle die im Buch genannten Schattenseiten der Empathie.",
+        "prompt": "Welche Schattenseiten hat Empathie?",
+        "sentence": "Wähle die zutreffenden Schattenseiten der Empathie.",
         "accept": [
           "Empathische Verstrickung",
           "Selektive Empathie",
