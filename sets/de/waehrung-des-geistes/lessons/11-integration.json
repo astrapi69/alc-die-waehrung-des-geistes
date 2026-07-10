@@ -134,7 +134,7 @@
         "accept": [
           "Aufmerksamkeit ist das Gold",
           "Vertrauen ist die Kreditlinie",
-          "Empathie ist die gemeinsame Brieftasche"
+          "Empathie ist die gemeinsame Geldbörse"
         ],
         "distractors": [
           "Zeit ist wertlos",
@@ -159,8 +159,8 @@
             "right": "Ausgewogenheit, nicht Maximierung"
           },
           {
-            "left": "Integration",
-            "right": "Rhythmus, nicht Fixierung"
+            "left": "Integration als Rhythmus",
+            "right": "Fluss, nicht Fixierung"
           }
         ],
         "card_ids": [
