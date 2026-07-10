@@ -16,7 +16,7 @@ real content: you replace the example with your own.
 - `manifest.yaml` — the root manifest listing your sets (one example set to start).
 - `sets/en/es-a1/` — one minimal, valid example lesson + its set manifest.
 - `schema/` — the pinned [`learn-content-engine`](https://github.com/astrapi69/learn-content-engine)
-  schema mirror + `engine-version.txt` (currently `0.4.0`). This is what
+  schema mirror + `engine-version.txt` (currently `0.6.0`). This is what
   your content is validated against — independent of the app.
 - `templates/` — starting-point lessons per domain (language / programming / knowledge).
 - `scripts/validate_content.py` — the local validator.
