@@ -1,0 +1,29 @@
+{
+  "repo": "git@github.com:astrapi69/alc-die-waehrung-des-geistes",
+  "generated": "2026-07-10T12:42:58Z",
+  "schema_version": "1.0",
+  "sets": [
+    {
+      "id": "waehrung-des-geistes",
+      "name": "Die Währung des Geistes",
+      "description": "",
+      "source_language": "de",
+      "target_language": "de",
+      "level": "reflexion",
+      "domain": "philosophy",
+      "lesson_count": 11,
+      "card_count": 56,
+      "tags": [
+        "philosophie",
+        "aufmerksamkeit",
+        "achtsamkeit"
+      ],
+      "ai_validated": false,
+      "trust_level": 1,
+      "book": null,
+      "updated_at": "2026-07-10T12:13:02Z"
+    }
+  ],
+  "total_lessons": 11,
+  "total_cards": 56
+}
