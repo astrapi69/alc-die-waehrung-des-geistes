@@ -61,7 +61,7 @@
       "id": "intro",
       "type": "theory",
       "title": "Die sechs Währungen",
-      "body": "# Die Währungen des Geistes\n\nEs gibt eine innere Ökonomie, gespeist nicht von Geld, sondern von sechs **Währungen des Geistes**: Aufmerksamkeit, Zeit, Vertrauen, Empathie, Präsenz und Ideen. Man kann sie investieren, verschwenden oder stehlen. Drei davon (Aufmerksamkeit, bewusste Entscheidungen, bewusste Zeit) sind nicht teilbar und nicht übertragbar."
+      "body": "# Die Währungen des Geistes\n\nEs gibt eine innere Ökonomie, gespeist nicht von Geld, sondern von sechs **Währungen des Geistes**: Aufmerksamkeit, Zeit, Vertrauen, Empathie, Präsenz und Ideen. Man kann sie investieren, verschwenden oder stehlen. Was ausschließlich dir gehört - deine **Aufmerksamkeit**, deine **Entscheidungen** und deine **bewusste Zeit** - ist weder teilbar noch übertragbar."
     },
     {
       "id": "s-drei-faktoren",
@@ -71,7 +71,7 @@
         "type": "cloze",
         "cloze_mode": "multiselect",
         "prompt": "Welche Werte gelten als nicht teilbar und nicht übertragbar?",
-        "sentence": "Wähle alle zu, die ausschließlich dein Eigentum sind.",
+        "sentence": "Wähle alle aus, die ausschließlich dein Eigentum sind.",
         "accept": [
           "Deine Aufmerksamkeit",
           "Deine Entscheidungen",

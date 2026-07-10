@@ -1,7 +1,7 @@
 {
   "id": "05-empathie",
   "title": "Empathie: Die gemeinsame Geldbörse",
-  "description": "Empathie als dosierte Großzügigkeit, und ihre Schattenseiten.",
+  "description": "Empathie als Wahrnehmung, Mitgefühl als begrenzte Ressource, und ihre Schattenseiten.",
   "target_language": "de",
   "source_language": "de",
   "domain": "philosophy",
@@ -9,8 +9,8 @@
   "cards": [
     {
       "id": "mitleid",
-      "front": "Empathie vs. Mitleid",
-      "back": "Empathie ist nicht Mitleid ('Du tust mir leid'), sondern 'Ich fühle mit dir'.",
+      "front": "Empathie, Mitgefühl, Mitleid",
+      "back": "Empathie: 'Ich nehme wahr, was du fühlst.' Mitgefühl: 'Ich fühle mit dir und will helfen.' Mitleid: 'Du tust mir leid.'",
       "tags": [
         "empathie"
       ]
@@ -18,7 +18,7 @@
     {
       "id": "dosiert",
       "front": "Dosierte Großzügigkeit",
-      "back": "Empathie ist kein Märtyrertum, sondern dosierte Großzügigkeit; Grenzen setzen ist Weisheit.",
+      "back": "Nicht Empathie, sondern Mitgefühl ist die begrenzte Ressource: kein Märtyrertum, sondern dosierte Großzügigkeit; Grenzen setzen ist Weisheit.",
       "tags": [
         "empathie"
       ]
@@ -34,7 +34,7 @@
     {
       "id": "dispo",
       "front": "Emotionaler Dispo",
-      "back": "Ohne Grenzen wird Empathie zum Burnout; man leert die emotionale Geldbörse.",
+      "back": "Ohne Grenzen wird Mitgefühl zum Burnout; man leert die emotionale Geldbörse (Compassion Fatigue).",
       "tags": [
         "empathie"
       ]
@@ -53,7 +53,7 @@
       "id": "intro",
       "type": "theory",
       "title": "Der Preis des Mitfühlens",
-      "body": "# Empathie\n\nEmpathie ist nicht Mitleid, sondern **Mitfühlen**. Sie ist eine Transaktion mit beiderseitigem Gewinn, solange das Konto nicht überzogen wird - **dosierte Großzügigkeit**, kein Märtyrertum. Grenzen setzen ist keine Schwäche, sondern Weisheit. Es gibt vier Schattenseiten: empathische Verstrickung, Empathie als Vermeidung, selektive Empathie, Empathie-Müdigkeit."
+      "body": "# Empathie\n\nEmpathie ist zuerst **Wahrnehmung**: Ich erfasse, was ein anderer fühlt, noch keine Handlung. Man kann empathisch sein, ohne zu geben (der Manipulator liest Gefühle genau und nutzt sie), und großzügig handeln ohne echte Empathie (aus Prinzip oder Pflicht). Zur Großzügigkeit wird Empathie erst als **Mitgefühl** (Mitfühlen plus Fürsorgeimpuls); und *dieses* Mitgefühl ist die begrenzte Ressource - **dosierte Großzügigkeit**, kein Märtyrertum. Grenzen setzen ist keine Schwäche, sondern Weisheit. Es gibt vier Schattenseiten: empathische Verstrickung, Empathie als Vermeidung, selektive Empathie, Empathie-Müdigkeit."
     },
     {
       "id": "s-mitleid",
@@ -87,8 +87,8 @@
         "id": "e-dosiert",
         "type": "cloze",
         "cloze_mode": "type",
-        "prompt": "Vervollständige die Kernaussage zur Empathie.",
-        "sentence": "Empathie ist kein Märtyrertum, sondern dosierte ___.",
+        "prompt": "Vervollständige die Kernaussage zum Mitgefühl.",
+        "sentence": "Mitgefühl ist kein Märtyrertum, sondern dosierte ___.",
         "blanks": [
           {
             "accept": [
@@ -151,7 +151,7 @@
         "prompt": "Ordne jeder Aussage den Begriff zu.",
         "pairs": [
           {
-            "left": "Empathie",
+            "left": "Mitgefühl",
             "right": "dosierte Großzügigkeit"
           },
           {

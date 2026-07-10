@@ -42,7 +42,7 @@
     {
       "id": "wachsen",
       "front": "Reichtum der Ideen",
-      "back": "Ideen sind der einzige Reichtum, der wächst, sobald man ihn loslässt.",
+      "back": "Ideen sind ein seltener Reichtum, der wächst, sobald man ihn loslässt.",
       "tags": [
         "ideen"
       ]
@@ -53,7 +53,7 @@
       "id": "intro",
       "type": "theory",
       "title": "Ideen sind Samen, keine Statuen",
-      "body": "# Ideen\n\nIdeen sind **Samen, keine Statuen**: je mehr man sie versteckt, desto mehr verkümmern sie, je mehr man sie teilt, desto mehr wachsen sie. Ideen sind keine Schätze, sondern **Einladungen**. Eine Idee zu teilen ist **intellektuelle Großzügigkeit**: nicht prahlen, sondern sich öffnen. Ideen sind der einzige Reichtum, der wächst, sobald man ihn loslässt."
+      "body": "# Ideen\n\nIdeen sind **Samen, keine Statuen**: je mehr man sie versteckt, desto mehr verkümmern sie, je mehr man sie teilt, desto mehr wachsen sie. Ideen sind keine Schätze, sondern **Einladungen**. Eine Idee zu teilen ist **intellektuelle Großzügigkeit**: nicht prahlen, sondern sich öffnen. Ideen sind ein seltener Reichtum, der wächst, sobald man ihn loslässt."
     },
     {
       "id": "s-samen-statue",
@@ -88,7 +88,7 @@
         "type": "cloze",
         "cloze_mode": "type",
         "prompt": "Vervollständige den Kernsatz über Ideen.",
-        "sentence": "Ideen sind der einzige Reichtum, der wächst, sobald man ihn ___.",
+        "sentence": "Ideen sind ein seltener Reichtum, der wächst, sobald man ihn ___.",
         "blanks": [
           {
             "accept": [
