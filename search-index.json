@@ -1,6 +1,6 @@
 {
   "repo": "astrapi69/alc-die-waehrung-des-geistes",
-  "generated": "2026-07-10T17:42:54Z",
+  "generated": "2026-07-10T18:04:23Z",
   "schema_version": "1.0",
   "sets": [
     {
@@ -21,7 +21,7 @@
       "ai_validated": false,
       "trust_level": 1,
       "book": null,
-      "updated_at": "2026-07-10T19:42:44+02:00"
+      "updated_at": "2026-07-10T20:04:13+02:00"
     }
   ],
   "total_lessons": 11,
