@@ -44,7 +44,7 @@ matching) and links the book (E-Book and Taschenbuch) as its resource.
 - `sets/de/waehrung-des-geistes/` - the set manifest plus the 11 lesson JSONs.
 - `schema/` - the pinned [`learn-content-engine`](https://github.com/astrapi69/learn-content-engine)
   schema mirror; [`engine-version.txt`](schema/engine-version.txt) holds the
-  pinned engine version (currently `0.8.2`) and is the source of truth. This
+  pinned engine version (currently `0.9.0`) and is the source of truth. This
   is what the content is validated against - independent of the app.
 - `templates/` - starting-point lessons per domain (language / programming /
   knowledge), kept from the template for authoring new lessons.
