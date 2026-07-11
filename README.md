@@ -44,6 +44,36 @@ python3 scripts/validate_content.py        # exit 0 == all sets pass
 
 Full walkthrough: [docs/GETTING-STARTED.md](docs/GETTING-STARTED.md).
 
+## Export a set for AI review
+
+`scripts/export_set.py` writes all lessons of ONE set into a single
+YAML (or JSON) file so an AI assistant or a human can review the whole
+set in one pass (syntax, correctness, consistency across lessons):
+
+```bash
+python3 scripts/export_set.py waehrung-des-geistes
+# -> exports/waehrung-des-geistes-de-<timestamp>.yaml
+python3 scripts/export_set.py waehrung-des-geistes --format json --out /tmp/review.json
+```
+
+The slug is the set id from the root `manifest.yaml` or the folder name
+of the set path (both `waehrung-des-geistes` here); when the same
+folder name exists under several source-language directories, `--lang`
+(default `de`) picks the `sets/<lang>/` directory. Umlauts stay real
+UTF-8. An unknown slug aborts with a list of the available sets.
+
+The export is self-contained: its first field `review_instructions`
+holds the complete review prompt from
+[`docs/ai-review-prompt-template.md`](docs/ai-review-prompt-template.md)
+(read at runtime, not copied into the script). The export file can be
+handed to a review AI as-is, without manually prepending a prompt. Edit
+the review instructions in that template file and keep the sibling
+content repos in sync.
+
+**Read-only snapshot, NOT a re-import format:** nothing reads the
+export back. Changes flow only through the individual schema-validated
+lesson JSONs under `sets/`. The `exports/` folder is gitignored.
+
 ## Generate exercises with AI (optional)
 
 `scripts/generate_exercises.py` turns a topic into a lesson with a BYOK
