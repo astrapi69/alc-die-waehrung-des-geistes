@@ -68,6 +68,13 @@ pip install pyyaml jsonschema
 python3 scripts/validate_content.py        # exit 0 == all sets pass
 ```
 
+Before you push, `make lint` runs the same semantic engine gate as CI
+(`Engine conformance`): it installs the engine release pinned in
+`schema/engine-version.txt` into `node_modules/` (gitignored; needs Node.js
+and npm) and checks every lesson and manifest with the engine's rule ids
+(`E-CARD-REF` & co.). `make lint-warnings` additionally prints the engine
+CLI's warnings (`W-*`).
+
 Full authoring walkthrough: [docs/GETTING-STARTED.md](docs/GETTING-STARTED.md).
 
 ## Export a set for AI review
