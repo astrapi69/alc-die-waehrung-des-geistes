@@ -1,33 +1,58 @@
-# adaptive-learner-content-template
+# alc-die-waehrung-des-geistes
 
 [![content validation](https://github.com/astrapi69/alc-die-waehrung-des-geistes/actions/workflows/validate-content.yml/badge.svg)](https://github.com/astrapi69/alc-die-waehrung-des-geistes/actions/workflows/validate-content.yml)
 [![engine on npm](https://img.shields.io/npm/v/learn-content-engine?label=engine%20on%20npm)](https://www.npmjs.com/package/learn-content-engine)
 
-A **GitHub template** for building your own [Adaptive Learner](https://github.com/astrapi69/adaptive-learner)
-content: a Git repository of plain lesson files that the app loads
+The [Adaptive Learner](https://github.com/astrapi69/adaptive-learner)
+content repository for the book **Die Währung des Geistes** by Asterios
+Raptis: a Git repository of plain lesson files that the app loads
 directly and no vendor can lock away.
 
-> Click **“Use this template” → Create a new repository** (not *Fork*) to
-> get a fresh, independent copy under your own account, then clone it.
+It ships one German-language knowledge set, `waehrung-des-geistes`
+(domain `philosophy`), with 11 lessons on the six currencies of the
+mind - Aufmerksamkeit, Zeit, Vertrauen, Empathie, Präsenz and Ideen -
+and the values that grow from them. This repository was created from
+[adaptive-learner-content-template](https://github.com/astrapi69/adaptive-learner-content-template),
+which provides the schema mirror, validator, CI and authoring tooling
+described below.
 
-This template is the clean scaffold — schema, validator, CI, authoring
-templates, an AI generator, and **one** small example set. It ships **no**
-real content: you replace the example with your own.
+## The set
+
+`sets/de/waehrung-des-geistes` (source and target language: German,
+level `reflexion`, content license CC-BY-SA-4.0), one lesson per topic:
+
+| # | Lesson | Title |
+|---|--------|-------|
+| 01 | `01-ueberblick.json` | Überblick: Die sechs Währungen des Geistes |
+| 02 | `02-aufmerksamkeit.json` | Aufmerksamkeit: Das Gold der Seele |
+| 03 | `03-zeit.json` | Zeit: Die nicht erstattungsfähige Münze |
+| 04 | `04-vertrauen.json` | Vertrauen: Die Ökonomie des Glaubens |
+| 05 | `05-empathie.json` | Empathie: Die gemeinsame Geldbörse |
+| 06 | `06-praesenz.json` | Präsenz: Das Gold des Augenblicks |
+| 07 | `07-ideen.json` | Ideen: Die Währung, die sich beim Teilen vermehrt |
+| 08 | `08-frieden-stille.json` | Innerer Frieden und Stille |
+| 09 | `09-klarheit-grenzen.json` | Klarheit, Grenzen und Produktivität |
+| 10 | `10-wirkung-verbindung.json` | Wirkung, Sinn und Verbindung |
+| 11 | `11-integration.json` | Integration: Die innere Ökonomie ins Gleichgewicht bringen |
+
+Each lesson combines theory steps with exercises (cloze, free text,
+matching) and links the book (E-Book and Taschenbuch) as its resource.
 
 ## What's inside
 
-- `manifest.yaml` — the root manifest listing your sets (one example set to start).
-- `sets/en/es-a1/` — one minimal, valid example lesson + its set manifest.
-- `schema/` — the pinned [`learn-content-engine`](https://github.com/astrapi69/learn-content-engine)
+- `manifest.yaml` - the root manifest listing the single set above.
+- `sets/de/waehrung-des-geistes/` - the set manifest plus the 11 lesson JSONs.
+- `schema/` - the pinned [`learn-content-engine`](https://github.com/astrapi69/learn-content-engine)
   schema mirror; [`engine-version.txt`](schema/engine-version.txt) holds the
   pinned engine version (currently `0.8.2`) and is the source of truth. This
-  is what your content is validated against — independent of the app.
-- `templates/` — starting-point lessons per domain (language / programming / knowledge).
-- `scripts/validate_content.py` — the local validator.
-- `scripts/generate_exercises.py` — an optional BYOK AI exercise generator.
-- `generated/` — staging area for AI drafts (never shipped directly).
-- `.github/workflows/` — CI that validates every push/PR against the pinned engine.
-- `docs/` — [GETTING-STARTED.md](docs/GETTING-STARTED.md) and a local
+  is what the content is validated against - independent of the app.
+- `templates/` - starting-point lessons per domain (language / programming /
+  knowledge), kept from the template for authoring new lessons.
+- `scripts/validate_content.py` - the local validator.
+- `scripts/generate_exercises.py` - an optional BYOK AI exercise generator.
+- `generated/` - staging area for AI drafts (never shipped directly).
+- `.github/workflows/` - CI that validates every push/PR against the pinned engine.
+- `docs/` - [GETTING-STARTED.md](docs/GETTING-STARTED.md) and a local
   [LESSON-FORMAT.md](docs/LESSON-FORMAT.md). The **canonical, test-validated**
   format reference is the engine's
   [`docs/lesson-format.md`](https://github.com/astrapi69/learn-content-engine/blob/main/docs/lesson-format.md).
@@ -35,18 +60,15 @@ real content: you replace the example with your own.
 ## Quick start
 
 ```bash
-# 1. Use this template -> your own repo -> clone it
-git clone https://github.com/<you>/<your-content-repo>.git
-cd <your-content-repo>
+git clone https://github.com/astrapi69/alc-die-waehrung-des-geistes.git
+cd alc-die-waehrung-des-geistes
 
-# 2. Validate the example (needs only Python 3 + these two deps)
+# Validate the set (needs only Python 3 + these two deps)
 pip install pyyaml jsonschema
 python3 scripts/validate_content.py        # exit 0 == all sets pass
-
-# 3. Replace the example with your own lesson, then re-validate + commit.
 ```
 
-Full walkthrough: [docs/GETTING-STARTED.md](docs/GETTING-STARTED.md).
+Full authoring walkthrough: [docs/GETTING-STARTED.md](docs/GETTING-STARTED.md).
 
 ## Export a set for AI review
 
@@ -91,23 +113,23 @@ model (Anthropic / OpenAI / Gemini) and gates every draft through
 ```bash
 export ANTHROPIC_API_KEY="sk-..."          # or OPENAI_API_KEY / GEMINI_API_KEY
 python3 scripts/generate_exercises.py \
-  --topic "Ordering food in a café" \
-  --target-lang fr --source-lang en --level A1 --set-id fr-a1
+  --topic "Vertrauen als Ökonomie des Glaubens" \
+  --target-lang de --source-lang de --set-id waehrung-des-geistes
 ```
 
-A draft is a draft until you review it — and for a language you do not
-speak natively, get a native-speaker review before shipping. No validator
-catches an unnatural phrasing.
+A draft is a draft until you review it against the book's actual
+wording - no validator catches a claim the book never makes.
 
 ## How it stays current
 
-Your content is validated against the **pinned** engine version in
+The content is validated against the **pinned** engine version in
 `schema/engine-version.txt` on every push and pull request (structural +
-semantic + drift gates in `.github/workflows/`). A green CI means your
+semantic + drift gates in `.github/workflows/`). A green CI means the
 content is valid for every consumer of that engine release. When the
 engine is bumped, it reaches this repository the same way it reaches the
 rest of the chain: a deliberate pin-bump PR that the drift gate guards.
 
 Background and prompt recipes: the blog post *Build Your Own Lessons for
-Adaptive Learner*. Licensed MIT (see [LICENSE](LICENSE)); your authored
-content may carry its own license via each set manifest's `metadata.license`.
+Adaptive Learner*. The tooling is licensed MIT (see [LICENSE](LICENSE));
+the lesson content carries its own license, CC-BY-SA-4.0, declared in the
+set manifest's `metadata.license`.
