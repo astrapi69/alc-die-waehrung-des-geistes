@@ -1,4 +1,4 @@
-# Getting started — your first lesson in 10 minutes
+# Getting started: your first lesson in 10 minutes
 
 This walkthrough takes you from zero to a validated lesson. You'll copy a
 template, edit it, register it, and run the validator.
@@ -15,7 +15,7 @@ You need:
 
 ### Start your own content repository
 
-Create your repository from this template — **“Use this template” → Create
+Create your repository from this template: **“Use this template” → Create
 a new repository** (not *Fork*), then clone your new repo:
 
 > <https://github.com/astrapi69/adaptive-learner-content-template> → **Use
