@@ -10,7 +10,7 @@ directly and no vendor can lock away.
 
 It ships one German-language knowledge set, `waehrung-des-geistes`
 (domain `philosophy`), with 11 lessons on the six currencies of the
-mind - Aufmerksamkeit, Zeit, Vertrauen, Empathie, Präsenz and Ideen -
+mind (Aufmerksamkeit, Zeit, Vertrauen, Empathie, Präsenz and Ideen)
 and the values that grow from them. This repository was created from
 [adaptive-learner-content-template](https://github.com/astrapi69/adaptive-learner-content-template),
 which provides the schema mirror, validator, CI and authoring tooling
@@ -40,19 +40,19 @@ matching) and links the book (E-Book and Taschenbuch) as its resource.
 
 ## What's inside
 
-- `manifest.yaml` - the root manifest listing the single set above.
-- `sets/de/waehrung-des-geistes/` - the set manifest plus the 11 lesson JSONs.
-- `schema/` - the pinned [`learn-content-engine`](https://github.com/astrapi69/learn-content-engine)
+- `manifest.yaml`: the root manifest listing the single set above.
+- `sets/de/waehrung-des-geistes/`: the set manifest plus the 11 lesson JSONs.
+- `schema/`: the pinned [`learn-content-engine`](https://github.com/astrapi69/learn-content-engine)
   schema mirror; [`engine-version.txt`](schema/engine-version.txt) holds the
   pinned engine version (currently `0.12.0`) and is the source of truth. This
-  is what the content is validated against - independent of the app.
-- `templates/` - starting-point lessons per domain (language / programming /
+  is what the content is validated against, independent of the app.
+- `templates/`: starting-point lessons per domain (language / programming /
   knowledge), kept from the template for authoring new lessons.
-- `scripts/validate_content.py` - the local validator.
-- `scripts/generate_exercises.py` - an optional BYOK AI exercise generator.
-- `generated/` - staging area for AI drafts (never shipped directly).
-- `.github/workflows/` - CI that validates every push/PR against the pinned engine.
-- `docs/` - [GETTING-STARTED.md](docs/GETTING-STARTED.md) and a local
+- `scripts/validate_content.py`: the local validator.
+- `scripts/generate_exercises.py`: an optional BYOK AI exercise generator.
+- `generated/`: staging area for AI drafts (never shipped directly).
+- `.github/workflows/`: CI that validates every push/PR against the pinned engine.
+- `docs/`: [GETTING-STARTED.md](docs/GETTING-STARTED.md) and a local
   [LESSON-FORMAT.md](docs/LESSON-FORMAT.md). The **canonical, test-validated**
   format reference is the engine's
   [`docs/lesson-format.md`](https://github.com/astrapi69/learn-content-engine/blob/main/docs/lesson-format.md).
@@ -125,7 +125,7 @@ python3 scripts/generate_exercises.py \
 ```
 
 A draft is a draft until you review it against the book's actual
-wording - no validator catches a claim the book never makes.
+wording: no validator catches a claim the book never makes.
 
 ## How it stays current
 
