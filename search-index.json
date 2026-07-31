@@ -1,6 +1,6 @@
 {
   "repo": "astrapi69/alc-die-waehrung-des-geistes",
-  "generated": "2026-07-31T15:46:55Z",
+  "generated": "2026-07-31T16:09:04Z",
   "schema_version": "1.0",
   "sets": [
     {
@@ -19,6 +19,7 @@
         "achtsamkeit"
       ],
       "visibility": "visible",
+      "review_status": "authored",
       "ai_validated": false,
       "trust_level": 1,
       "book": null,
