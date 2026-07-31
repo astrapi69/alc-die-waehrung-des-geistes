@@ -9,6 +9,7 @@
   "cards": [
     {
       "id": "aufmerksamkeit",
+      "stable_id": "card-ms94160v001xx",
       "front": "Aufmerksamkeit",
       "back": "Das Gold der Seele.",
       "tags": [
@@ -17,6 +18,7 @@
     },
     {
       "id": "zeit",
+      "stable_id": "card-ms94160v0022n",
       "front": "Zeit",
       "back": "Die nicht erstattungsfähige Münze.",
       "tags": [
@@ -25,6 +27,7 @@
     },
     {
       "id": "vertrauen",
+      "stable_id": "card-ms94160v003e9",
       "front": "Vertrauen",
       "back": "Die Ökonomie des Glaubens.",
       "tags": [
@@ -33,6 +36,7 @@
     },
     {
       "id": "empathie",
+      "stable_id": "card-ms94160v004wr",
       "front": "Empathie",
       "back": "Die gemeinsame Geldbörse.",
       "tags": [
@@ -41,6 +45,7 @@
     },
     {
       "id": "präsenz",
+      "stable_id": "card-ms94160v005ta",
       "front": "Präsenz",
       "back": "Das Gold des Augenblicks, eine Praxis.",
       "tags": [
@@ -49,6 +54,7 @@
     },
     {
       "id": "ideen",
+      "stable_id": "card-ms94160v0069j",
       "front": "Ideen",
       "back": "Die Währung, die sich beim Teilen vermehrt.",
       "tags": [
@@ -68,6 +74,7 @@
       "type": "exercise",
       "exercise": {
         "id": "e-drei-faktoren",
+        "stable_id": "ex-ms94160v007s0",
         "type": "cloze",
         "cloze_mode": "multiselect",
         "prompt": "Welche Werte gelten als nicht teilbar und nicht übertragbar?",
@@ -88,6 +95,7 @@
       "type": "exercise",
       "exercise": {
         "id": "e-nicht-geld",
+        "stable_id": "ex-ms94160v008v5",
         "type": "cloze",
         "cloze_mode": "select",
         "prompt": "Wodurch wird die innere Ökonomie gespeist?",
@@ -113,6 +121,7 @@
       "type": "exercise",
       "exercise": {
         "id": "e-gold",
+        "stable_id": "ex-ms94160v009sj",
         "type": "cloze",
         "cloze_mode": "type",
         "prompt": "Vervollständige das Bild für Aufmerksamkeit.",
@@ -134,6 +143,7 @@
       "type": "exercise",
       "exercise": {
         "id": "e-teilen",
+        "stable_id": "ex-ms94160v00aus",
         "type": "free_text",
         "prompt": "Wodurch vermehrt sich die Währung der Ideen? (ein Wort)",
         "accept": [
@@ -155,6 +165,7 @@
       "type": "exercise",
       "exercise": {
         "id": "e-bilder",
+        "stable_id": "ex-ms94160v00bdl",
         "type": "matching",
         "prompt": "Ordne jede Währung ihrem Bild zu.",
         "pairs": [

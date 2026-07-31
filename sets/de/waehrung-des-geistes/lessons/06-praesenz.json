@@ -9,6 +9,7 @@
   "cards": [
     {
       "id": "seltenste",
+      "stable_id": "card-ms94160x01g50",
       "front": "Seltenste Währung",
       "back": "Präsenz ist die seltenste Währung; man kann sie nicht horten oder aufschieben.",
       "tags": [
@@ -17,6 +18,7 @@
     },
     {
       "id": "abgrenzung",
+      "stable_id": "card-ms94160x01hw3",
       "front": "Aufmerksamkeit vs. Präsenz",
       "back": "Aufmerksamkeit ist worauf du schaust; Präsenz ist ob du wirklich da bist.",
       "tags": [
@@ -25,6 +27,7 @@
     },
     {
       "id": "abwesenheit",
+      "stable_id": "card-ms94160x01iqs",
       "front": "Gegenteil von Präsenz",
       "back": "Das Gegenteil von Präsenz ist nicht Ablenkung, sondern die Abwesenheit von dir selbst.",
       "tags": [
@@ -33,6 +36,7 @@
     },
     {
       "id": "ehrung",
+      "stable_id": "card-ms94160x01j13",
       "front": "Ehrung der Zeit",
       "back": "Präsenz ist keine Zeitverschwendung, sondern eine Ehrung der Zeit.",
       "tags": [
@@ -41,6 +45,7 @@
     },
     {
       "id": "spiegel",
+      "stable_id": "card-ms94160x01k7f",
       "front": "Spiegel der Präsenz",
       "back": "Präsent sein heißt zum Spiegel werden: reflektieren ohne Verzerrung, Raum halten ohne Urteil.",
       "tags": [
@@ -60,6 +65,7 @@
       "type": "exercise",
       "exercise": {
         "id": "e-seltenste",
+        "stable_id": "ex-ms94160x01l90",
         "type": "cloze",
         "cloze_mode": "select",
         "prompt": "Als was gilt Präsenz unter den Währungen?",
@@ -85,6 +91,7 @@
       "type": "exercise",
       "exercise": {
         "id": "e-abwesenheit",
+        "stable_id": "ex-ms94160x01mgp",
         "type": "cloze",
         "cloze_mode": "type",
         "prompt": "Vervollständige die Aussage zum Gegenteil von Präsenz.",
@@ -106,6 +113,7 @@
       "type": "exercise",
       "exercise": {
         "id": "e-ehrung",
+        "stable_id": "ex-ms94160x01n9o",
         "type": "free_text",
         "prompt": "Als was gilt Präsenz statt als Zeitverschwendung? (ein Wort)",
         "accept": [
@@ -127,6 +135,7 @@
       "type": "exercise",
       "exercise": {
         "id": "e-abgrenzung",
+        "stable_id": "ex-ms94160x01omo",
         "type": "cloze",
         "cloze_mode": "multiselect",
         "prompt": "Welche Aussagen zur Abgrenzung von Aufmerksamkeit und Präsenz treffen zu?",
@@ -147,6 +156,7 @@
       "type": "exercise",
       "exercise": {
         "id": "e-bilder",
+        "stable_id": "ex-ms94160x01plu",
         "type": "matching",
         "prompt": "Ordne jede Aussage dem Begriff zu.",
         "pairs": [

@@ -9,6 +9,7 @@
   "cards": [
     {
       "id": "klar-sehen",
+      "stable_id": "card-ms94160y02atf",
       "front": "Klarheit ist klar sehen",
       "back": "Klarheit ist nicht Intelligenz oder mehr Wissen, sondern klar sehen ohne Nebel und Filter.",
       "tags": [
@@ -17,6 +18,7 @@
     },
     {
       "id": "nebel",
+      "stable_id": "card-ms94160y02b4g",
       "front": "Nebel des Geistes",
       "back": "Geistiger Nebel: zu viele Tabs, Überdenken, Vergessen, satt aber zerstreut.",
       "tags": [
@@ -25,6 +27,7 @@
     },
     {
       "id": "tore",
+      "stable_id": "card-ms94160y02chn",
       "front": "Grenzen sind Tore",
       "back": "Grenzen sind keine Mauern, sondern Tore: was in die innere Wirtschaft ein- und ausgeht.",
       "tags": [
@@ -33,6 +36,7 @@
     },
     {
       "id": "verfuegbarkeit",
+      "stable_id": "card-ms94160y02dyv",
       "front": "Kosten der Verfügbarkeit",
       "back": "Ohne Grenzen sagt man ja, obwohl man nein meint, und absorbiert fremden Stress.",
       "tags": [
@@ -41,6 +45,7 @@
     },
     {
       "id": "gerichtet",
+      "stable_id": "card-ms94160y02e9r",
       "front": "Gerichtete Bewegung",
       "back": "Wahre Produktivität ist keine Bewegung, sondern gerichtete Bewegung.",
       "tags": [
@@ -60,6 +65,7 @@
       "type": "exercise",
       "exercise": {
         "id": "e-klar",
+        "stable_id": "ex-ms94160y02f88",
         "type": "cloze",
         "cloze_mode": "select",
         "prompt": "Womit ist Klarheit NICHT gleichbedeutend?",
@@ -85,6 +91,7 @@
       "type": "exercise",
       "exercise": {
         "id": "e-tore",
+        "stable_id": "ex-ms94160y02grh",
         "type": "cloze",
         "cloze_mode": "type",
         "prompt": "Vervollständige das Bild für Grenzen.",
@@ -106,6 +113,7 @@
       "type": "exercise",
       "exercise": {
         "id": "e-produktiv",
+        "stable_id": "ex-ms94160y02hju",
         "type": "free_text",
         "prompt": "Was ist wahre Produktivität (keine Bewegung, sondern)? (zwei Worte)",
         "accept": [
@@ -126,6 +134,7 @@
       "type": "exercise",
       "exercise": {
         "id": "e-nebel",
+        "stable_id": "ex-ms94160y02ixk",
         "type": "cloze",
         "cloze_mode": "multiselect",
         "prompt": "Welche Anzeichen hat geistiger Nebel?",
@@ -146,6 +155,7 @@
       "type": "exercise",
       "exercise": {
         "id": "e-bilder",
+        "stable_id": "ex-ms94160y02jek",
         "type": "matching",
         "prompt": "Ordne jede Aussage dem Begriff zu.",
         "pairs": [

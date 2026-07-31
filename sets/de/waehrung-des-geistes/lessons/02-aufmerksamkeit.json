@@ -9,6 +9,7 @@
   "cards": [
     {
       "id": "wahl",
+      "stable_id": "card-ms94160v00c35",
       "front": "Aufmerksamkeit ist Wahl",
       "back": "Aufmerksamkeit ist mehr als Konzentration; sie ist Wahl und entscheidet, was man ins mentale Zuhause lässt.",
       "tags": [
@@ -17,6 +18,7 @@
     },
     {
       "id": "mythos",
+      "stable_id": "card-ms94160v00dyw",
       "front": "Mythos geteilter Konzentration",
       "back": "Geteilte Aufmerksamkeit verliert Tiefe; Unterbrechungen brechen den Fluss des Denkens.",
       "tags": [
@@ -25,6 +27,7 @@
     },
     {
       "id": "hypervigilanz",
+      "stable_id": "card-ms94160v00ecg",
       "front": "Hypervigilanz",
       "back": "Die Unfähigkeit loszulassen; aus Wachheit wird Erschöpfung.",
       "tags": [
@@ -33,6 +36,7 @@
     },
     {
       "id": "produkt",
+      "stable_id": "card-ms94160v00ffd",
       "front": "Aufmerksamkeitsökonomie",
       "back": "Du bist nicht nur Investor deiner Aufmerksamkeit, sondern auch Produkt.",
       "tags": [
@@ -41,6 +45,7 @@
     },
     {
       "id": "schwert",
+      "stable_id": "card-ms94160v00gne",
       "front": "Aufmerksamkeit als Schwert",
       "back": "Aufmerksamkeit kann schnitzen oder schneiden, je nach Führung.",
       "tags": [
@@ -60,6 +65,7 @@
       "type": "exercise",
       "exercise": {
         "id": "e-wahl",
+        "stable_id": "ex-ms94160v00h8c",
         "type": "cloze",
         "cloze_mode": "select",
         "prompt": "Als was gilt Aufmerksamkeit über die Konzentration hinaus?",
@@ -85,6 +91,7 @@
       "type": "exercise",
       "exercise": {
         "id": "e-mythos",
+        "stable_id": "ex-ms94160v00ieq",
         "type": "cloze",
         "cloze_mode": "type",
         "prompt": "Vervollständige die Aussage zur geteilten Konzentration.",
@@ -106,6 +113,7 @@
       "type": "exercise",
       "exercise": {
         "id": "e-schwert",
+        "stable_id": "ex-ms94160v00jub",
         "type": "free_text",
         "prompt": "Womit lässt sich Aufmerksamkeit vergleichen (sie kann schnitzen oder schneiden)? (ein Wort)",
         "accept": [
@@ -127,6 +135,7 @@
       "type": "exercise",
       "exercise": {
         "id": "e-schatten",
+        "stable_id": "ex-ms94160v00k4z",
         "type": "cloze",
         "cloze_mode": "multiselect",
         "prompt": "Welche Schattenseiten hat Aufmerksamkeit?",
@@ -147,6 +156,7 @@
       "type": "exercise",
       "exercise": {
         "id": "e-bilder",
+        "stable_id": "ex-ms94160v00l8a",
         "type": "matching",
         "prompt": "Ordne jeder Aussage den passenden Begriff zu.",
         "pairs": [

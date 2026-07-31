@@ -9,6 +9,7 @@
   "cards": [
     {
       "id": "bruecke",
+      "stable_id": "card-ms94160y02kws",
       "front": "Verbindung als Brücke",
       "back": "Verbindung ist eine Brücke aus Momenten, ehrlichen Worten und stillem Verstehen; sie ist zur Währung geworden.",
       "tags": [
@@ -17,6 +18,7 @@
     },
     {
       "id": "bleibt",
+      "stable_id": "card-ms94160y02ly7",
       "front": "Einfluss ist was bleibt",
       "back": "Einfluss ist nicht was du sagst, sondern was bleibt, wenn du den Raum verlässt.",
       "tags": [
@@ -25,6 +27,7 @@
     },
     {
       "id": "zirkuliert",
+      "stable_id": "card-ms94160y02m2i",
       "front": "Großzügigkeit zirkuliert",
       "back": "Großzügigkeit rechnet nicht, sie fließt; sie erschafft Kreisläufe, keine Endpunkte.",
       "tags": [
@@ -33,6 +36,7 @@
     },
     {
       "id": "was-geben",
+      "stable_id": "card-ms94160y02nl8",
       "front": "Frage der Großzügigkeit",
       "back": "Die Gesellschaft fragt 'Was bekomme ich?', Großzügigkeit fragt 'Was darf ich geben?'.",
       "tags": [
@@ -41,6 +45,7 @@
     },
     {
       "id": "kompass",
+      "stable_id": "card-ms94160y02owg",
       "front": "Zweck ist Kompass",
       "back": "Der Zweck ist der Kompass, der allen anderen Währungen die Richtung gibt; er verwandelt Bewegung in Bedeutung.",
       "tags": [
@@ -60,6 +65,7 @@
       "type": "exercise",
       "exercise": {
         "id": "e-bruecke",
+        "stable_id": "ex-ms94160y02pqf",
         "type": "cloze",
         "cloze_mode": "select",
         "prompt": "Als was gilt Verbindung?",
@@ -85,6 +91,7 @@
       "type": "exercise",
       "exercise": {
         "id": "e-bleibt",
+        "stable_id": "ex-ms94160y02qh6",
         "type": "cloze",
         "cloze_mode": "type",
         "prompt": "Vervollständige die Kernaussage zum Einfluss.",
@@ -106,6 +113,7 @@
       "type": "exercise",
       "exercise": {
         "id": "e-kompass",
+        "stable_id": "ex-ms94160y02rui",
         "type": "free_text",
         "prompt": "Als was gilt der Zweck in der Ökonomie des Geistes? (ein Wort)",
         "accept": [
@@ -127,6 +135,7 @@
       "type": "exercise",
       "exercise": {
         "id": "e-grosszuegigkeit",
+        "stable_id": "ex-ms94160y02sx6",
         "type": "cloze",
         "cloze_mode": "multiselect",
         "prompt": "Welche Aussagen treffen auf Großzügigkeit?",
@@ -147,6 +156,7 @@
       "type": "exercise",
       "exercise": {
         "id": "e-bilder",
+        "stable_id": "ex-ms94160y02thh",
         "type": "matching",
         "prompt": "Ordne jede Aussage dem Begriff zu.",
         "pairs": [

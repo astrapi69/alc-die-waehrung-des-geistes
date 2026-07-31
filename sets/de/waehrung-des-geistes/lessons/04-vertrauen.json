@@ -9,6 +9,7 @@
   "cards": [
     {
       "id": "urwährung",
+      "stable_id": "card-ms94160w00wac",
       "front": "Vertrauen als Urwährung",
       "back": "Vor dem Geld gab es Vertrauen; es hält Gemeinschaften zusammen.",
       "tags": [
@@ -17,6 +18,7 @@
     },
     {
       "id": "schwerkraft",
+      "stable_id": "card-ms94160w00xpe",
       "front": "Schwerkraft der Verbindung",
       "back": "Vertrauen ist die Schwerkraft menschlicher Verbindung.",
       "tags": [
@@ -25,6 +27,7 @@
     },
     {
       "id": "verletzlichkeit",
+      "stable_id": "card-ms94160w00y1m",
       "front": "Freiwillige Verletzlichkeit",
       "back": "Vertrauen ist keine Kontrolle, sondern bewusstes Glauben trotz möglicher Enttäuschung.",
       "tags": [
@@ -33,6 +36,7 @@
     },
     {
       "id": "misstrauen",
+      "stable_id": "card-ms94160w00z6h",
       "front": "Last des Misstrauens",
       "back": "Misstrauen frisst Energie und isoliert im Übermaß.",
       "tags": [
@@ -41,6 +45,7 @@
     },
     {
       "id": "mikro",
+      "stable_id": "card-ms94160w010sj",
       "front": "Mikrotransaktionen",
       "back": "Vertrauen wächst in kleinen, wiederholten Momenten der Wahrheit, nicht in Systemen.",
       "tags": [
@@ -60,6 +65,7 @@
       "type": "exercise",
       "exercise": {
         "id": "e-urwährung",
+        "stable_id": "ex-ms94160w011ru",
         "type": "cloze",
         "cloze_mode": "select",
         "prompt": "Wie steht Vertrauen im Verhältnis zum Geld?",
@@ -85,6 +91,7 @@
       "type": "exercise",
       "exercise": {
         "id": "e-schwerkraft",
+        "stable_id": "ex-ms94160w012pm",
         "type": "cloze",
         "cloze_mode": "type",
         "prompt": "Vervollständige das zentrale Bild für Vertrauen.",
@@ -106,6 +113,7 @@
       "type": "exercise",
       "exercise": {
         "id": "e-verletzlichkeit",
+        "stable_id": "ex-ms94160w013v9",
         "type": "free_text",
         "prompt": "Vertrauen ist keine Kontrolle, sondern freiwillige ___? (ein Wort)",
         "accept": [
@@ -126,6 +134,7 @@
       "type": "exercise",
       "exercise": {
         "id": "e-mikro",
+        "stable_id": "ex-ms94160w014px",
         "type": "cloze",
         "cloze_mode": "multiselect",
         "prompt": "Welche Momente lassen Vertrauen wachsen?",
@@ -146,6 +155,7 @@
       "type": "exercise",
       "exercise": {
         "id": "e-bilder",
+        "stable_id": "ex-ms94160w015lf",
         "type": "matching",
         "prompt": "Ordne jedem Begriff die passende Aussage zu.",
         "pairs": [
