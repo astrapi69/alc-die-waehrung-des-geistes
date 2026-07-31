@@ -9,6 +9,7 @@
   "cards": [
     {
       "id": "stabile-muenze",
+      "stable_id": "card-ms94160y02060",
       "front": "Stabile Münze der Seele",
       "back": "Innerer Frieden bricht unter Druck nicht zusammen und behält seinen Wert.",
       "tags": [
@@ -17,6 +18,7 @@
     },
     {
       "id": "trotzdem",
+      "stable_id": "card-ms94160y02129",
       "front": "Frieden ist Wahl",
       "back": "Frieden wartet nicht am Ende der Aufgabenliste, sondern ist das, was man trotzdem wählt.",
       "tags": [
@@ -25,6 +27,7 @@
     },
     {
       "id": "stille-klarheit",
+      "stable_id": "card-ms94160y022x5",
       "front": "Stille ist Klarheit",
       "back": "Stille ist keine Leere, sondern Klarheit, unerschüttert vom Lärm.",
       "tags": [
@@ -33,6 +36,7 @@
     },
     {
       "id": "stille-konfrontiert",
+      "stable_id": "card-ms94160y023xq",
       "front": "Warum wir Stille fürchten",
       "back": "Stille konfrontiert uns mit dem Verdrängten und mit Fragen ohne Antwort.",
       "tags": [
@@ -41,6 +45,7 @@
     },
     {
       "id": "bewegung-bedeutung",
+      "stable_id": "card-ms94160y024g9",
       "front": "Bewegung vs. Bedeutung",
       "back": "In der Stille verwechseln wir oft Bewegung mit Bedeutung.",
       "tags": [
@@ -60,6 +65,7 @@
       "type": "exercise",
       "exercise": {
         "id": "e-stabile",
+        "stable_id": "ex-ms94160y0256r",
         "type": "cloze",
         "cloze_mode": "select",
         "prompt": "Als was gilt innerer Frieden?",
@@ -85,6 +91,7 @@
       "type": "exercise",
       "exercise": {
         "id": "e-trotzdem",
+        "stable_id": "ex-ms94160y02682",
         "type": "cloze",
         "cloze_mode": "type",
         "prompt": "Vervollständige die Kernaussage zum Frieden.",
@@ -106,6 +113,7 @@
       "type": "exercise",
       "exercise": {
         "id": "e-stille",
+        "stable_id": "ex-ms94160y0277e",
         "type": "free_text",
         "prompt": "Als was gilt Stille (nicht als Leere)? (ein Wort)",
         "accept": [
@@ -126,6 +134,7 @@
       "type": "exercise",
       "exercise": {
         "id": "e-stille-fuerchten",
+        "stable_id": "ex-ms94160y028jz",
         "type": "cloze",
         "cloze_mode": "multiselect",
         "prompt": "Womit konfrontiert uns Stille?",
@@ -145,6 +154,7 @@
       "type": "exercise",
       "exercise": {
         "id": "e-bilder",
+        "stable_id": "ex-ms94160y029i1",
         "type": "matching",
         "prompt": "Ordne jede Aussage dem Begriff zu.",
         "pairs": [

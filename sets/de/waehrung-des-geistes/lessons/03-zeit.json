@@ -9,6 +9,7 @@
   "cards": [
     {
       "id": "kontrolle",
+      "stable_id": "card-ms94160w00me5",
       "front": "Zeit gehört dir nicht",
       "back": "Die Zeit steht nicht unter deiner Kontrolle; du kannst nur entscheiden, wie du in ihr lebst.",
       "tags": [
@@ -17,6 +18,7 @@
     },
     {
       "id": "sinnkrise",
+      "stable_id": "card-ms94160w00ng7",
       "front": "Sinnkrise",
       "back": "Die moderne Zeitarmut ist keine Zeitkrise, sondern eine Sinnkrise.",
       "tags": [
@@ -25,6 +27,7 @@
     },
     {
       "id": "qualität",
+      "stable_id": "card-ms94160w00o7w",
       "front": "Zinseszins der Momente",
       "back": "Zeit vermehrt sich nicht in Quantität, sondern in Qualität.",
       "tags": [
@@ -33,6 +36,7 @@
     },
     {
       "id": "ehren",
+      "stable_id": "card-ms94160w00pr3",
       "front": "Zeit ehren",
       "back": "Das Ziel ist nicht, Zeit zu maximieren, sondern sie zu ehren.",
       "tags": [
@@ -41,6 +45,7 @@
     },
     {
       "id": "lebendigkeit",
+      "stable_id": "card-ms94160w00quy",
       "front": "Uhr der Lebendigkeit",
       "back": "Zeit nach Lebendigkeit messen, nicht nach Produktivität.",
       "tags": [
@@ -60,6 +65,7 @@
       "type": "exercise",
       "exercise": {
         "id": "e-kontrolle",
+        "stable_id": "ex-ms94160w00r0r",
         "type": "cloze",
         "cloze_mode": "type",
         "prompt": "Vervollständige die zentrale Aussage über Zeit.",
@@ -81,6 +87,7 @@
       "type": "exercise",
       "exercise": {
         "id": "e-sinnkrise",
+        "stable_id": "ex-ms94160w00s3a",
         "type": "cloze",
         "cloze_mode": "select",
         "prompt": "Als was gilt die moderne Zeitarmut?",
@@ -106,6 +113,7 @@
       "type": "exercise",
       "exercise": {
         "id": "e-ehren",
+        "stable_id": "ex-ms94160w00toc",
         "type": "free_text",
         "prompt": "Was ist das Ziel im Umgang mit Zeit (nicht maximieren, sondern)? (ein Wort)",
         "accept": [
@@ -127,6 +135,7 @@
       "type": "exercise",
       "exercise": {
         "id": "e-qualität",
+        "stable_id": "ex-ms94160w00uzo",
         "type": "cloze",
         "cloze_mode": "multiselect",
         "prompt": "Welche Beispiele gibt es für den Zinseszinseffekt der Zeit (Qualität)?",
@@ -147,6 +156,7 @@
       "type": "exercise",
       "exercise": {
         "id": "e-bilder",
+        "stable_id": "ex-ms94160w00v0e",
         "type": "matching",
         "prompt": "Ordne jede Aussage dem Begriff zu.",
         "pairs": [

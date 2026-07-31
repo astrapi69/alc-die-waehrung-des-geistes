@@ -9,6 +9,7 @@
   "cards": [
     {
       "id": "zusammenspiel",
+      "stable_id": "card-ms94160y02ujd",
       "front": "Wirkung im Zusammenspiel",
       "back": "Die wahre Wirkung der Währungen entfaltet sich nicht isoliert, sondern im Zusammenspiel.",
       "tags": [
@@ -17,6 +18,7 @@
     },
     {
       "id": "ausgewogenheit",
+      "stable_id": "card-ms94160y02v9j",
       "front": "Ausgewogenheit statt Maximierung",
       "back": "Ziel ist nicht Maximierung, sondern Ausgewogenheit im Dienste eines bewussten Lebens.",
       "tags": [
@@ -25,6 +27,7 @@
     },
     {
       "id": "rhythmus",
+      "stable_id": "card-ms94160y02wug",
       "front": "Integration als Rhythmus",
       "back": "Integration ist kein statischer Zustand, sondern ein Rhythmus, Fluss statt Fixierung.",
       "tags": [
@@ -33,6 +36,7 @@
     },
     {
       "id": "marktplatz",
+      "stable_id": "card-ms94160y02xdm",
       "front": "Geist als Marktplatz",
       "back": "Kooperieren die inneren Kräfte, entsteht Sinn; arbeiten sie gegeneinander, entsteht Reibung.",
       "tags": [
@@ -41,6 +45,7 @@
     },
     {
       "id": "kreditlinie",
+      "stable_id": "card-ms94160y02ykv",
       "front": "Vertrauen als Kreditlinie",
       "back": "Im Marktplatz des Geistes ist Vertrauen die unsichtbare Kreditlinie.",
       "tags": [
@@ -60,6 +65,7 @@
       "type": "exercise",
       "exercise": {
         "id": "e-zusammenspiel",
+        "stable_id": "ex-ms94160y02znw",
         "type": "cloze",
         "cloze_mode": "select",
         "prompt": "Wodurch entfaltet sich die wahre Wirkung der Währungen?",
@@ -85,6 +91,7 @@
       "type": "exercise",
       "exercise": {
         "id": "e-ausgewogenheit",
+        "stable_id": "ex-ms94160y030o1",
         "type": "cloze",
         "cloze_mode": "type",
         "prompt": "Vervollständige das Ziel der Integration.",
@@ -106,6 +113,7 @@
       "type": "exercise",
       "exercise": {
         "id": "e-rhythmus",
+        "stable_id": "ex-ms94160y0310d",
         "type": "free_text",
         "prompt": "Als was gilt Integration (kein statischer Zustand, sondern)? (ein Wort)",
         "accept": [
@@ -127,6 +135,7 @@
       "type": "exercise",
       "exercise": {
         "id": "e-marktplatz",
+        "stable_id": "ex-ms94160y032ce",
         "type": "cloze",
         "cloze_mode": "multiselect",
         "prompt": "Welche Zuordnungen gelten im Marktplatz des Geistes?",
@@ -147,6 +156,7 @@
       "type": "exercise",
       "exercise": {
         "id": "e-bilder",
+        "stable_id": "ex-ms94160y03373",
         "type": "matching",
         "prompt": "Ordne jede Aussage dem Begriff zu.",
         "pairs": [

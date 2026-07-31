@@ -9,6 +9,7 @@
   "cards": [
     {
       "id": "samen",
+      "stable_id": "card-ms94160x01q1m",
       "front": "Ideen sind Samen",
       "back": "Ideen sind Samen, keine Statuen; je mehr man sie teilt, desto mehr wachsen sie.",
       "tags": [
@@ -17,6 +18,7 @@
     },
     {
       "id": "einladungen",
+      "stable_id": "card-ms94160x01rkz",
       "front": "Ideen sind Einladungen",
       "back": "Ideen sind keine Schätze, sondern Einladungen; keine Idee ist je 'fertig'.",
       "tags": [
@@ -25,6 +27,7 @@
     },
     {
       "id": "horten",
+      "stable_id": "card-ms94160x01sh5",
       "front": "Warum wir Ideen horten",
       "back": "Wir horten aus Furcht vor Spott, Irrtum und zu früher Sichtbarkeit; wir warten auf Perfektion.",
       "tags": [
@@ -33,6 +36,7 @@
     },
     {
       "id": "großzügigkeit",
+      "stable_id": "card-ms94160x01tte",
       "front": "Intellektuelle Großzügigkeit",
       "back": "Eine Idee teilen heißt, den unfertigen Gedanken anzuvertrauen; nicht prahlen, sondern sich öffnen.",
       "tags": [
@@ -41,6 +45,7 @@
     },
     {
       "id": "wachsen",
+      "stable_id": "card-ms94160x01uf5",
       "front": "Reichtum der Ideen",
       "back": "Ideen sind ein seltener Reichtum, der wächst, sobald man ihn loslässt.",
       "tags": [
@@ -60,6 +65,7 @@
       "type": "exercise",
       "exercise": {
         "id": "e-samen-statue",
+        "stable_id": "ex-ms94160x01v3y",
         "type": "cloze",
         "cloze_mode": "select",
         "prompt": "Womit lassen sich Ideen im Gegensatz zu Statuen vergleichen?",
@@ -85,6 +91,7 @@
       "type": "exercise",
       "exercise": {
         "id": "e-wachsen",
+        "stable_id": "ex-ms94160x01wrr",
         "type": "cloze",
         "cloze_mode": "type",
         "prompt": "Vervollständige den Kernsatz über Ideen.",
@@ -106,6 +113,7 @@
       "type": "exercise",
       "exercise": {
         "id": "e-einladungen",
+        "stable_id": "ex-ms94160x01xxb",
         "type": "free_text",
         "prompt": "Als was gelten Ideen statt als Schätze? (ein Wort)",
         "accept": [
@@ -127,6 +135,7 @@
       "type": "exercise",
       "exercise": {
         "id": "e-horten",
+        "stable_id": "ex-ms94160x01ywu",
         "type": "cloze",
         "cloze_mode": "multiselect",
         "prompt": "Aus welchen Gründen horten wir Ideen?",
@@ -147,6 +156,7 @@
       "type": "exercise",
       "exercise": {
         "id": "e-bilder",
+        "stable_id": "ex-ms94160x01zak",
         "type": "matching",
         "prompt": "Ordne jede Aussage dem Begriff zu.",
         "pairs": [

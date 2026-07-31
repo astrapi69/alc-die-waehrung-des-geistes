@@ -9,6 +9,7 @@
   "cards": [
     {
       "id": "mitleid",
+      "stable_id": "card-ms94160w0162n",
       "front": "Empathie, Mitgefühl, Mitleid",
       "back": "Empathie: 'Ich nehme wahr, was du fühlst.' Mitgefühl: 'Ich fühle mit dir und will helfen.' Mitleid: 'Du tust mir leid.'",
       "tags": [
@@ -17,6 +18,7 @@
     },
     {
       "id": "dosiert",
+      "stable_id": "card-ms94160w0172o",
       "front": "Dosierte Großzügigkeit",
       "back": "Mitgefühl ist die begrenzte Ressource, das Gefühl. Das Geben, das daraus folgt, will dosiert sein: Großzügigkeit mit Grenzen, kein Märtyrertum.",
       "tags": [
@@ -25,6 +27,7 @@
     },
     {
       "id": "verstrickung",
+      "stable_id": "card-ms94160w018dk",
       "front": "Empathische Verstrickung",
       "back": "Wenn man nicht mehr weiß, wessen Gefühle man fühlt.",
       "tags": [
@@ -33,6 +36,7 @@
     },
     {
       "id": "dispo",
+      "stable_id": "card-ms94160x019p2",
       "front": "Emotionaler Dispo",
       "back": "Ohne Grenzen wird Mitgefühl zum Burnout; man leert die emotionale Geldbörse (Compassion Fatigue).",
       "tags": [
@@ -41,6 +45,7 @@
     },
     {
       "id": "resonanz",
+      "stable_id": "card-ms94160x01alr",
       "front": "Neurologie der Resonanz",
       "back": "Empathie ist ein geteiltes emotionales Signal; das Gehirn spiegelt den Zustand des anderen in Teilen.",
       "tags": [
@@ -60,6 +65,7 @@
       "type": "exercise",
       "exercise": {
         "id": "e-mitleid",
+        "stable_id": "ex-ms94160x01beb",
         "type": "cloze",
         "cloze_mode": "select",
         "prompt": "Wie grenzt sich Empathie vom Mitleid ab?",
@@ -85,6 +91,7 @@
       "type": "exercise",
       "exercise": {
         "id": "e-dosiert",
+        "stable_id": "ex-ms94160x01c7r",
         "type": "cloze",
         "cloze_mode": "type",
         "prompt": "Vervollständige die Kernaussage zum gelebten Mitgefühl.",
@@ -106,6 +113,7 @@
       "type": "exercise",
       "exercise": {
         "id": "e-resonanz",
+        "stable_id": "ex-ms94160x01dhh",
         "type": "free_text",
         "prompt": "Was spiegelt bei Empathie den Zustand des anderen? (ein Wort)",
         "accept": [
@@ -127,6 +135,7 @@
       "type": "exercise",
       "exercise": {
         "id": "e-schatten",
+        "stable_id": "ex-ms94160x01efg",
         "type": "cloze",
         "cloze_mode": "multiselect",
         "prompt": "Welche Schattenseiten hat Empathie?",
@@ -147,6 +156,7 @@
       "type": "exercise",
       "exercise": {
         "id": "e-bilder",
+        "stable_id": "ex-ms94160x01fvb",
         "type": "matching",
         "prompt": "Ordne jeder Aussage den Begriff zu.",
         "pairs": [
