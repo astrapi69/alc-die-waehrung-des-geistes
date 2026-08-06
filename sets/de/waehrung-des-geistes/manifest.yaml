@@ -9,11 +9,13 @@ sets:
     target_language: de
     source_language: de
     domain: philosophy
-    level: reflexion
+    # Sachthema: bewusst ohne Sprachniveau (engine#127, level-Vertrag);
+    # den reflektierenden Charakter traegt das Tag `reflexion`.
+    level: none
     path: sets/de/waehrung-des-geistes
     version: "1.0.0"
     lesson_count: 11
-    tags: [philosophie, aufmerksamkeit, achtsamkeit]
+    tags: [philosophie, aufmerksamkeit, achtsamkeit, reflexion]
 metadata:
   author: Asterios Raptis
   license: CC-BY-SA-4.0
