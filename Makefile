@@ -51,7 +51,7 @@ $(VENV)/.ready:
 	@echo ">> Lege lokale Python-Umgebung an (einmalig) ..."
 	python3 -m venv $(VENV)
 	@$(PIP) install --quiet --upgrade pip
-	@$(PIP) install --quiet pyyaml jsonschema
+	@$(PIP) install --quiet pyyaml jsonschema regex
 	@touch $(VENV)/.ready
 	@echo ">> Fertig. Kuenftige Laeufe nutzen diese Umgebung direkt."
 
