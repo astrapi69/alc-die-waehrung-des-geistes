@@ -81,11 +81,19 @@ Full authoring walkthrough: [docs/GETTING-STARTED.md](docs/GETTING-STARTED.md).
 
 `scripts/export_set.py` writes all lessons of ONE set into a single
 YAML (or JSON) file so an AI assistant or a human can review the whole
-set in one pass (syntax, correctness, consistency across lessons):
+set in one pass (syntax, correctness, consistency across lessons).
+
+**Recommended (via make; reuses the local environment `make validate` set up):**
+
+```bash
+make export ARGS="waehrung-des-geistes"
+# -> exports/waehrung-des-geistes-de-<timestamp>.yaml
+```
+
+**Direct (fallback; run it inside the venv from the Quick start):**
 
 ```bash
 python3 scripts/export_set.py waehrung-des-geistes
-# -> exports/waehrung-des-geistes-de-<timestamp>.yaml
 python3 scripts/export_set.py waehrung-des-geistes --format json --out /tmp/review.json
 ```
 
@@ -94,6 +102,12 @@ of the set path (both `waehrung-des-geistes` here); when the same
 folder name exists under several source-language directories, `--lang`
 (default `de`) picks the `sets/<lang>/` directory. Umlauts stay real
 UTF-8. An unknown slug aborts with a list of the available sets.
+
+For a large set, `--split-size N` writes multiple self-contained files
+of at most N lessons each instead of one huge file, e.g.
+`make export ARGS="waehrung-des-geistes --split-size 4"` (each part
+keeps its own `review_instructions` copy, so any one file can be
+handed to an AI on its own). Cannot be combined with `--out`.
 
 The export is self-contained: its first field `review_instructions`
 holds the complete review prompt from
