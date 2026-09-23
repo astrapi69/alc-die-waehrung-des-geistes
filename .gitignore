@@ -1,16 +1,3 @@
-##################
-# intellij files #
-##################
-*.iws
-*.iml
-*.ipr
-!.idea/runConfigurations
-.idea/inspectionProfiles
-.idea/libraries
-.idea/codeStyles
-.idea/shelf
-.idea/*.*
-
 # Python bytecode caches (validate_content.py / generate_search_index.py)
 __pycache__/
 *.pyc
@@ -25,6 +12,9 @@ node_modules/
 # generate_exercises.py staging: unreviewed AI drafts stay local
 # (the folder's README.md is kept, the generated JSON is not)
 /generated/**/*.json
+
+# Local Python environment created by `make setup` / `make validate`
+.venv/
 
 # export_set.py snapshots for AI review: read-only, never committed
 exports/

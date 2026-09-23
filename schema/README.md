@@ -2,16 +2,16 @@
 
 **Mirror of the `learn-content-engine` `schema/`**, pinned to the version in
 [`engine-version.txt`](engine-version.txt) (source of truth chain:
-learn-content-engine (canonical) → this mirror). The mirror and the pin move
+engine (canonical) → this mirror). The mirror and the pin move
 together in one deliberate PR, so the pinned version lives in exactly one place
 (`engine-version.txt`) and is not restated as a hardcoded number in this prose.
 
 > ⚠️ **Do not hand-edit these files in this repo.** They are byte-for-byte
 > copies of the schemas bundled by the pinned
 > [`learn-content-engine`](https://github.com/astrapi69/learn-content-engine)
-> npm release. The single source of truth is the learn-content-engine schema
-> (canonical), which this repo mirrors. Content authors and third-party
-> validators never need the app.
+> npm release. The single source of truth is the `learn-content-engine`
+> schema, which this repo mirrors byte-for-byte. Content authors and
+> third-party validators never need the app.
 
 ## What is mirrored
 

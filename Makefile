@@ -1,6 +1,6 @@
 # Makefile für dein Adaptive-Learner-Content-Repo.
 #
-# Ein Befehl genuegt zum Loslegen:
+# Ein Befehl genügt zum Loslegen:
 #
 #     make validate        Prüft deine Inhalte (legt beim ersten Mal automatisch
 #                          eine lokale Python-Umgebung an, du musst nichts installieren).
@@ -15,10 +15,9 @@
 #                          (.github/workflows/engine-validate.yml), nur VOR dem
 #                          Push statt danach. Braucht Node.js (>= 20) und npm.
 #     make lint-warnings   Optional: derselbe Engine-Lauf, zusätzlich mit den
-#                          Warnungen (W-*) über alle Lektionen. Nutzt dieselbe
-#                          Extension-Registry wie das Gate, ext: Lektionen
-#                          werden also validiert statt abgewiesen. Warnungen
-#                          brechen den Lauf nicht ab.
+#                          Warnungen (W-*). Nutzt dieselbe Extension-Registry
+#                          wie das Gate, ext: Lektionen werden also validiert
+#                          statt abgewiesen.
 #     make setup           Nur die lokale Umgebung anlegen/aktualisieren.
 #     make generate        KI-Aufgaben generieren (braucht einen API-Schlüssel, siehe README).
 #     make export          Ein Set für KI-Review exportieren (ARGS="<slug> [--split-size N] ...").
@@ -27,8 +26,12 @@
 #     make clean           Die lokale Umgebung entfernen.
 #
 # Du brauchst nur "make" und "python3". Kein pip, kein venv, kein Poetry von Hand.
+# Die lokale Umgebung landet in .venv/ (per .gitignore ausgeschlossen), die
+# Paketnamen stehen einmal in requirements.txt.
+#
 # Kein "make" auf deinem System (z. B. Windows ohne WSL)? Dann committe deine
-# Aenderungen und lass die GitHub-Actions-CI validieren, sie prueft dasselbe.
+# Änderungen und lass die GitHub-Actions-CI validieren, sie prüft dasselbe
+# (validate / engine-validate / schema-drift).
 
 VENV := .venv
 PY := $(VENV)/bin/python
@@ -37,7 +40,7 @@ PIP := $(VENV)/bin/pip
 ENGINE_PIN := $(shell cat schema/engine-version.txt)
 ENGINE_STAMP := node_modules/.engine-$(ENGINE_PIN)
 
-.PHONY: validate lint lint-warnings setup generate export export-anki audit clean help prose-check
+.PHONY: validate lint lint-warnings prose-check setup generate export export-anki audit clean help
 
 help:
 	@echo "make validate        - Inhalte prüfen (richtet sich beim ersten Mal selbst ein)"
@@ -45,18 +48,19 @@ help:
 	@echo "make lint-warnings   - derselbe Lauf, zusätzlich mit Warnungen (W-*)"
 	@echo "make prose-check      - Em-Dash, unsichtbare Zeichen, fehlende Umlaute in allen Dateien"
 	@echo "make setup           - lokale Umgebung anlegen"
-	@echo "make generate        - KI-Aufgaben generieren (API-Schluessel noetig)"
+	@echo "make generate        - KI-Aufgaben generieren (API-Schlüssel nötig; ARGS=\"--topic ...\")"
 	@echo "make export          - Set für KI-Review exportieren (ARGS=\"<slug> [--split-size N] ...\")"
 	@echo "make export-anki     - Set als Anki-Deck (.apkg) exportieren (ARGS=\"<slug> [--lang xx] [--out PATH]\")"
 	@echo "make audit           - Inhalts-Überblick"
 	@echo "make clean           - lokale Umgebung entfernen"
 
-# Die lokale Umgebung. Wird nur angelegt, wenn sie fehlt.
-$(VENV)/.ready:
+# Die lokale Umgebung. Wird nur angelegt, wenn sie fehlt (Sentinel .venv/.ready).
+# Installiert aus requirements.txt, damit die Paketnamen nur an EINER Stelle stehen.
+$(VENV)/.ready: requirements.txt
 	@echo ">> Lege lokale Python-Umgebung an (einmalig) ..."
 	python3 -m venv $(VENV)
 	@$(PIP) install --quiet --upgrade pip
-	@$(PIP) install --quiet pyyaml jsonschema regex "genanki>=0.13,<0.14"
+	@$(PIP) install --quiet -r requirements.txt
 	@touch $(VENV)/.ready
 	@echo ">> Fertig. Künftige Läufe nutzen diese Umgebung direkt."
 
@@ -89,6 +93,10 @@ prose-check:
 lint-warnings: $(ENGINE_STAMP)
 	node scripts/validate_with_engine.mjs --warnings .
 
+# KI-Aufgaben generieren. Argumente durchreichen, z. B.:
+#     make generate ARGS="--topic 'Im Cafe bestellen' --target-lang fr --source-lang de"
+# Braucht einen API-Schlüssel in der Umgebung (ANTHROPIC_API_KEY / OPENAI_API_KEY /
+# GEMINI_API_KEY), siehe README.
 generate: $(VENV)/.ready
 	@$(PY) scripts/generate_exercises.py $(ARGS)
 
