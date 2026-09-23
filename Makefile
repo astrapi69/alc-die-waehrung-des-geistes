@@ -1,8 +1,8 @@
-# Makefile fuer dein Adaptive-Learner-Content-Repo.
+# Makefile für dein Adaptive-Learner-Content-Repo.
 #
 # Ein Befehl genuegt zum Loslegen:
 #
-#     make validate        Prueft deine Inhalte (legt beim ersten Mal automatisch
+#     make validate        Prüft deine Inhalte (legt beim ersten Mal automatisch
 #                          eine lokale Python-Umgebung an, du musst nichts installieren).
 #
 # Weitere Ziele:
@@ -20,10 +20,10 @@
 #                          werden also validiert statt abgewiesen. Warnungen
 #                          brechen den Lauf nicht ab.
 #     make setup           Nur die lokale Umgebung anlegen/aktualisieren.
-#     make generate        KI-Aufgaben generieren (braucht einen API-Schluessel, siehe README).
-#     make export          Ein Set fuer KI-Review exportieren (ARGS="<slug> [--split-size N] ...").
+#     make generate        KI-Aufgaben generieren (braucht einen API-Schlüssel, siehe README).
+#     make export          Ein Set für KI-Review exportieren (ARGS="<slug> [--split-size N] ...").
 #     make export-anki     Ein Set als Anki-Deck (.apkg) exportieren (ARGS="<slug> [--lang xx] [--out PATH]").
-#     make audit           Ueberblick ueber deine Inhalte ausgeben.
+#     make audit           Überblick über deine Inhalte ausgeben.
 #     make clean           Die lokale Umgebung entfernen.
 #
 # Du brauchst nur "make" und "python3". Kein pip, kein venv, kein Poetry von Hand.
@@ -40,15 +40,15 @@ ENGINE_STAMP := node_modules/.engine-$(ENGINE_PIN)
 .PHONY: validate lint lint-warnings setup generate export export-anki audit clean help prose-check
 
 help:
-	@echo "make validate        - Inhalte pruefen (richtet sich beim ersten Mal selbst ein)"
+	@echo "make validate        - Inhalte prüfen (richtet sich beim ersten Mal selbst ein)"
 	@echo "make lint            - Engine-Gate lokal (Selbsttest + alle Lektionen/Manifeste)"
 	@echo "make lint-warnings   - derselbe Lauf, zusätzlich mit Warnungen (W-*)"
 	@echo "make prose-check      - Em-Dash, unsichtbare Zeichen, fehlende Umlaute in allen Dateien"
 	@echo "make setup           - lokale Umgebung anlegen"
 	@echo "make generate        - KI-Aufgaben generieren (API-Schluessel noetig)"
-	@echo "make export          - Set fuer KI-Review exportieren (ARGS=\"<slug> [--split-size N] ...\")"
+	@echo "make export          - Set für KI-Review exportieren (ARGS=\"<slug> [--split-size N] ...\")"
 	@echo "make export-anki     - Set als Anki-Deck (.apkg) exportieren (ARGS=\"<slug> [--lang xx] [--out PATH]\")"
-	@echo "make audit           - Inhalts-Ueberblick"
+	@echo "make audit           - Inhalts-Überblick"
 	@echo "make clean           - lokale Umgebung entfernen"
 
 # Die lokale Umgebung. Wird nur angelegt, wenn sie fehlt.
@@ -58,7 +58,7 @@ $(VENV)/.ready:
 	@$(PIP) install --quiet --upgrade pip
 	@$(PIP) install --quiet pyyaml jsonschema regex "genanki>=0.13,<0.14"
 	@touch $(VENV)/.ready
-	@echo ">> Fertig. Kuenftige Laeufe nutzen diese Umgebung direkt."
+	@echo ">> Fertig. Künftige Läufe nutzen diese Umgebung direkt."
 
 setup: $(VENV)/.ready
 
@@ -92,7 +92,7 @@ lint-warnings: $(ENGINE_STAMP)
 generate: $(VENV)/.ready
 	@$(PY) scripts/generate_exercises.py $(ARGS)
 
-# Ein Set fuer KI-Review exportieren, z. B.:
+# Ein Set für KI-Review exportieren, z. B.:
 #     make export ARGS="<set-slug>"
 #     make export ARGS="<set-slug> --split-size 5"
 export: $(VENV)/.ready
@@ -110,6 +110,6 @@ audit: $(VENV)/.ready
 clean:
 	rm -rf $(VENV)
 
-stable-ids: $(ENGINE_STAMP) ## Stabilitaets- und Abdeckungs-Gate (beide mitgeliefert)
+stable-ids: $(ENGINE_STAMP) ## Stabilitäts- und Abdeckungs-Gate (beide mitgeliefert)
 	npx --no-install learn-content-engine check-stable-ids --base origin/main
 	npx --no-install learn-content-engine check-stable-id-coverage
