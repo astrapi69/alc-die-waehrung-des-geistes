@@ -11,7 +11,7 @@ sets:
     source_language: de
     domain: philosophy
     # Sachthema: bewusst ohne Sprachniveau (engine#127, level-Vertrag);
-    # den reflektierenden Charakter traegt das Tag `reflexion`.
+    # den reflektierenden Charakter trägt das Tag `reflexion`.
     level: none
     path: sets/de/waehrung-des-geistes
     version: "1.0.0"
