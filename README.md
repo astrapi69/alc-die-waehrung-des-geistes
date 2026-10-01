@@ -63,9 +63,8 @@ matching) and links the book (E-Book and Taschenbuch) as its resource.
 git clone https://github.com/astrapi69/alc-die-waehrung-des-geistes.git
 cd alc-die-waehrung-des-geistes
 
-# Validate the set (needs only Python 3 + these two deps)
-pip install pyyaml jsonschema
-python3 scripts/validate_content.py        # exit 0 == all sets pass
+# Validate the set (needs make and Python 3; sets up its own environment)
+make validate                              # exit 0 == all sets pass
 ```
 
 Before you push, `make lint` runs the same semantic engine gate as CI
@@ -157,8 +156,9 @@ presentation of the canonical lessons and does not invoke the engine.
 ## Generate exercises with AI (optional)
 
 `scripts/generate_exercises.py` turns a topic into a lesson with a BYOK
-model (Anthropic / OpenAI / Gemini) and gates every draft through
-`validate_content.py` before writing it into `generated/`:
+model (Anthropic / OpenAI / Gemini) and gates every draft through the
+mirrored schema and the pinned engine (`make lint` installs it once)
+before writing it into `generated/`:
 
 ```bash
 export ANTHROPIC_API_KEY="sk-..."          # or OPENAI_API_KEY / GEMINI_API_KEY
