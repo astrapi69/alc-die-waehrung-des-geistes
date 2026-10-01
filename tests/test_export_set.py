@@ -107,10 +107,10 @@ def test_umlauts_survive_as_real_utf8(tmp_path: Path) -> None:
     assert "\\u00fc" not in raw_text
     assert "\\u00e4" not in raw_text
     # A known lesson phrase must keep its umlaut, never an ue-substitution.
-    # (Plain "waehrung" DOES occur in the source as the ASCII set slug and
+    # (Plain `waehrung` DOES occur in the source as the ASCII set slug and
     # in lesson ids, so assert on the prose phrase, not the token.)
     assert "Währung des Geistes" in raw_text
-    assert "Waehrung des Geistes" not in raw_text
+    assert "Währung des Geistes".replace("ä", "ae") not in raw_text
 
 
 def test_yaml_reparse_content_equals_source_lessons(tmp_path: Path) -> None:
